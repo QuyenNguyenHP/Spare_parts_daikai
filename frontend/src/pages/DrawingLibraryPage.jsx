@@ -11,7 +11,7 @@ import PartPanel from "../components/PartPanel";
 import { API_URL, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, ZOOM_STEP } from "../config";
 import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotspots";
 
-export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpenCart, onLogout }) {
+export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCart, onOpenCart, onBackToEngines, onLogout, onHome }) {
   const [drawings, setDrawings] = useState([]);
   const [drawingId, setDrawingId] = useState("");
   const [drawing, setDrawing] = useState(null);
@@ -31,8 +31,9 @@ export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpe
         const response = await fetch(`${API_URL}/drawings`, { signal: controller.signal });
         if (!response.ok) throw new Error(`API returned ${response.status}`);
         const data = await response.json();
-        setDrawings(data);
-        if (data.length) setDrawingId(data[0].id);
+        const engineDrawings = engine ? data.filter((item) => item.model === engine.model) : data;
+        setDrawings(engineDrawings);
+        if (engineDrawings.length) setDrawingId(engineDrawings[0].id);
         else setStatus({ type: "ready", message: "No drawings registered" });
       } catch (error) {
         if (error.name !== "AbortError") {
@@ -193,14 +194,19 @@ export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpe
     <div className="app-shell">
       <Header
         user={user}
+        title={`${engine?.name ?? "Engine"} Drawing Library`}
         cartCount={cartCount}
         onOpenCart={onOpenCart}
+        onBack={onBackToEngines}
+        backLabel="Back to engine selection"
         onLogout={onLogout}
+        onHome={onHome}
       />
       <PageBody
         navigator={(
           <PageNavigator
             currentPage="library"
+            engine={engine}
             cartCount={cartCount}
             onNavigate={{ order: onOpenCart }}
           />

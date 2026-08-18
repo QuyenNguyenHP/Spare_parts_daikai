@@ -1,306 +1,59 @@
 {
-  "12": {
-    "partNumber": "06422-012",
-    "name": "TIMING GEAR",
-    "quantity": 1
-  },
-  "501": {
-    "partNumber": "TBD-501",
-    "name": "PART 501",
-    "quantity": 1,
-    "note": "Demo placeholder. Replace with the exact DE-18 PDF mapping."
-  },
-  "513": {
-    "partNumber": "TBD-513",
-    "name": "PART 513",
-    "quantity": 1,
-    "note": "Demo placeholder. Replace with the exact DE-18 PDF mapping."
-  },
-  "521": {
-    "partNumber": "TBD-521",
-    "name": "PART 521",
-    "quantity": 1,
-    "note": "Demo placeholder. Replace with the exact DE-18 PDF mapping."
-  },
-  "526": {
-    "partNumber": "Z571503000ZZ",
-    "name": "TAPER PLUG",
-    "quantity": 30
-  },
-  "26": {
-    "partNumber": "TBD-26",
-    "name": "PART 26",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "14": {
-    "partNumber": "TBD-14",
-    "name": "PART 14",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "24": {
-    "partNumber": "TBD-24",
-    "name": "PART 24",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "510": {
-    "partNumber": "TBD-510",
-    "name": "PART 510",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "22": {
-    "partNumber": "TBD-22",
-    "name": "PART 22",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "29": {
-    "partNumber": "TBD-29",
-    "name": "PART 29",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "10": {
-    "partNumber": "TBD-10",
-    "name": "PART 10",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "8": {
-    "partNumber": "TBD-8",
-    "name": "PART 8",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "23": {
-    "partNumber": "TBD-23",
-    "name": "PART 23",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "502": {
-    "partNumber": "TBD-502",
-    "name": "PART 502",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "527": {
-    "partNumber": "TBD-527",
-    "name": "PART 527",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "28": {
-    "partNumber": "TBD-28",
-    "name": "PART 28",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "25": {
-    "partNumber": "TBD-25",
-    "name": "PART 25",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "529": {
-    "partNumber": "TBD-529",
-    "name": "PART 529",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "504": {
-    "partNumber": "TBD-504",
-    "name": "PART 504",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "503": {
-    "partNumber": "TBD-503",
-    "name": "PART 503",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "522": {
-    "partNumber": "TBD-522",
-    "name": "PART 522",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "516": {
-    "partNumber": "TBD-516",
-    "name": "PART 516",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "16": {
-    "partNumber": "TBD-16",
-    "name": "PART 16",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "509": {
-    "partNumber": "TBD-509",
-    "name": "PART 509",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "13": {
-    "partNumber": "TBD-13",
-    "name": "PART 13",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "11": {
-    "partNumber": "TBD-11",
-    "name": "PART 11",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "511": {
-    "partNumber": "TBD-511",
-    "name": "PART 511",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "507": {
-    "partNumber": "TBD-507",
-    "name": "PART 507",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "517": {
-    "partNumber": "TBD-517",
-    "name": "PART 517",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "520": {
-    "partNumber": "TBD-520",
-    "name": "PART 520",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "515": {
-    "partNumber": "TBD-515",
-    "name": "PART 515",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
+  "1": { "partNumber": "06422-001", "name": "FRAME", "quantity": 1 },
+  "4": { "partNumber": "06422-004", "name": "COVER", "quantity": 1 },
+  "5": { "partNumber": "06422-005", "name": "COVER", "quantity": 1 },
+  "6": { "partNumber": "06422-006", "name": "BOLT", "quantity": 24 },
+  "7": { "partNumber": "06422-007", "name": "BOLT", "quantity": 14 },
+  "8": { "partNumber": "06422-008", "name": "BOLT", "quantity": 14 },
+  "9": { "partNumber": "06422-009", "name": "CAP", "quantity": 6 },
+  "10": { "partNumber": "06422-010", "name": "CAP", "quantity": 1 },
+  "11": { "partNumber": "06422-011", "name": "CAP", "quantity": 14 },
+  "12": { "partNumber": "06422-012", "name": "TIMING GEAR", "quantity": 1 },
+  "13": { "partNumber": "06422-013", "name": "BRACKET", "quantity": 1 },
+  "14": { "partNumber": "06422-014", "name": "GASKET", "quantity": 2 },
+  "16": { "partNumber": "06435-016", "name": "CIRCULAR NUT", "quantity": 14 },
+  "22": { "partNumber": "00002-008", "name": "CIRCULAR NUT", "quantity": 14 },
+  "23": { "partNumber": "00002-035", "name": "STEPPED PIN", "quantity": 6 },
+  "24": { "partNumber": "00239-012", "name": "PLUG", "quantity": 2 },
+  "25": { "partNumber": "00239-025", "name": "GASKET", "quantity": 2 },
+  "26": { "partNumber": "E200250280", "name": "INTAKE MANIFOLD COVER", "quantity": 2 },
+  "27": { "partNumber": "E200250230", "name": "S.A. PIPING BYPASS", "quantity": 6 },
+  "28": { "partNumber": "E365600320", "name": "PLUG", "quantity": 1 },
+  "29": { "partNumber": "E365600340", "name": "GASKET", "quantity": 1 },
+  "501": { "partNumber": "X200010155ZZ", "name": "BOLT", "quantity": 2 },
+  "502": { "partNumber": "X200010045ZZ", "name": "BOLT", "quantity": 2 },
+  "503": { "partNumber": "X200012025ZZ", "name": "BOLT", "quantity": 38 },
+  "504": { "partNumber": "X200012030ZZ", "name": "BOLT", "quantity": 8 },
+  "505": { "partNumber": "X345012032ZZ", "name": "REAMER BOLT", "quantity": 1 },
+  "506": { "partNumber": "X341010030ZZ", "name": "ASSY. KNOCK BOLT", "quantity": 2 },
+  "507": { "partNumber": "X200012040ZZ", "name": "BOLT", "quantity": 3 },
+  "508": { "partNumber": "X200112035ZZ", "name": "BOLT", "quantity": 1 },
+  "509": { "partNumber": "X210012054ZZ", "name": "STUD", "quantity": 64 },
+  "510": { "partNumber": "X220010000ZZ", "name": "NUT", "quantity": 5 },
+  "511": { "partNumber": "X220012000ZZ", "name": "NUT", "quantity": 2 },
+  "512": { "partNumber": "X340016050ZZ", "name": "KNOCK BOLT", "quantity": 2 },
+  "513": { "partNumber": "X570002000ZZ", "name": "HEX. PLUG", "quantity": 8 },
+  "514": { "partNumber": "X570003000ZZ", "name": "HEX. PLUG", "quantity": 6 },
+  "515": { "partNumber": "X570004000ZZ", "name": "HEX. PLUG", "quantity": 2 },
+  "516": { "partNumber": "Z300012000ZZ", "name": "FLAT WASHER", "quantity": 24 },
+  "517": { "partNumber": "Z321016020ZZ", "name": "WIRE", "quantity": 1 },
+  "518": { "partNumber": "Z335610020ZZ", "name": "STRAIGHT PIN", "quantity": 1 },
+  "519": { "partNumber": "Z501305000AZ", "name": "JIS GASKET", "quantity": 2 },
+  "520": { "partNumber": "Z503305000ZZ", "name": "JIS SPECIAL FLANGE", "quantity": 2 },
+  "521": { "partNumber": "Z560102635ZZ", "name": "O-RING", "quantity": 14 },
+  "522": { "partNumber": "Z560103235ZZ", "name": "O-RING", "quantity": 24 },
+  "523": { "partNumber": "Z565001300EE", "name": "GASKET", "quantity": 8 },
+  "524": { "partNumber": "Z565001700EE", "name": "GASKET", "quantity": 6 },
+  "525": { "partNumber": "Z565002100EE", "name": "GASKET", "quantity": 2 },
+  "526": { "partNumber": "Z571503000ZZ", "name": "TAPER PLUG", "quantity": 30 },
+  "527": { "partNumber": "X205020070ZZ", "name": "HT BOLT", "quantity": 16 },
+  "528": { "partNumber": "Z571502000ZZ", "name": "TAPER PLUG", "quantity": 6 },
+  "529": { "partNumber": "Z300010000ZZ", "name": "FLAT WASHER", "quantity": 10 },
   "530": {
     "partNumber": "TBD-530",
     "name": "PART 530",
     "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
+    "note": "No source data was supplied for callout 530."
   },
-  "528": {
-    "partNumber": "TBD-528",
-    "name": "PART 528",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "524": {
-    "partNumber": "TBD-524",
-    "name": "PART 524",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "523": {
-    "partNumber": "TBD-523",
-    "name": "PART 523",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "518": {
-    "partNumber": "TBD-518",
-    "name": "PART 518",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "901": {
-    "partNumber": "TBD-901",
-    "name": "PART 901",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "7": {
-    "partNumber": "TBD-7",
-    "name": "PART 7",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "5": {
-    "partNumber": "TBD-5",
-    "name": "PART 5",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "508": {
-    "partNumber": "TBD-508",
-    "name": "PART 508",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "4": {
-    "partNumber": "TBD-4",
-    "name": "PART 4",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "514": {
-    "partNumber": "TBD-514",
-    "name": "PART 514",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "1": {
-    "partNumber": "TBD-1",
-    "name": "PART 1",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "6": {
-    "partNumber": "TBD-6",
-    "name": "PART 6",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "9": {
-    "partNumber": "TBD-9",
-    "name": "PART 9",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "27": {
-    "partNumber": "TBD-27",
-    "name": "PART 27",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "506": {
-    "partNumber": "TBD-506",
-    "name": "PART 506",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "512": {
-    "partNumber": "TBD-512",
-    "name": "PART 512",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "519": {
-    "partNumber": "TBD-519",
-    "name": "PART 519",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  },
-  "525": {
-    "partNumber": "TBD-525",
-    "name": "PART 525",
-    "quantity": 1,
-    "note": "OCR-created placeholder. Add the exact DE-18 PDF mapping."
-  }
+  "901": { "partNumber": "06422-003", "name": "ASSY. OIL CUT COVER", "quantity": 1 }
 }

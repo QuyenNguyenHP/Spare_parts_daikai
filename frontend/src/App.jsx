@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import DrawingLibraryPage from "./pages/DrawingLibraryPage";
+import EngineSelectionPage from "./pages/EngineSelectionPage";
 import LoginPage from "./pages/LoginPage";
 import OrderPage from "./pages/OrderPage";
 import RequestDetailsPage from "./pages/RequestDetailsPage";
@@ -28,7 +29,8 @@ function readCart() {
 export default function App() {
   const [user, setUser] = useState(readSession);
   const [cart, setCart] = useState(readCart);
-  const [page, setPage] = useState("library");
+  const [page, setPage] = useState("engines");
+  const [selectedEngine, setSelectedEngine] = useState(null);
 
   function updateCart(updater) {
     setCart((current) => {
@@ -47,7 +49,8 @@ export default function App() {
     window.sessionStorage.removeItem(SESSION_KEY);
     window.sessionStorage.removeItem(CART_KEY);
     setCart([]);
-    setPage("library");
+    setPage("engines");
+    setSelectedEngine(null);
     setUser(null);
   }
 
@@ -75,14 +78,42 @@ export default function App() {
     updateCart(() => []);
   }
 
+  function handleEngineSelection(engine) {
+    const changingEngine = selectedEngine && selectedEngine.id !== engine.id;
+    if (changingEngine && cart.length) {
+      const confirmed = window.confirm(
+        `Your cart contains parts for ${selectedEngine.name}. Selecting ${engine.name} will clear the cart. Continue?`,
+      );
+      if (!confirmed) return;
+      updateCart(() => []);
+    }
+    setSelectedEngine(engine);
+    setPage("library");
+  }
+
   if (!user) return <LoginPage onLogin={handleLogin} />;
+  if (page === "engines") {
+    return (
+      <EngineSelectionPage
+        user={user}
+        selectedEngine={selectedEngine}
+        cartCount={cart.length}
+        onOpenCart={() => setPage("order")}
+        onLogout={handleLogout}
+        onHome={() => setPage("engines")}
+        onSelectEngine={handleEngineSelection}
+      />
+    );
+  }
   if (page === "order") {
     return (
       <OrderPage
         user={user}
+        engine={selectedEngine}
         cart={cart}
         onBack={() => setPage("library")}
         onLogout={handleLogout}
+        onHome={() => setPage("engines")}
         onQuantityChange={handleQuantityChange}
         onRemove={handleRemoveFromCart}
         onProceed={() => setPage("request-details")}
@@ -93,9 +124,11 @@ export default function App() {
     return (
       <RequestDetailsPage
         user={user}
+        engine={selectedEngine}
         cart={cart}
         onBack={() => setPage("order")}
         onLogout={handleLogout}
+        onHome={() => setPage("engines")}
         onOrderComplete={handleOrderComplete}
         onContinue={() => setPage("library")}
       />
@@ -104,10 +137,13 @@ export default function App() {
   return (
     <DrawingLibraryPage
       user={user}
+      engine={selectedEngine}
       cartCount={cart.length}
       onAddToCart={handleAddToCart}
       onOpenCart={() => setPage("order")}
+      onBackToEngines={() => setPage("engines")}
       onLogout={handleLogout}
+      onHome={() => setPage("engines")}
     />
   );
 }

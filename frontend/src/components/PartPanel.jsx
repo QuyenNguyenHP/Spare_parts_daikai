@@ -49,7 +49,15 @@ export default function PartPanel({ drawing, selectedItem, selectedPart, onAddTo
                 background: "linear-gradient(135deg, #059669, #047857)",
                 boxShadow: "0 13px 30px rgba(5, 150, 105, 0.24)",
               },
-            } : undefined}
+            } : {
+              color: "#07111f",
+              background: "linear-gradient(90deg, var(--cyan), var(--blue))",
+              boxShadow: "0 13px 30px rgba(47, 117, 221, .28)",
+              "&:hover": {
+                background: "linear-gradient(90deg, #67e8f9, #3b82f6)",
+                boxShadow: "0 16px 34px rgba(47, 117, 221, .38)",
+              },
+            }}
           >
             {added && <span className="added-check" aria-hidden="true" />}
             {added ? "Added to Parts Request" : "Add to Parts Request"}

@@ -34,9 +34,11 @@ function groupItemsByDrawing(cart, customer) {
 
 export default function RequestDetailsPage({
   user,
+  engine,
   cart,
   onBack,
   onLogout,
+  onHome,
   onOrderComplete,
   onContinue,
 }) {
@@ -92,11 +94,12 @@ export default function RequestDetailsPage({
 
   return (
     <div className="app-shell">
-      <Header user={user} title="Customer Request Details" onBack={onBack} backLabel="Back to order" onLogout={onLogout} />
+      <Header user={user} title="Customer Request Details" onBack={onBack} backLabel="Back to order" onLogout={onLogout} onHome={onHome} />
       <PageBody
         navigator={(
           <PageNavigator
             currentPage="request-details"
+            engine={engine}
             cartCount={displayedItems.length}
             onNavigate={{ library: onContinue, order: cart.length ? onBack : undefined }}
           />
@@ -172,11 +175,11 @@ export default function RequestDetailsPage({
 
           <div className="request-form-actions">
             {requestIds.length > 0 ? (
-              <AppButton type="button" onClick={onContinue}>Continue browsing</AppButton>
+              <AppButton className="gradient-action-button" type="button" onClick={onContinue}>Continue browsing</AppButton>
             ) : (
               <>
-                <AppButton basic type="button" onClick={onBack}>Back to order</AppButton>
-                <AppButton type="submit" disabled={!cart.length || submitting}>
+                <AppButton basic className="gradient-action-button" type="button" onClick={onBack}>Back to order</AppButton>
+                <AppButton className="gradient-action-button" type="submit" disabled={!cart.length || submitting}>
                   {submitting ? "Submitting request..." : "Submit parts request"}
                 </AppButton>
               </>

@@ -1,0 +1,28 @@
+{
+  "requestId": "DE18-CHAPTER2-ITEM01-ENGINE-FRAME-20260818162150603811",
+  "drawingId": "de18-chapter2-item01-engine-frame",
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-08-18T16:21:50.603811+00:00",
+  "customer": {
+    "name": "Duy Quyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "DE18",
+    "engineSerialNumber": "123434",
+    "vesselName": "TRUONG MINH DREAM 05",
+    "imoNumber": "87761234"
+  },
+  "items": [
+    {
+      "item": "526",
+      "quantity": 30,
+      "partNumber": "Z571503000ZZ",
+      "name": "TAPER PLUG"
+    }
+  ],
+  "emailDelivery": {
+    "status": "not_configured",
+    "message": "SMTP email is not configured"
+  }
+}

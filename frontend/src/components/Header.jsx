@@ -1,4 +1,5 @@
 import AppButton from "./AppButton";
+import AccountDropdown from "./AccountDropdown";
 import { ArrowBackIcon, CartIcon } from "./HeaderIcons";
 
 export default function Header({
@@ -7,6 +8,7 @@ export default function Header({
   cartCount = 0,
   onOpenCart,
   onBack,
+  onHome,
   backLabel = "Back to drawings",
   onLogout,
 }) {
@@ -14,7 +16,9 @@ export default function Header({
     <header className="topbar">
       <div className="topbar-inner">
         <div className="application-brand">
-          <img src="/Daikai-logo-Website.png" alt="Daikai" />
+          <button type="button" className="brand-home-button" onClick={onHome} aria-label="Go to engine selection" title="Engine selection">
+            <img src="/Daikai-logo-Website.png" alt="Daikai" />
+          </button>
           <div>
             <p className="eyebrow">Daikai Engineering</p>
             <h1>{title}</h1>
@@ -46,11 +50,7 @@ export default function Header({
               {cartCount > 0 && <span>{cartCount}</span>}
             </AppButton>
           )}
-          <div className="user-chip">
-            <span>{user.username.slice(0, 1).toUpperCase()}</span>
-            <div><small>{user.role}</small><strong>{user.username}</strong></div>
-          </div>
-          <AppButton tone="neutral" className="logout-button" onClick={onLogout}>Logout</AppButton>
+          <AccountDropdown user={user} onLogout={onLogout} />
         </div>
       </div>
     </header>

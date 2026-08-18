@@ -18,7 +18,6 @@ export default function LoginCard({
       <div className="login-intro">
         <p className="login-kicker">Daikai Engineering</p>
         <h1>Interactive Parts Library</h1>
-        <p>Sign in to inspect technical drawings, identify callouts and prepare parts requests.</p>
       </div>
       <form className="login-form" onSubmit={onSubmit}>
         <label>

@@ -7,9 +7,11 @@ import PageNavigator from "../components/PageNavigator";
 
 export default function OrderPage({
   user,
+  engine,
   cart,
   onBack,
   onLogout,
+  onHome,
   onQuantityChange,
   onRemove,
   onProceed,
@@ -18,11 +20,12 @@ export default function OrderPage({
 
   return (
     <div className="app-shell">
-      <Header user={user} title="Parts Request Order" onBack={onBack} onLogout={onLogout} />
+      <Header user={user} title="Parts Request Order" onBack={onBack} onLogout={onLogout} onHome={onHome} />
       <PageBody
         navigator={(
           <PageNavigator
             currentPage="order"
+            engine={engine}
             cartCount={cart.length}
             onNavigate={{ library: onBack, "request-details": cart.length ? onProceed : undefined }}
           />
@@ -46,10 +49,10 @@ export default function OrderPage({
                 <div><dt>Drawings</dt><dd>{new Set(cart.map((item) => item.drawingId)).size}</dd></div>
               </dl>
               <div className="order-summary-actions">
-                <AppButton basic className="place-order-button" onClick={onProceed} disabled={!cart.length}>
+                <AppButton basic className="place-order-button gradient-action-button" onClick={onProceed} disabled={!cart.length}>
                   Place parts request
                 </AppButton>
-                <AppButton basic className="continue-button" onClick={onBack}>
+                <AppButton basic className="continue-button gradient-action-button" onClick={onBack}>
                   Continue browsing
                 </AppButton>
               </div>

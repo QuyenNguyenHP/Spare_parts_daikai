@@ -1,4 +1,5 @@
 import AppButton from "./AppButton";
+import { assetUrl } from "../config";
 
 const NAV_ITEMS = [
   { id: "library", step: "01", label: "Drawing Library" },
@@ -6,13 +7,19 @@ const NAV_ITEMS = [
   { id: "request-details", step: "03", label: "Customer Details" },
 ];
 
-export default function PageNavigator({ currentPage, cartCount = 0, onNavigate }) {
+export default function PageNavigator({ currentPage, engine, cartCount = 0, onNavigate }) {
   return (
     <nav className="page-navigator" aria-label="Parts request workflow">
       <div className="navigator-heading">
         <p className="eyebrow">Navigator</p>
         <h2>Request workflow</h2>
       </div>
+      {engine && (
+        <div className="navigator-engine" aria-label={`Selected engine: ${engine.name}`}>
+          <img src={assetUrl(engine.imageUrl)} alt="" />
+          <span><small>Selected engine</small><strong>{engine.name}</strong></span>
+        </div>
+      )}
       <div className="navigator-links">
         {NAV_ITEMS.map((item) => {
           const active = currentPage === item.id;

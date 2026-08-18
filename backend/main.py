@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 import os
+import re
 import secrets
 
 from fastapi import FastAPI, HTTPException, status
@@ -48,6 +49,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+ENGINE_IMAGE_DIR = DATA_DIR / "Type_of_engines"
+
+
+def engine_model_from_name(name: str) -> str:
+    if (DATA_DIR / name).is_dir():
+        return name
+    if name.startswith("6") and (DATA_DIR / name[1:]).is_dir():
+        return name[1:]
+    return name
 
 
 class RequestItem(BaseModel):
@@ -123,6 +134,36 @@ def login(credentials: LoginCredentials) -> dict:
 @app.get("/api/drawings")
 def get_drawings() -> list[dict]:
     return list_drawings()
+
+
+@app.get("/api/engines")
+def get_engines() -> list[dict]:
+    drawing_counts: dict[str, int] = {}
+    for drawing in list_drawings():
+        model = drawing["model"]
+        drawing_counts[model] = drawing_counts.get(model, 0) + 1
+    engines = []
+    for image_path in sorted(ENGINE_IMAGE_DIR.glob("*.png")):
+        name = image_path.stem.upper()
+        model = engine_model_from_name(name)
+        engines.append({
+            "id": name.lower(),
+            "name": name,
+            "model": model,
+            "imageUrl": f"/api/engines/{image_path.name}/image",
+            "drawingCount": drawing_counts.get(model, 0),
+        })
+    return engines
+
+
+@app.get("/api/engines/{filename}/image")
+def get_engine_image(filename: str):
+    if not re.fullmatch(r"[A-Za-z0-9-]+\.png", filename):
+        raise HTTPException(status_code=404, detail="Engine image was not found")
+    image_path = ENGINE_IMAGE_DIR / filename
+    if not image_path.is_file():
+        raise HTTPException(status_code=404, detail="Engine image was not found")
+    return FileResponse(image_path, media_type="image/png")
 
 
 @app.get("/api/drawings/{drawing_id}")

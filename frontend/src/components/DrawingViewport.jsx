@@ -43,9 +43,9 @@ export default function DrawingViewport({
             onPointerMove={(event) => onHotspotPointerMove(event, index)}
             onPointerUp={onHotspotPointerUp}
             onPointerCancel={onHotspotPointerUp}
-            aria-label={`Show item ${hotspot.item}, ${hotspot.part.name}`}
+            aria-label={`Show item ${hotspot.item}, ${hotspot.part?.name ?? "part name unavailable"}`}
             aria-pressed={selectedItem === hotspot.item}
-            title={`Item ${hotspot.item}${hotspot.confidence ? ` - OCR ${hotspot.confidence}%` : ""}`}
+            data-tooltip={hotspot.part?.name ?? "Part name unavailable"}
           >
             <span>{hotspot.item}</span>
           </button>

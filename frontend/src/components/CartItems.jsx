@@ -14,6 +14,7 @@ export default function CartItems({ items, onQuantityChange, onRemove, readOnly 
       <table className="cart-table">
         <thead>
           <tr>
+            <th>Order</th>
             <th>Parts code</th>
             <th>Name of parts</th>
             <th>Number</th>
@@ -23,8 +24,9 @@ export default function CartItems({ items, onQuantityChange, onRemove, readOnly 
           </tr>
         </thead>
         <tbody>
-          {items.map((item) => (
+          {items.map((item, index) => (
             <tr key={item.key}>
+              <td data-label="Order" className="cart-order-number">{index + 1}</td>
               <td data-label="Parts code"><code>{item.partNumber}</code></td>
               <td data-label="Name of parts">{item.name}</td>
               <td data-label="Number"><strong>{item.item}</strong></td>
