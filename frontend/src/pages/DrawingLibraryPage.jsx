@@ -5,6 +5,8 @@ import DrawingToolbar from "../components/DrawingToolbar";
 import DrawingViewport from "../components/DrawingViewport";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import PageBody from "../components/PageBody";
+import PageNavigator from "../components/PageNavigator";
 import PartPanel from "../components/PartPanel";
 import { API_URL, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, ZOOM_STEP } from "../config";
 import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotspots";
@@ -178,7 +180,7 @@ export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpe
     onAddToCart({
       key: `${drawingId}:${selectedItem}`,
       drawingId,
-      drawingLabel: `${drawing.model} / Chapter ${drawing.chapter} / Item ${drawing.item}`,
+      drawingLabel: `Chapter ${drawing.chapter} / Item ${drawing.item} - ${drawing.title}`,
       item: selectedItem,
       partNumber: selectedPart.partNumber,
       name: selectedPart.name,
@@ -195,8 +197,17 @@ export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpe
         onOpenCart={onOpenCart}
         onLogout={onLogout}
       />
-      <main className="workspace">
-        <div className="drawing-card">
+      <PageBody
+        navigator={(
+          <PageNavigator
+            currentPage="library"
+            cartCount={cartCount}
+            onNavigate={{ order: onOpenCart }}
+          />
+        )}
+      >
+        <main className="workspace">
+          <div className="drawing-card">
           <DrawingToolbar
             drawings={drawings}
             drawingId={drawingId}
@@ -236,14 +247,15 @@ export default function DrawingLibraryPage({ user, cartCount, onAddToCart, onOpe
             onHotspotPointerMove={hotspotPointerMove}
             onHotspotPointerUp={hotspotPointerUp}
           />
-        </div>
-        <PartPanel
-          drawing={drawing}
-          selectedItem={selectedItem}
-          selectedPart={selectedPart}
-          onAddToCart={addToCart}
-        />
-      </main>
+          </div>
+          <PartPanel
+            drawing={drawing}
+            selectedItem={selectedItem}
+            selectedPart={selectedPart}
+            onAddToCart={addToCart}
+          />
+        </main>
+      </PageBody>
       <Footer status={status} />
     </div>
   );

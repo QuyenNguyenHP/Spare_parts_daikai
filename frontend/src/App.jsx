@@ -3,6 +3,7 @@ import { useState } from "react";
 import DrawingLibraryPage from "./pages/DrawingLibraryPage";
 import LoginPage from "./pages/LoginPage";
 import OrderPage from "./pages/OrderPage";
+import RequestDetailsPage from "./pages/RequestDetailsPage";
 
 const SESSION_KEY = "daikai-spare-parts-user";
 const CART_KEY = "daikai-spare-parts-cart";
@@ -84,7 +85,19 @@ export default function App() {
         onLogout={handleLogout}
         onQuantityChange={handleQuantityChange}
         onRemove={handleRemoveFromCart}
+        onProceed={() => setPage("request-details")}
+      />
+    );
+  }
+  if (page === "request-details") {
+    return (
+      <RequestDetailsPage
+        user={user}
+        cart={cart}
+        onBack={() => setPage("order")}
+        onLogout={handleLogout}
         onOrderComplete={handleOrderComplete}
+        onContinue={() => setPage("library")}
       />
     );
   }

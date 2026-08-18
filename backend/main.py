@@ -5,10 +5,12 @@ import secrets
 from fastapi import FastAPI, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 try:
+    from .email_service import send_request_emails
     from .storage import (
+        DATA_DIR,
         drawing_image_path,
         hotspots_path,
         list_drawings,
@@ -19,7 +21,9 @@ try:
         write_json,
     )
 except ImportError:  # Direct execution from the backend directory.
+    from email_service import send_request_emails
     from storage import (
+        DATA_DIR,
         drawing_image_path,
         hotspots_path,
         list_drawings,
@@ -51,8 +55,22 @@ class RequestItem(BaseModel):
     quantity: int = Field(default=1, ge=1)
 
 
+class CustomerInformation(BaseModel):
+    model_config = ConfigDict(str_strip_whitespace=True)
+
+    name: str = Field(min_length=1, max_length=120)
+    email: str = Field(min_length=3, max_length=254, pattern=r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+    company: str = Field(min_length=1, max_length=160)
+    phone: str = Field(min_length=1, max_length=40)
+    engine_name: str = Field(alias="engineName", min_length=1, max_length=160)
+    engine_serial_number: str = Field(alias="engineSerialNumber", min_length=1, max_length=100)
+    vessel_name: str = Field(alias="vesselName", min_length=1, max_length=160)
+    imo_number: str = Field(alias="imoNumber", min_length=1, max_length=20)
+
+
 class PartsRequest(BaseModel):
     drawing_id: str = Field(alias="drawingId")
+    customer: CustomerInformation
     items: list[RequestItem] = Field(min_length=1)
 
 
@@ -194,7 +212,7 @@ def get_part(drawing_id: str, item: str) -> dict:
 @app.post("/api/requests", status_code=status.HTTP_201_CREATED)
 def create_parts_request(parts_request: PartsRequest) -> dict:
     try:
-        load_drawing(parts_request.drawing_id)
+        drawing = load_drawing(parts_request.drawing_id)
         parts = load_parts(parts_request.drawing_id)
     except (FileNotFoundError, ValueError):
         raise HTTPException(
@@ -220,12 +238,19 @@ def create_parts_request(parts_request: PartsRequest) -> dict:
         )
 
     created_at = datetime.now(timezone.utc)
-    return {
-        "requestId": f"{parts_request.drawing_id.upper()}-{created_at.strftime('%Y%m%d%H%M%S%f')}",
+    request_id = f"{parts_request.drawing_id.upper()}-{created_at.strftime('%Y%m%d%H%M%S%f')}"
+    created_request = {
+        "requestId": request_id,
         "drawingId": parts_request.drawing_id,
+        "drawingTitle": drawing["title"],
         "createdAt": created_at.isoformat(),
+        "customer": parts_request.customer.model_dump(by_alias=True),
         "items": accepted_items,
     }
+    write_json(DATA_DIR / "requests" / f"{request_id}.json", created_request)
+    created_request["emailDelivery"] = send_request_emails(created_request)
+    write_json(DATA_DIR / "requests" / f"{request_id}.json", created_request)
+    return created_request
 
 
 if __name__ == "__main__":

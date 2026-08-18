@@ -36,6 +36,28 @@ export SPARE_PARTS_PASSWORD="replace-with-a-strong-password"
 python3 backend/app.py
 ```
 
+### Email notifications
+
+When a parts request is submitted, the backend sends a confirmation email to the
+customer and forwards the full request to the configured sales address. Configure
+SMTP in the same WSL terminal before starting the backend. Example for Gmail SMTP:
+
+```bash
+export SMTP_HOST="smtp.gmail.com"
+export SMTP_PORT="587"
+export SMTP_STARTTLS="true"
+export SMTP_USERNAME="your-sender@gmail.com"
+export SMTP_PASSWORD="your-app-password"
+export SMTP_FROM_EMAIL="your-sender@gmail.com"
+export PARTS_REQUEST_SALES_EMAIL="duyquyenbk97@gmail.com"
+python3 backend/app.py
+```
+
+`PARTS_REQUEST_SALES_EMAIL` can be changed at any time. Do not commit the SMTP
+password; use an app password or credentials supplied by the mail administrator.
+If SMTP is not configured or delivery fails, the request remains safely stored in
+`backend/data/requests/` and the frontend displays an email warning.
+
 In a second WSL terminal, start the frontend:
 
 ```bash
@@ -445,3 +467,21 @@ backend/data/
 `12.1` and `12.2`. Each item directory owns its image, metadata, hotspot
 coordinates, and part catalog. Item numbers may therefore repeat across drawings
 without conflict, and processing one drawing never overwrites another drawing.
+
+## Parts request workflow
+
+The customer request flow is:
+
+```text
+Select parts -> Parts Request Order -> Customer Request Details -> Submit
+```
+
+`Place parts request` opens a confirmation form for the customer's name, email,
+company, phone number, engine name, Engine S/N, vessel name, and IMO number. The
+final page also shows the selected parts, parts codes, drawing names, and
+quantities. After a successful submission, the backend saves one JSON request per
+drawing under:
+
+```text
+backend/data/requests/<request-id>.json
+```

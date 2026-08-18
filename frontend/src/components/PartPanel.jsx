@@ -19,11 +19,21 @@ export default function PartPanel({ drawing, selectedItem, selectedPart, onAddTo
       <p className="eyebrow">Selected part</p>
       {selectedPart ? (
         <>
-          <div className="item-badge">Item {selectedItem}</div>
-          <h2>{selectedPart.name}</h2>
+          <div className="part-code-row">
+            <span className="part-field-label">Parts code</span>
+            <strong className="part-primary-value">{selectedPart.partNumber}</strong>
+          </div>
+          <p className="part-field-label part-name-label">Name of parts</p>
+          <h2 className="part-primary-value">{selectedPart.name}</h2>
           <dl className="part-details">
-            <div><dt>Drawing</dt><dd>{drawing.model} / {drawing.chapter} / {drawing.item}</dd></div>
-            <div><dt>Parts code</dt><dd>{selectedPart.partNumber}</dd></div>
+            <div>
+              <dt>Drawing</dt>
+              <dd className="drawing-reference">
+                <span>Chapter {drawing.chapter} / Item {drawing.item}</span>
+                <span>{drawing.title}</span>
+              </dd>
+            </div>
+            <div><dt>Number</dt><dd>{selectedItem}</dd></div>
             <div><dt>Quantity</dt><dd>{selectedPart.quantity}</dd></div>
           </dl>
           <p className="part-note">
