@@ -1,0 +1,113 @@
+{
+  "5034": {
+    "partNumber": "TBD-5034",
+    "name": "PART 5034",
+    "quantity": 1,
+    "note": "OCR-created placeholder. Add the exact parts-PDF mapping."
+  },
+  "3": {
+    "partNumber": "06455-003",
+    "name": "O-RING",
+    "quantity": 12
+  },
+  "5": {
+    "partNumber": "06455-005",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06455-004",
+    "name": "COVER",
+    "quantity": 2
+  },
+  "502": {
+    "partNumber": "X200012030ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "903": {
+    "partNumber": "TBD-903",
+    "name": "PART 903",
+    "quantity": 1,
+    "note": "OCR-created placeholder. Add the exact parts-PDF mapping."
+  },
+  "11": {
+    "partNumber": "00048-009",
+    "name": "NUT",
+    "quantity": 64
+  },
+  "501": {
+    "partNumber": "X200008070ZZ",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "1": {
+    "partNumber": "06455-001",
+    "name": "COVER",
+    "quantity": 10
+  },
+  "13": {
+    "partNumber": "06109-007",
+    "name": "SEAL",
+    "quantity": 8
+  },
+  "904": {
+    "partNumber": "TBD-904",
+    "name": "PART 904",
+    "quantity": 1,
+    "note": "OCR-created placeholder. Add the exact parts-PDF mapping."
+  },
+  "6": {
+    "partNumber": "06455-006",
+    "name": "GASKET",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "00035-010",
+    "name": "GASKET",
+    "quantity": 2
+  },
+  "2": {
+    "partNumber": "06455-002",
+    "name": "COVER",
+    "quantity": 2
+  },
+  "905": {
+    "partNumber": "TBD-905",
+    "name": "PART 905",
+    "quantity": 1,
+    "note": "OCR-created placeholder. Add the exact parts-PDF mapping."
+  },
+  "7": {
+    "partNumber": "TBD-7",
+    "name": "PART 7",
+    "quantity": 1,
+    "note": "OCR-created placeholder. Add the exact parts-PDF mapping."
+  },
+  "503": {
+    "partNumber": "X200012120ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "123": {
+    "partNumber": "TBD-123",
+    "name": "PART 123",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "A": {
+    "partNumber": "Ref.2-3",
+    "name": "ASSY. CRANK CASE SAFETY VALVE",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "Z300108000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 8
+  },
+  "504": {
+    "partNumber": "X220008000ZZ",
+    "name": "NUT",
+    "quantity": 8
+  }
+}

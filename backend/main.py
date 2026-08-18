@@ -1,0 +1,234 @@
+from datetime import datetime, timezone
+import os
+import secrets
+
+from fastapi import FastAPI, HTTPException, status
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from pydantic import BaseModel, Field
+
+try:
+    from .storage import (
+        drawing_image_path,
+        hotspots_path,
+        list_drawings,
+        load_drawing,
+        load_hotspots,
+        load_parts,
+        parts_path,
+        write_json,
+    )
+except ImportError:  # Direct execution from the backend directory.
+    from storage import (
+        drawing_image_path,
+        hotspots_path,
+        list_drawings,
+        load_drawing,
+        load_hotspots,
+        load_parts,
+        parts_path,
+        write_json,
+    )
+
+
+app = FastAPI(
+    title="Interactive Parts Drawings API",
+    description="Drawing library, hotspot lookup, and parts-request API.",
+    version="2.0.0",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+class RequestItem(BaseModel):
+    item: str
+    quantity: int = Field(default=1, ge=1)
+
+
+class PartsRequest(BaseModel):
+    drawing_id: str = Field(alias="drawingId")
+    items: list[RequestItem] = Field(min_length=1)
+
+
+class LoginCredentials(BaseModel):
+    username: str = Field(min_length=1, max_length=100)
+    password: str = Field(min_length=1, max_length=200)
+
+
+class HotspotPosition(BaseModel):
+    item: str = Field(min_length=1, max_length=20)
+    left: float = Field(ge=0, le=100)
+    top: float = Field(ge=0, le=100)
+    width: float = Field(default=2, gt=0, le=100)
+    height: float = Field(default=1.5, gt=0, le=100)
+    confidence: float | None = Field(default=None, ge=0, le=100)
+    source: str | None = None
+
+
+class HotspotUpdate(BaseModel):
+    hotspots: list[HotspotPosition]
+
+
+@app.get("/api/health")
+def health() -> dict:
+    return {"status": "ok", "drawingCount": len(list_drawings())}
+
+
+@app.post("/api/login")
+def login(credentials: LoginCredentials) -> dict:
+    expected_username = os.getenv("SPARE_PARTS_USERNAME", "admin")
+    expected_password = os.getenv("SPARE_PARTS_PASSWORD", "admin123")
+    username_matches = secrets.compare_digest(
+        credentials.username.strip().encode("utf-8"),
+        expected_username.encode("utf-8"),
+    )
+    password_matches = secrets.compare_digest(
+        credentials.password.encode("utf-8"),
+        expected_password.encode("utf-8"),
+    )
+    if not username_matches or not password_matches:
+        raise HTTPException(status_code=401, detail="Invalid username or password")
+    return {
+        "user": {
+            "username": expected_username,
+            "role": "Administrator",
+        }
+    }
+
+
+@app.get("/api/drawings")
+def get_drawings() -> list[dict]:
+    return list_drawings()
+
+
+@app.get("/api/drawings/{drawing_id}")
+def get_drawing(drawing_id: str) -> dict:
+    try:
+        metadata = load_drawing(drawing_id)
+        hotspot_data = load_hotspots(drawing_id)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(status_code=404, detail=f"Drawing {drawing_id} was not found") from None
+
+    parts = load_parts(drawing_id)
+    hotspots = [
+        {
+            **hotspot,
+            "part": parts.get(
+                hotspot["item"],
+                {
+                    "partNumber": f"TBD-{hotspot['item']}",
+                    "name": f"PART {hotspot['item']}",
+                    "quantity": 1,
+                },
+            ),
+        }
+        for hotspot in hotspot_data["hotspots"]
+    ]
+    return {
+        **metadata,
+        "imageUrl": f"/api/drawings/{drawing_id}/image",
+        "hotspots": hotspots,
+    }
+
+
+@app.get("/api/drawings/{drawing_id}/image")
+def get_drawing_image(drawing_id: str):
+    try:
+        image_path = drawing_image_path(drawing_id)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(status_code=404, detail=f"Drawing {drawing_id} was not found") from None
+    return FileResponse(image_path, media_type="image/png")
+
+
+@app.put("/api/drawings/{drawing_id}/hotspots")
+def update_hotspots(drawing_id: str, update: HotspotUpdate) -> dict:
+    try:
+        load_drawing(drawing_id)
+        parts = load_parts(drawing_id)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(status_code=404, detail=f"Drawing {drawing_id} was not found") from None
+
+    hotspots = [hotspot.model_dump(exclude_none=True) for hotspot in update.hotspots]
+    for item in {hotspot["item"] for hotspot in hotspots}:
+        parts.setdefault(
+            item,
+            {
+                "partNumber": f"TBD-{item}",
+                "name": f"PART {item}",
+                "quantity": 1,
+                "note": "Manually added hotspot. Add the exact parts-PDF mapping.",
+            },
+        )
+    write_json(hotspots_path(drawing_id), {"drawingId": drawing_id, "hotspots": hotspots})
+    write_json(parts_path(drawing_id), parts)
+    return {"drawingId": drawing_id, "hotspotCount": len(hotspots)}
+
+
+@app.get("/api/drawings/{drawing_id}/parts")
+def list_parts(drawing_id: str) -> dict[str, dict]:
+    try:
+        load_drawing(drawing_id)
+        return load_parts(drawing_id)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(status_code=404, detail=f"Drawing {drawing_id} was not found") from None
+
+
+@app.get("/api/drawings/{drawing_id}/parts/{item}")
+def get_part(drawing_id: str, item: str) -> dict:
+    try:
+        load_drawing(drawing_id)
+        part = load_parts(drawing_id).get(item)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(status_code=404, detail=f"Drawing {drawing_id} was not found") from None
+    if part is None:
+        raise HTTPException(status_code=404, detail=f"Item {item} was not found in {drawing_id}")
+    return {"drawingId": drawing_id, "item": item, **part}
+
+
+@app.post("/api/requests", status_code=status.HTTP_201_CREATED)
+def create_parts_request(parts_request: PartsRequest) -> dict:
+    try:
+        load_drawing(parts_request.drawing_id)
+        parts = load_parts(parts_request.drawing_id)
+    except (FileNotFoundError, ValueError):
+        raise HTTPException(
+            status_code=404,
+            detail=f"Drawing {parts_request.drawing_id} was not found",
+        ) from None
+    accepted_items = []
+
+    for request_item in parts_request.items:
+        part = parts.get(request_item.item)
+        if part is None:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Item {request_item.item} was not found in {parts_request.drawing_id}",
+            )
+        accepted_items.append(
+            {
+                "item": request_item.item,
+                "quantity": request_item.quantity,
+                "partNumber": part["partNumber"],
+                "name": part["name"],
+            }
+        )
+
+    created_at = datetime.now(timezone.utc)
+    return {
+        "requestId": f"{parts_request.drawing_id.upper()}-{created_at.strftime('%Y%m%d%H%M%S%f')}",
+        "drawingId": parts_request.drawing_id,
+        "createdAt": created_at.isoformat(),
+        "items": accepted_items,
+    }
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8000)

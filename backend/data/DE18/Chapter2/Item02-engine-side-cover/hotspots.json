@@ -1,0 +1,133 @@
+{
+  "drawingId": "de18-chapter2-item02-engine-side-cover",
+  "hotspots": [
+    {
+      "item": "502",
+      "left": 62.354,
+      "top": 9.893,
+      "width": 4.225,
+      "height": 1.493,
+      "confidence": 97.0
+    },
+    {
+      "item": "5",
+      "left": 51.339,
+      "top": 11.587,
+      "width": 1.66,
+      "height": 1.467,
+      "confidence": 96.8
+    },
+    {
+      "item": "4",
+      "left": 68.389,
+      "top": 11.507,
+      "width": 1.735,
+      "height": 1.467,
+      "confidence": 96.8
+    },
+    {
+      "item": "13",
+      "left": 12.542,
+      "top": 67.733,
+      "width": 2.829,
+      "height": 1.493,
+      "confidence": 96.8
+    },
+    {
+      "item": "2",
+      "left": 22.539,
+      "top": 49.08,
+      "width": 1.547,
+      "height": 1.467,
+      "confidence": 96.8
+    },
+    {
+      "item": "3",
+      "left": 41.569,
+      "top": 54.693,
+      "width": 1.66,
+      "height": 1.493,
+      "confidence": 96.7
+    },
+    {
+      "item": "A",
+      "left": 37.891,
+      "top": 49.107,
+      "width": 2.075,
+      "height": 1.467,
+      "confidence": 96.4
+    },
+    {
+      "item": "12",
+      "left": 11.863,
+      "top": 83.24,
+      "width": 2.754,
+      "height": 1.467,
+      "confidence": 96.0
+    },
+    {
+      "item": "11",
+      "left": 94.398,
+      "top": 11.507,
+      "width": 2.452,
+      "height": 1.467,
+      "confidence": 96.0
+    },
+    {
+      "item": "11",
+      "left": 72.237,
+      "top": 51.16,
+      "width": 2.49,
+      "height": 1.467,
+      "confidence": 84.3
+    },
+    {
+      "item": "501",
+      "left": 11.637,
+      "top": 69.24,
+      "width": 3.961,
+      "height": 1.467,
+      "confidence": 95.2
+    },
+    {
+      "item": "1",
+      "left": 56.696,
+      "top": 51.16,
+      "width": 1.132,
+      "height": 1.467,
+      "confidence": 85.3
+    },
+    {
+      "item": "505",
+      "left": 11.373,
+      "top": 63.867,
+      "width": 4.263,
+      "height": 1.493,
+      "confidence": 65.6
+    },
+    {
+      "item": "503",
+      "left": 62.373,
+      "top": 11.44,
+      "width": 4.263,
+      "height": 1.493,
+      "confidence": 50.4
+    },
+    {
+      "item": "504",
+      "left": 11.392,
+      "top": 62.333,
+      "width": 4.225,
+      "height": 1.467,
+      "confidence": 33.9
+    },
+    {
+      "item": "6",
+      "left": 78.25136612021858,
+      "top": 61.88613646240765,
+      "width": 1.66,
+      "height": 1.467,
+      "source": "manual"
+    }
+  ]
+}

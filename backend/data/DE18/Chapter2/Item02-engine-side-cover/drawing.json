@@ -1,0 +1,28 @@
+{
+  "id": "de18-chapter2-item02-engine-side-cover",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "2",
+  "title": "ENGINE SIDE COVER",
+  "imageFilename": "DE18_C2_02.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "11",
+    "12",
+    "13",
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "A"
+  ],
+  "ocrProfile": "generic"
+}
