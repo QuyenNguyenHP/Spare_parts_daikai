@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item09-main-bearing",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "9",
+  "title": "Main Bearing",
+  "imageFilename": "DE18_C2_9.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

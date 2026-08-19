@@ -1,0 +1,45 @@
+{
+  "drawingId": "de18-chapter2-item07-crankshaft",
+  "hotspots": [
+    {
+      "item": "2",
+      "left": 13.882,
+      "top": 56.787,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "501",
+      "left": 75.028,
+      "top": 32.053,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.0
+    },
+    {
+      "item": "4",
+      "left": 71.69,
+      "top": 63.293,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 93.8
+    },
+    {
+      "item": "1",
+      "left": 36.3053613053613,
+      "top": 60.394459034965756,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 55.3030303030303,
+      "top": 20.186415366393735,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

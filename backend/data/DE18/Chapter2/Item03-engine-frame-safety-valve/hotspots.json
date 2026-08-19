@@ -1,0 +1,117 @@
+{
+  "drawingId": "de18-chapter2-item03-engine-frame-safety-valve",
+  "hotspots": [
+    {
+      "item": "69",
+      "left": 69.521,
+      "top": 82.987,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "76",
+      "left": 35.175,
+      "top": 15.36,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.4
+    },
+    {
+      "item": "901",
+      "left": 89.532,
+      "top": 40.667,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.0
+    },
+    {
+      "item": "81",
+      "left": 68.691,
+      "top": 57.28,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.5
+    },
+    {
+      "item": "73",
+      "left": 34.025,
+      "top": 41.507,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 92.3
+    },
+    {
+      "item": "74",
+      "left": 61.052,
+      "top": 83.027,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 90.6
+    },
+    {
+      "item": "78",
+      "left": 32.309,
+      "top": 60.267,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 86.1
+    },
+    {
+      "item": "72",
+      "left": 38.325,
+      "top": 23.16,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 83.1
+    },
+    {
+      "item": "7",
+      "left": 35.13986013986014,
+      "top": 38.889747154848344,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "70",
+      "left": 66.02564102564102,
+      "top": 71.68237293372471,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "71",
+      "left": 66.25874125874127,
+      "top": 73.9069983006334,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "75",
+      "left": 35.60606060606061,
+      "top": 76.79077192440393,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 35.72261072261072,
+      "top": 79.7569390802822,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "77",
+      "left": 33.39160839160839,
+      "top": 55.780421236932895,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "drawingId": "de18-chapter2-item10-flywheel",
+  "hotspots": [
+    {
+      "item": "501",
+      "left": 34.628,
+      "top": 14.027,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 69.3
+    },
+    {
+      "item": "5",
+      "left": 62.52913752913752,
+      "top": 9.22807559606571,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 83.85780885780886,
+      "top": 11.040733302435758,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 80.71095571095572,
+      "top": 64.92610330089089,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 48.54312354312354,
+      "top": 77.61470724548123,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

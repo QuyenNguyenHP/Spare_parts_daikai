@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item14-cylinder-head",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "14",
+  "title": "Cylinder Head",
+  "imageFilename": "DE18_C2_14.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

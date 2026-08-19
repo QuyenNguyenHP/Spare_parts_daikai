@@ -1,0 +1,27 @@
+{
+  "1": {
+    "partNumber": "06559-001",
+    "name": "FLYWHEEL",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06559-003",
+    "name": "REAMER BOLT",
+    "quantity": 10
+  },
+  "4": {
+    "partNumber": "06559-004",
+    "name": "U-NUT",
+    "quantity": 20
+  },
+  "5": {
+    "partNumber": "06559-005",
+    "name": "LOAD POINTER",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200012014ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  }
+}

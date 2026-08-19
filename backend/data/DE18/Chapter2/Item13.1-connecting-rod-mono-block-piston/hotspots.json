@@ -1,0 +1,117 @@
+{
+  "drawingId": "de18-chapter2-item13-1-connecting-rod-mono-block-piston",
+  "hotspots": [
+    {
+      "item": "502",
+      "left": 67.578,
+      "top": 75.4,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "22",
+      "left": 93.248,
+      "top": 44.707,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.4
+    },
+    {
+      "item": "13",
+      "left": 51.169,
+      "top": 48.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 88.9
+    },
+    {
+      "item": "503",
+      "left": 5.998,
+      "top": 72.68,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 80.8
+    },
+    {
+      "item": "12",
+      "left": 74.538,
+      "top": 44.707,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 69.8
+    },
+    {
+      "item": "501",
+      "left": 44.81351981351981,
+      "top": 75.3076883464648,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 53.43822843822844,
+      "top": 75.71965600700345,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 56.46853146853147,
+      "top": 45.646016787682164,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 44.93006993006993,
+      "top": 45.31644265925125,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 37.58741258741259,
+      "top": 44.98686853082033,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 54.37062937062937,
+      "top": 40.62001132911067,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 60.31468531468531,
+      "top": 21.83428600854833,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 60.43123543123543,
+      "top": 23.56455018281065,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "903",
+      "left": 51.10722610722611,
+      "top": 17.385035274730935,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

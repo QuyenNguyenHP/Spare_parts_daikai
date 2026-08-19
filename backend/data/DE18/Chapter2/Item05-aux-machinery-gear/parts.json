@@ -1,0 +1,24 @@
+{
+  "1": {
+    "partNumber": "06546-001",
+    "name": "AUX.MACHINERY GEAR",
+    "quantity": 1,
+    "note": "Quantity shown for (1) 900,1000 min^-1; no quantity is listed for (2) 720,750 min^-1."
+  },
+  "2": {
+    "partNumber": "06546-002",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "3": {
+    "partNumber": "06546-003",
+    "name": "AUX.MACHINERY GEAR",
+    "quantity": 1,
+    "note": "Quantity shown for (2) 720,750 min^-1; no quantity is listed for (1) 900,1000 min^-1."
+  },
+  "501": {
+    "partNumber": "Z321016050ZZ",
+    "name": "WIRE",
+    "quantity": 1
+  }
+}

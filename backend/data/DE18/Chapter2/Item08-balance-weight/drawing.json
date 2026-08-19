@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item08-balance-weight",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "8",
+  "title": "Balance Weight",
+  "imageFilename": "DE18_C2_08.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

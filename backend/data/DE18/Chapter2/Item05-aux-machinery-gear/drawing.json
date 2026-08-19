@@ -1,0 +1,20 @@
+{
+  "id": "de18-chapter2-item05-aux-machinery-gear",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "5",
+  "title": "Aux.Machinery Gear",
+  "imageFilename": "DE18_C2_05.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "501"
+  ],
+  "ocrProfile": "de18"
+}

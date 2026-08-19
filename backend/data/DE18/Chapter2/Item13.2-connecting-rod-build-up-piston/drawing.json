@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item13-2-connecting-rod-build-up-piston",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "13.2",
+  "title": "Connecting Rod(Build Up Piston)",
+  "imageFilename": "DE18_C2_13.2.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

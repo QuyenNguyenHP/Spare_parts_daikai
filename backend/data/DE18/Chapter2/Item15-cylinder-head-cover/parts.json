@@ -1,0 +1,27 @@
+{
+  "1": {
+    "partNumber": "06297-001",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06297-002",
+    "name": "SEAL",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00072-002",
+    "name": "KNOB",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "00072-003",
+    "name": "SHAFT",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "Z415004024ZZ",
+    "name": "SPRING PIN",
+    "quantity": 1
+  }
+}

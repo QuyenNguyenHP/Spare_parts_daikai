@@ -1,0 +1,67 @@
+{
+  "1": {
+    "partNumber": "06445-001",
+    "name": "CONNECTING ROD",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06445-003",
+    "name": "BUSH",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06445-008",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06445-009",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06445-012",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "13": {
+    "partNumber": "06445-013",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "14": {
+    "partNumber": "06445-014",
+    "name": "SCREW",
+    "quantity": 2
+  },
+  "21": {
+    "partNumber": "00002-004",
+    "name": "PIN",
+    "quantity": 2
+  },
+  "22": {
+    "partNumber": "00002-008",
+    "name": "CIRCULAR NUT",
+    "quantity": 2
+  },
+  "501": {
+    "partNumber": "Z321016025ZZ",
+    "name": "WIRE",
+    "quantity": 2
+  },
+  "502": {
+    "partNumber": "Z335006016ZZ",
+    "name": "STRAIGHT PIN",
+    "quantity": 1
+  },
+  "901": {
+    "partNumber": "06445-004",
+    "name": "ASSY. CONNECTING ROD",
+    "quantity": 1
+  },
+  "903": {
+    "partNumber": "06445-006",
+    "name": "ASSY. BEARING",
+    "quantity": 1
+  }
+}

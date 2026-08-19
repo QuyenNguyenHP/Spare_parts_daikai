@@ -1,0 +1,82 @@
+{
+  "3": {
+    "partNumber": "06521-003",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06521-004",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06521-005",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06521-006",
+    "name": "OIL RING",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06521-008",
+    "name": "PISTON PIN",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06521-009",
+    "name": "SNAP RING",
+    "quantity": 2
+  },
+  "11": {
+    "partNumber": "06521-011",
+    "name": "PISTON CROWN",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06521-012",
+    "name": "PISTON BODY",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06521-013",
+    "name": "BOLT",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06521-014",
+    "name": "NUT",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06521-015",
+    "name": "DISTANCE PIECE",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "00039-008",
+    "name": "KOENIC EXPANDER",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "Z415006020ZZ",
+    "name": "SPRING PIN",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "Z560214531DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "06521-007",
+    "name": "ASSY. PISTON PIN",
+    "quantity": 1
+  },
+  "903": {
+    "partNumber": "06521-010",
+    "name": "ASSY. PISTON",
+    "quantity": 1
+  }
+}

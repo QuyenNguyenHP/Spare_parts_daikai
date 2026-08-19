@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item11-cylinder-liner",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "11",
+  "title": "Cylinder Liner",
+  "imageFilename": "DE18_C2_11.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

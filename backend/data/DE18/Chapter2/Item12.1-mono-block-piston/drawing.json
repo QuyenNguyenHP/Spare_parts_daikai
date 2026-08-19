@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item12-1-mono-block-piston",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "12.1",
+  "title": "Mono Block Piston",
+  "imageFilename": "DE18_C2_12.1.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

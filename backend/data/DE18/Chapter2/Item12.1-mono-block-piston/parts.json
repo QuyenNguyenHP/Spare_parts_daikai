@@ -1,0 +1,62 @@
+{
+  "2": {
+    "partNumber": "06521-002",
+    "name": "PISTON",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06521-003",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06521-004",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06521-005",
+    "name": "PISTON RING",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06521-006",
+    "name": "OIL RING",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06521-008",
+    "name": "PISTON PIN",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06521-009",
+    "name": "SNAP RING",
+    "quantity": 2
+  },
+  "21": {
+    "partNumber": "00039-008",
+    "name": "KOENIC EXPANDER",
+    "quantity": 1
+  },
+  "22": {
+    "partNumber": "00039-010",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X251208008ZZ",
+    "name": "SET SCREW",
+    "quantity": 2
+  },
+  "901": {
+    "partNumber": "06521-001",
+    "name": "ASSY. PISTON",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "06521-007",
+    "name": "ASSY. PISTON PIN",
+    "quantity": 1
+  }
+}

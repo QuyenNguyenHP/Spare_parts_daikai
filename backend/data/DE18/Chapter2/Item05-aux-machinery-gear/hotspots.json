@@ -1,0 +1,37 @@
+{
+  "drawingId": "de18-chapter2-item05-aux-machinery-gear",
+  "hotspots": [
+    {
+      "item": "3",
+      "left": 61.147,
+      "top": 25.04,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "2",
+      "left": 62.165,
+      "top": 69.84,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "1",
+      "left": 61.052,
+      "top": 23.493,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 91.7
+    },
+    {
+      "item": "501",
+      "left": 59.562,
+      "top": 39.067,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 77.6
+    }
+  ]
+}

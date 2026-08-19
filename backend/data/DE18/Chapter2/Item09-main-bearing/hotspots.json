@@ -1,0 +1,29 @@
+{
+  "drawingId": "de18-chapter2-item09-main-bearing",
+  "hotspots": [
+    {
+      "item": "2",
+      "left": 85.4895104895105,
+      "top": 11.782275091405324,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 76.16550116550117,
+      "top": 52.484679952623715,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 77.7972027972028,
+      "top": 12.194242751943971,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

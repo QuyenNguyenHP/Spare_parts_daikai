@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item13-1-connecting-rod-mono-block-piston",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "13.1",
+  "title": "Connecting Rod(Mono Block Piston)",
+  "imageFilename": "DE18_C2_13.1.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

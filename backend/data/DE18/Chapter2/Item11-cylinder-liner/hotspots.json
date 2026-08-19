@@ -1,0 +1,37 @@
+{
+  "drawingId": "de18-chapter2-item11-cylinder-liner",
+  "hotspots": [
+    {
+      "item": "5",
+      "left": 85.704,
+      "top": 7.347,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "4",
+      "left": 86.665,
+      "top": 22.973,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.5
+    },
+    {
+      "item": "6",
+      "left": 85.986,
+      "top": 14.747,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.4
+    },
+    {
+      "item": "501",
+      "left": 88.51981351981351,
+      "top": 85.68927339203873,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

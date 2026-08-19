@@ -1,0 +1,101 @@
+{
+  "drawingId": "de18-chapter2-item12-1-mono-block-piston",
+  "hotspots": [
+    {
+      "item": "21",
+      "left": 43.927,
+      "top": 37.787,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 46.6
+    },
+    {
+      "item": "22",
+      "left": 92.01631701631702,
+      "top": 34.93485761367733,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 41.08391608391608,
+      "top": 74.23657242906432,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 40.967365967365964,
+      "top": 66.32679334672228,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 40.967365967365964,
+      "top": 70.28168288789331,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 40.73426573426573,
+      "top": 78.02667490601988,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 86.07226107226107,
+      "top": 60.8064266955044,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 92.5990675990676,
+      "top": 52.23749935630053,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 91.43356643356644,
+      "top": 40.86719192543386,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 83.15850815850816,
+      "top": 56.521963025902465,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 48.892773892773896,
+      "top": 51.82553169576188,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 43.88111888111888,
+      "top": 45.728410319789894,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

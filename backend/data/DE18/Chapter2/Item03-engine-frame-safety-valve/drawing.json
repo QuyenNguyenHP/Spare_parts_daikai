@@ -1,0 +1,27 @@
+{
+  "id": "de18-chapter2-item03-engine-frame-safety-valve",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "3",
+  "title": "Engine Frame Safety Valve",
+  "imageFilename": "DE18_C2_03.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [
+    "7",
+    "14",
+    "69",
+    "70",
+    "71",
+    "72",
+    "73",
+    "74",
+    "75",
+    "76",
+    "77",
+    "78",
+    "81",
+    "901"
+  ],
+  "ocrProfile": "de18"
+}

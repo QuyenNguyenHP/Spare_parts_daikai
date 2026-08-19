@@ -1,0 +1,17 @@
+{
+  "id": "de18-chapter2-item15-cylinder-head-cover",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "15",
+  "title": "Cylinder Head Cover",
+  "imageFilename": "DE18_C2_15.png",
+  "width": 2652,
+  "height": 3750,
+  "expectedItems": [
+    "1",
+    "11",
+    "12",
+    "501"
+  ],
+  "ocrProfile": "de18"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item07-crankshaft",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "7",
+  "title": "Crankshaft",
+  "imageFilename": "DE18_C2_07.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

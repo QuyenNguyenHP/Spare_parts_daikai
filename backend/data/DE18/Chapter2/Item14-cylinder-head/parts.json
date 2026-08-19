@@ -1,0 +1,177 @@
+{
+  "2": {
+    "partNumber": "06435-002",
+    "name": "CYLINDER HEAD",
+    "quantity": 2
+  },
+  "3": {
+    "partNumber": "06435-003",
+    "name": "SEAT",
+    "quantity": 2
+  },
+  "4": {
+    "partNumber": "06435-004",
+    "name": "SEAT",
+    "quantity": 2
+  },
+  "5": {
+    "partNumber": "06435-005",
+    "name": "GUIDE",
+    "quantity": 2
+  },
+  "6": {
+    "partNumber": "06435-006",
+    "name": "GUIDE",
+    "quantity": 2
+  },
+  "7": {
+    "partNumber": "06435-007",
+    "name": "SEAL",
+    "quantity": 2
+  },
+  "8": {
+    "partNumber": "06435-008",
+    "name": "SEAL",
+    "quantity": 2
+  },
+  "9": {
+    "partNumber": "06435-009",
+    "name": "GUIDE",
+    "quantity": 1
+  },
+  "10": {
+    "partNumber": "06435-010",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "11": {
+    "partNumber": "06435-011",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "06435-012",
+    "name": "SLEEVE",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06435-013",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "14": {
+    "partNumber": "06435-014",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06435-015",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "06435-016",
+    "name": "CIRCULAR NUT",
+    "quantity": 4
+  },
+  "17": {
+    "partNumber": "06435-017",
+    "name": "CAP",
+    "quantity": 4
+  },
+  "21": {
+    "partNumber": "00002-034",
+    "name": "STUD",
+    "quantity": 3
+  },
+  "22": {
+    "partNumber": "00024-003",
+    "name": "GUIDE",
+    "quantity": 2
+  },
+  "23": {
+    "partNumber": "00024-016",
+    "name": "PLUG",
+    "quantity": 5
+  },
+  "24": {
+    "partNumber": "00024-010",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "25": {
+    "partNumber": "00071-006",
+    "name": "SCREW",
+    "quantity": 1
+  },
+  "26": {
+    "partNumber": "00239-021",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "501": {
+    "partNumber": "E205650210Z",
+    "name": "PLUG",
+    "quantity": 7
+  },
+  "502": {
+    "partNumber": "E205650300Z",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "H150103390Z",
+    "name": "PLUG",
+    "quantity": 3
+  },
+  "504": {
+    "partNumber": "X210012050ZZ",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "Z336008030ZZ",
+    "name": "STEPPED PIN",
+    "quantity": 1
+  },
+  "506": {
+    "partNumber": "Z412004800ZZ",
+    "name": "SNAP RING",
+    "quantity": 1
+  },
+  "507": {
+    "partNumber": "Z412005200ZZ",
+    "name": "SNAP RING",
+    "quantity": 1
+  },
+  "508": {
+    "partNumber": "Z560102235ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "509": {
+    "partNumber": "Z571501000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 5
+  },
+  "510": {
+    "partNumber": "Z571502000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 5
+  },
+  "511": {
+    "partNumber": "Z571503000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 1
+  },
+  "512": {
+    "partNumber": "X210012030ZZ",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "901": {
+    "partNumber": "06435-001",
+    "name": "ASSY. CYLINDER HEAD",
+    "quantity": 1
+  }
+}

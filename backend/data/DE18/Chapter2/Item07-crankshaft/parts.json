@@ -1,0 +1,27 @@
+{
+  "1": {
+    "partNumber": "06421-001",
+    "name": "CRANK SHAFT",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06421-002",
+    "name": "CRANK GEAR",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06421-004",
+    "name": "STEPPED PIN",
+    "quantity": 12
+  },
+  "501": {
+    "partNumber": "X251514016ZZ",
+    "name": "SET SCREW",
+    "quantity": 6
+  },
+  "901": {
+    "partNumber": "06421-003",
+    "name": "ASSY. CRANK SHAFT",
+    "quantity": 1
+  }
+}

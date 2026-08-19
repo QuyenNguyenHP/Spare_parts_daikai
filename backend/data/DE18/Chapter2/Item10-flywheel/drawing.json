@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item10-flywheel",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "10",
+  "title": "Flywheel",
+  "imageFilename": "DE18_C2_10.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

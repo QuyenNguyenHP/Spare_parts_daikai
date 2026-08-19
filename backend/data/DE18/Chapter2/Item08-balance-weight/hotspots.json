@@ -1,0 +1,61 @@
+{
+  "drawingId": "de18-chapter2-item08-balance-weight",
+  "hotspots": [
+    {
+      "item": "2",
+      "left": 42.116,
+      "top": 78.107,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 92.7
+    },
+    {
+      "item": "4",
+      "left": 56.3,
+      "top": 68.293,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 87.1
+    },
+    {
+      "item": "1",
+      "left": 56.167,
+      "top": 66.267,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 85.7
+    },
+    {
+      "item": "1",
+      "left": 72.614,
+      "top": 80.787,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 79.8
+    },
+    {
+      "item": "5",
+      "left": 42.24941724941725,
+      "top": 80.16890674082084,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 43.64801864801865,
+      "top": 60.14727843864257,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 27.33100233100233,
+      "top": 60.06488490653483,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

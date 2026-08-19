@@ -1,0 +1,133 @@
+{
+  "drawingId": "de18-chapter2-item12-2-build-up-piston",
+  "hotspots": [
+    {
+      "item": "5",
+      "left": 49.887,
+      "top": 75.173,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "502",
+      "left": 15.504,
+      "top": 21.72,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 92.2
+    },
+    {
+      "item": "12",
+      "left": 80.875,
+      "top": 21.693,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 86.2
+    },
+    {
+      "item": "11",
+      "left": 88.51981351981351,
+      "top": 21.669498944332872,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "903",
+      "left": 79.1958041958042,
+      "top": 17.055461146300015,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 46.095571095571096,
+      "top": 21.669498944332872,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 31.993006993006993,
+      "top": 21.83428600854833,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 26.864801864801862,
+      "top": 21.83428600854833,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 7.8671328671328675,
+      "top": 21.83428600854833,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 49.358974358974365,
+      "top": 55.94520830114836,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 49.24242424242424,
+      "top": 60.14727843864257,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 50.17482517482518,
+      "top": 67.2331221999073,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 55.41958041958041,
+      "top": 63.607806787167206,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 50.17482517482518,
+      "top": 71.1056182089706,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 49.94172494172494,
+      "top": 79.42736495185127,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 94.58041958041959,
+      "top": 53.802976466347396,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

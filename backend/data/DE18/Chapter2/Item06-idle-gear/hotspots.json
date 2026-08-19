@@ -1,0 +1,69 @@
+{
+  "drawingId": "de18-chapter2-item06-idle-gear",
+  "hotspots": [
+    {
+      "item": "6",
+      "left": 21.973,
+      "top": 31.68,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "3",
+      "left": 21.992,
+      "top": 15.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "501",
+      "left": 22.086,
+      "top": 67.147,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.3
+    },
+    {
+      "item": "1",
+      "left": 22.482,
+      "top": 10.987,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.9
+    },
+    {
+      "item": "1",
+      "left": 74.764,
+      "top": 42.04,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 31.7
+    },
+    {
+      "item": "1",
+      "left": 74.764,
+      "top": 69.347,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 33.7
+    },
+    {
+      "item": "4",
+      "left": 21.841,
+      "top": 21.187,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 94.3
+    },
+    {
+      "item": "5",
+      "left": 21.992,
+      "top": 26.827,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 93.4
+    }
+  ]
+}

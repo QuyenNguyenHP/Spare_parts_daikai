@@ -3,7 +3,9 @@ from __future__ import annotations
 import argparse
 import csv
 from io import StringIO
+from pathlib import Path
 import re
+import shutil
 import subprocess
 
 from storage import (
@@ -17,6 +19,20 @@ from storage import (
     png_size,
     write_json,
 )
+
+
+def resolve_tesseract_command() -> str:
+    configured = shutil.which("tesseract")
+    if configured:
+        return configured
+
+    common_windows_path = Path("C:/Program Files/Tesseract-OCR/tesseract.exe")
+    if common_windows_path.is_file():
+        return str(common_windows_path)
+
+    raise FileNotFoundError(
+        "Tesseract OCR executable was not found. Install Tesseract or add it to PATH."
+    )
 
 
 def normalize_item(raw_text: str, expected_items: set[str], profile: str) -> str | None:
@@ -53,9 +69,10 @@ def run_ocr(image_path, page_mode: int, expected_items: set[str], profile: str) 
     whitelist = "".join(
         sorted({character for item in expected_items for character in item})
     ) or "0123456789"
+    tesseract_command = resolve_tesseract_command()
     result = subprocess.run(
         [
-            "tesseract",
+            tesseract_command,
             str(image_path),
             "stdout",
             "--psm",

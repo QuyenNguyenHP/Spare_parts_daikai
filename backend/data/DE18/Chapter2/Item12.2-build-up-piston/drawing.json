@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item12-2-build-up-piston",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "12.2",
+  "title": "Build Up Piston",
+  "imageFilename": "DE18_C2_12.2.png",
+  "width": 2651,
+  "height": 3750,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

@@ -1,0 +1,45 @@
+{
+  "drawingId": "de18-chapter2-item15-cylinder-head-cover",
+  "hotspots": [
+    {
+      "item": "1",
+      "left": 14.806613522291112,
+      "top": 69.71950424005219,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 11.61795098907588,
+      "top": 87.25375081539465,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 41.14260407440213,
+      "top": 46.92498369210698,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 65.47091821671096,
+      "top": 44.336594911937375,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 64.1718334809566,
+      "top": 63.70776255707763,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

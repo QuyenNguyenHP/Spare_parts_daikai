@@ -1,0 +1,32 @@
+{
+  "1": {
+    "partNumber": "06485-001",
+    "name": "BALANCE WEIGHT",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06485-002",
+    "name": "BALANCE WEIGHT",
+    "quantity": 11
+  },
+  "3": {
+    "partNumber": "06485-003",
+    "name": "BOLT",
+    "quantity": 24
+  },
+  "4": {
+    "partNumber": "06485-004",
+    "name": "BALANCE WEIGHT",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06485-005",
+    "name": "BALANCE WEIGHT",
+    "quantity": 11
+  },
+  "501": {
+    "partNumber": "Z321023050ZZ",
+    "name": "WIRE",
+    "quantity": 12
+  }
+}

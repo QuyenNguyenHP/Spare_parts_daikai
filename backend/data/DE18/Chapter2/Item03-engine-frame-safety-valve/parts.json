@@ -1,0 +1,72 @@
+{
+  "7": {
+    "partNumber": "05900-007",
+    "name": "PLATE",
+    "quantity": 2
+  },
+  "14": {
+    "partNumber": "05900-014",
+    "name": "NAME PLATE",
+    "quantity": 2
+  },
+  "69": {
+    "partNumber": "05900-069",
+    "name": "SEAT",
+    "quantity": 2
+  },
+  "70": {
+    "partNumber": "05900-070",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "71": {
+    "partNumber": "05900-071",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "72": {
+    "partNumber": "05900-072",
+    "name": "DISTANCE PIECE",
+    "quantity": 8
+  },
+  "73": {
+    "partNumber": "05900-073",
+    "name": "SPRING",
+    "quantity": 2
+  },
+  "74": {
+    "partNumber": "05900-074",
+    "name": "FILTER",
+    "quantity": 2
+  },
+  "75": {
+    "partNumber": "05900-075",
+    "name": "FILTER",
+    "quantity": 6
+  },
+  "76": {
+    "partNumber": "05900-076",
+    "name": "PLATE",
+    "quantity": 2
+  },
+  "77": {
+    "partNumber": "05900-077",
+    "name": "SPRING WASHER",
+    "quantity": 4
+  },
+  "78": {
+    "partNumber": "05900-078",
+    "name": "NUT",
+    "quantity": 4
+  },
+  "81": {
+    "partNumber": "00035-011",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "901": {
+    "partNumber": "05900-066",
+    "name": "ASSY. CRANKCASE SAFETY VALVE",
+    "quantity": 2
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "1": {
+    "partNumber": "06492-001",
+    "name": "GEAR CASE",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06492-002",
+    "name": "BOLT",
+    "quantity": 11
+  },
+  "3": {
+    "partNumber": "06492-003",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "11": {
+    "partNumber": "00239-012",
+    "name": "PLUG",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "00239-013",
+    "name": "PLUG",
+    "quantity": 8
+  },
+  "13": {
+    "partNumber": "00239-025",
+    "name": "GASKET",
+    "quantity": 2
+  },
+  "501": {
+    "partNumber": "X205016045ZZ",
+    "name": "HT BOLT",
+    "quantity": 7
+  },
+  "502": {
+    "partNumber": "X205012035ZZ",
+    "name": "HT BOLT",
+    "quantity": 3
+  },
+  "503": {
+    "partNumber": "X200012040ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "504": {
+    "partNumber": "X200012050ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "505": {
+    "partNumber": "H150103400",
+    "name": "PLUG",
+    "quantity": 3
+  },
+  "506": {
+    "partNumber": "E203150120",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "507": {
+    "partNumber": "E203150130",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "508": {
+    "partNumber": "X200012020ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "509": {
+    "partNumber": "X210012048ZZ",
+    "name": "STUD",
+    "quantity": 8
+  },
+  "510": {
+    "partNumber": "X210012105ZZ",
+    "name": "STUD",
+    "quantity": 4
+  },
+  "511": {
+    "partNumber": "X210016056ZZ",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "512": {
+    "partNumber": "X570010000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "513": {
+    "partNumber": "Z550030400EE",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "514": {
+    "partNumber": "X570010000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "515": {
+    "partNumber": "Z565003400FE",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "516": {
+    "partNumber": "Z500206000ZZ",
+    "name": "JIS FLANGE",
+    "quantity": 1
+  },
+  "517": {
+    "partNumber": "Z501206000AZ",
+    "name": "JIS GASKET",
+    "quantity": 1
+  },
+  "518": {
+    "partNumber": "X200012030ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "519": {
+    "partNumber": "Z571501000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 1
+  },
+  "520": {
+    "partNumber": "X570004-000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "521": {
+    "partNumber": "Z565002100EE",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "522": {
+    "partNumber": "Z335016045ZZ",
+    "name": "STRAIGHT PIN",
+    "quantity": 2
+  }
+}
