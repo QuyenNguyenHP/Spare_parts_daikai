@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item21-intake-exhaust-tappet",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "21",
+  "title": "Intake & Exhaust Tappet",
+  "imageFilename": "DE18_C2_21.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

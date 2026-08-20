@@ -1,0 +1,122 @@
+{
+  "1": {
+    "partNumber": "06428-001",
+    "name": "COMMON ROD",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00042-002",
+    "name": "BEARING",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "00042-003",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "00042-004",
+    "name": "LEVER",
+    "quantity": 6
+  },
+  "14": {
+    "partNumber": "00042-005",
+    "name": "CLUTCH",
+    "quantity": 6
+  },
+  "15": {
+    "partNumber": "00042-006",
+    "name": "HOLDER",
+    "quantity": 6
+  },
+  "16": {
+    "partNumber": "00042-007",
+    "name": "RETURN SPRING",
+    "quantity": 6
+  },
+  "17": {
+    "partNumber": "00042-008",
+    "name": "PIN",
+    "quantity": 12
+  },
+  "18": {
+    "partNumber": "00042-009",
+    "name": "RACK LINK",
+    "quantity": 6
+  },
+  "19": {
+    "partNumber": "00042-010",
+    "name": "BEARING",
+    "quantity": 12
+  },
+  "20": {
+    "partNumber": "00042-011",
+    "name": "DISTANCE",
+    "quantity": 6
+  },
+  "21": {
+    "partNumber": "00042-012",
+    "name": "FLAT WASHER",
+    "quantity": 12
+  },
+  "501": {
+    "partNumber": "Z458249040ZZ",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "Z412003700ZZ",
+    "name": "SNAP RING",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "X200012025ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "504": {
+    "partNumber": "Z335006018ZZ",
+    "name": "STRAIGHT PIN",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "X200014030ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "506": {
+    "partNumber": "Z315014000ZZ",
+    "name": "TOOTHED LOCK WASHER",
+    "quantity": 4
+  },
+  "507": {
+    "partNumber": "X250108030ZZ",
+    "name": "HEX. SET SCREW",
+    "quantity": 6
+  },
+  "508": {
+    "partNumber": "X220308000ZZ",
+    "name": "NUT",
+    "quantity": 6
+  },
+  "509": {
+    "partNumber": "Z415005040ZZ",
+    "name": "SPRING PIN",
+    "quantity": 6
+  },
+  "510": {
+    "partNumber": "X250108016ZZ",
+    "name": "HEX. SET SCREW",
+    "quantity": 6
+  },
+  "511": {
+    "partNumber": "X227006000ZZ",
+    "name": "U-NUT",
+    "quantity": 12
+  },
+  "512": {
+    "partNumber": "X200010035ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  }
+}

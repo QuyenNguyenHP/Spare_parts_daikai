@@ -1,0 +1,57 @@
+{
+  "901": {
+    "partNumber": "06464-004",
+    "name": "ASSY. CAM SHAFT",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "06464-001",
+    "name": "CAM GEAR",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06464-002",
+    "name": "BOLT",
+    "quantity": 12
+  },
+  "3": {
+    "partNumber": "06464-003",
+    "name": "SHAFT",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06464-005",
+    "name": "CAM SHAFT",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06464-006",
+    "name": "CAM SHAFT",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00006-005",
+    "name": "BOLT",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "00006-006",
+    "name": "BOLT",
+    "quantity": 11
+  },
+  "13": {
+    "partNumber": "00006-007",
+    "name": "NUT",
+    "quantity": 12
+  },
+  "501": {
+    "partNumber": "Z321012100DZ",
+    "name": "WIRE",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "Z336008030ZZ",
+    "name": "STEPPED PIN",
+    "quantity": 1
+  }
+}

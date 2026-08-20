@@ -1,0 +1,77 @@
+{
+  "901": {
+    "partNumber": "06473-007",
+    "name": "ASSY. NOZZLE HOLDER",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "06473-009",
+    "name": "ASSY. NOZZLE HOLDER",
+    "quantity": 1
+  },
+  "10": {
+    "partNumber": "06473-010",
+    "name": "BODY",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06473-011",
+    "name": "ADJUSTING SCREW",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06473-012",
+    "name": "INLET CONNECTOR",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06473-013",
+    "name": "NOZZLE",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "00007-010",
+    "name": "NOZZLE DOWEL PIN",
+    "quantity": 2
+  },
+  "22": {
+    "partNumber": "00007-011",
+    "name": "PUSH ROD",
+    "quantity": 1
+  },
+  "23": {
+    "partNumber": "00007-012",
+    "name": "SPRING SEAT",
+    "quantity": 1
+  },
+  "24": {
+    "partNumber": "00007-013",
+    "name": "NOZZLE SPRING",
+    "quantity": 1
+  },
+  "25": {
+    "partNumber": "00007-015",
+    "name": "NUT",
+    "quantity": 1
+  },
+  "26": {
+    "partNumber": "00007-016",
+    "name": "GASKET",
+    "quantity": 2
+  },
+  "27": {
+    "partNumber": "00007-017",
+    "name": "DISTANCE PIECES",
+    "quantity": 1
+  },
+  "28": {
+    "partNumber": "00007-018",
+    "name": "CAP NUT",
+    "quantity": 1
+  },
+  "29": {
+    "partNumber": "00007-019",
+    "name": "RETAINING NUT",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "drawingId": "de18-chapter2-item17-exhaust-valve",
+  "hotspots": [
+    {
+      "item": "17",
+      "left": 55.398,
+      "top": 11.783,
+      "width": 2.923,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "12",
+      "left": 74.752,
+      "top": 55.7,
+      "width": 2.97,
+      "height": 1.533,
+      "confidence": 96.6
+    },
+    {
+      "item": "901",
+      "left": 55.764716715527996,
+      "top": 23.362145440248014,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 55.2076705007595,
+      "top": 41.66146483444445,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 55.09108075647274,
+      "top": 56.99332808339131,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 72.73500013591699,
+      "top": 34.169551053233455,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 74.32838856378713,
+      "top": 38.69400743142247,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 74.44497830807389,
+      "top": 43.31005228056777,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 75.26110651808115,
+      "top": 47.43152089587607,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 75.14451677379441,
+      "top": 51.05841327734737,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 74.79474754093415,
+      "top": 59.96078548641329,
+      "width": 2.947,
+      "height": 1.517,
+      "source": "manual"
+    }
+  ]
+}

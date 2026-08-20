@@ -1,0 +1,133 @@
+{
+  "drawingId": "de18-chapter2-item21-intake-exhaust-tappet",
+  "hotspots": [
+    {
+      "item": "503",
+      "left": 57.638,
+      "top": 65.817,
+      "width": 4.668,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "502",
+      "left": 67.54079254079254,
+      "top": 69.62880943490968,
+      "width": 4.762,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 71.03729603729604,
+      "top": 74.57286690957783,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "903",
+      "left": 86.65501165501166,
+      "top": 42.10688949259035,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 31.060606060606062,
+      "top": 47.215748883080764,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 84.44055944055944,
+      "top": 27.192316110674785,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 84.79020979020979,
+      "top": 32.46597741698747,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 85.37296037296038,
+      "top": 35.26760998596609,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 84.44055944055944,
+      "top": 37.98684159703357,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "905",
+      "left": 42.365967365967364,
+      "top": 17.633804992983045,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "904",
+      "left": 74.76689976689977,
+      "top": 16.232988708493735,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 76.3986013986014,
+      "top": 19.941031814494846,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 76.74825174825175,
+      "top": 22.001055762273236,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 45.86247086247086,
+      "top": 22.001055762273236,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 45.74592074592075,
+      "top": 24.63788641542958,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 11.363636363636363,
+      "top": 47.71015463054758,
+      "width": 4.668,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

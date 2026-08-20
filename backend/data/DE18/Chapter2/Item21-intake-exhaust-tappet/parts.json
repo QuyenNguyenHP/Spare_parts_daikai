@@ -1,0 +1,20 @@
+{
+  "901": { "partNumber": "06451-001", "name": "ASSY. SWING ARM & SHAFT", "quantity": 1 },
+  "902": { "partNumber": "06451-002", "name": "ASSY. SWING ARM", "quantity": 1 },
+  "903": { "partNumber": "06451-003", "name": "ASSY. SWING ARM SHAFT", "quantity": 1 },
+  "904": { "partNumber": "00055-008", "name": "ASSY. PIN", "quantity": 1 },
+  "905": { "partNumber": "00055-013", "name": "ASSY. TAPPET ROLLER", "quantity": 1 },
+  "4": { "partNumber": "06451-004", "name": "SWING ARM", "quantity": 2 },
+  "5": { "partNumber": "06451-005", "name": "SHAFT", "quantity": 1 },
+  "6": { "partNumber": "06451-006", "name": "PUSH ROD", "quantity": 2 },
+  "7": { "partNumber": "06451-007", "name": "SEAT", "quantity": 2 },
+  "8": { "partNumber": "00055-001", "name": "RING KNOCK", "quantity": 2 },
+  "9": { "partNumber": "00055-002", "name": "BOLT", "quantity": 2 },
+  "10": { "partNumber": "00055-003", "name": "TAPPET ROLLER", "quantity": 1 },
+  "11": { "partNumber": "00055-004", "name": "BUSH", "quantity": 1 },
+  "13": { "partNumber": "00055-011", "name": "PIN", "quantity": 1 },
+  "14": { "partNumber": "00055-012", "name": "KOENIC EXPANDER", "quantity": 1 },
+  "501": { "partNumber": "Z411004000ZZ", "name": "SNAP RING", "quantity": 2 },
+  "502": { "partNumber": "Z571501000ZZ", "name": "TAPER PLUG", "quantity": 2 },
+  "503": { "partNumber": "X251206006ZZ", "name": "SET SCREW", "quantity": 1 }
+}

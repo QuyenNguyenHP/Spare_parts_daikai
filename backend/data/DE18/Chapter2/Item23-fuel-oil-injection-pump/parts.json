@@ -1,0 +1,164 @@
+{
+  "503": {
+    "partNumber": "E206455030",
+    "name": "FO PUMP",
+    "quantity": 1
+  },
+  "210": {
+    "partNumber": "E206452100",
+    "name": "HOUSING PUMP",
+    "quantity": 1,
+    "note": "The part cannot be purchased by itself."
+  },
+  "215": {
+    "partNumber": "AE01064007",
+    "name": "DEFLECTOR",
+    "quantity": 2
+  },
+  "216": {
+    "partNumber": "E206452160",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "224": {
+    "partNumber": "E206452240",
+    "name": "D.V.ASSY.",
+    "quantity": 1
+  },
+  "230": {
+    "partNumber": "E206452300",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "231": {
+    "partNumber": "E206452310",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "235": {
+    "partNumber": "AE01064012",
+    "name": "BACK UP RING",
+    "quantity": 2
+  },
+  "236": {
+    "partNumber": "E206452360",
+    "name": "O-RING",
+    "quantity": 3
+  },
+  "240": {
+    "partNumber": "E206452400",
+    "name": "TAPPET",
+    "quantity": 1
+  },
+  "241": {
+    "partNumber": "AE01064015",
+    "name": "PIN",
+    "quantity": 1
+  },
+  "245": {
+    "partNumber": "AE01064017",
+    "name": "SPRING PLUNGER",
+    "quantity": 1
+  },
+  "246": {
+    "partNumber": "AE01064018",
+    "name": "SPRING SEAT",
+    "quantity": 1
+  },
+  "247": {
+    "partNumber": "E206452470",
+    "name": "SPRING SEAT",
+    "quantity": 1
+  },
+  "250": {
+    "partNumber": "E206452500",
+    "name": "PLATE",
+    "quantity": 1
+  },
+  "255": {
+    "partNumber": "E206452550",
+    "name": "CONTROL RACK",
+    "quantity": 1
+  },
+  "260": {
+    "partNumber": "E206452600",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "261": {
+    "partNumber": "E206452610",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "265": {
+    "partNumber": "E206452650",
+    "name": "CONTROL SLEEVE",
+    "quantity": 1
+  },
+  "266": {
+    "partNumber": "AE01064023",
+    "name": "POINTER",
+    "quantity": 1
+  },
+  "267": {
+    "partNumber": "AE01064024",
+    "name": "SHIM",
+    "quantity": 1
+  },
+  "268": {
+    "partNumber": "AE01064025",
+    "name": "BOLT",
+    "quantity": 1
+  },
+  "272": {
+    "partNumber": "E206452720",
+    "name": "SPRING PIN",
+    "quantity": 1
+  },
+  "273": {
+    "partNumber": "E206452730",
+    "name": "BACK UP RING",
+    "quantity": 2
+  },
+  "275": {
+    "partNumber": "E206452750",
+    "name": "SET SCREW",
+    "quantity": 1
+  },
+  "280": {
+    "partNumber": "E206452800",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "285": {
+    "partNumber": "AE01064028",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "291": {
+    "partNumber": "AE01064002A",
+    "name": "SHIM",
+    "quantity": 2
+  },
+  "292": {
+    "partNumber": "AE01064003A",
+    "name": "SHIM",
+    "quantity": 1
+  },
+  "293": {
+    "partNumber": "AE01064004A",
+    "name": "SHIM",
+    "quantity": 1
+  },
+  "504": {
+    "partNumber": "E206455040",
+    "name": "PLUNGER ASSY.",
+    "quantity": 1
+  },
+  "536": {
+    "partNumber": "TBD-536",
+    "name": "PART 536",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  }
+}

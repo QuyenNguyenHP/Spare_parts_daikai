@@ -1,0 +1,92 @@
+{
+  "A": {
+    "partNumber": "Ref.2-24.2",
+    "name": "ASSY. NOZZLE HOLDER",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "06473-001",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06473-002",
+    "name": "CONNECTOR",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06473-003",
+    "name": "CONNECTOR",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06473-004",
+    "name": "JOINT",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06473-005",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "6": {
+    "partNumber": "06473-006",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "8": {
+    "partNumber": "06473-008",
+    "name": "CLAMP",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00007-004",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "00314-021",
+    "name": "BALL",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "E206250110",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "E206250120",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X251206006ZZ",
+    "name": "SET SCREW",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "Z560203031DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "Z560104635DZ",
+    "name": "O-RING",
+    "quantity": 3
+  },
+  "504": {
+    "partNumber": "X220012000ZZ",
+    "name": "NUT",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "Z560103235DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "506": {
+    "partNumber": "Z565001920ZZ",
+    "name": "GASKET",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item23-fuel-oil-injection-pump",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "23",
+  "title": "Fuel Oil Injection Pump",
+  "imageFilename": "DE18_C2_23.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

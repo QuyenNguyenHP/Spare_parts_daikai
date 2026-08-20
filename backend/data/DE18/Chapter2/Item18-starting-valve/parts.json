@@ -1,0 +1,57 @@
+{
+  "901": {
+    "partNumber": "06470-001",
+    "name": "ASSY. STARTING VALVE",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06470-002",
+    "name": "BODY",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06470-003",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06470-004",
+    "name": "SHAFT",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06470-005",
+    "name": "PISTON",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06470-006",
+    "name": "SPRING",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00881-010",
+    "name": "U-NUT",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X205012065ZZ",
+    "name": "HT BOLT",
+    "quantity": 2
+  },
+  "502": {
+    "partNumber": "Z560103435ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "Z665030000CD",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "504": {
+    "partNumber": "Z665034000ZZ",
+    "name": "GASKET",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item25-common-rod",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "25",
+  "title": "Common Rod",
+  "imageFilename": "DE18_C2_25.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

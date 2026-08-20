@@ -1,0 +1,93 @@
+{
+  "drawingId": "de18-chapter2-item16-intake-valve",
+  "hotspots": [
+    {
+      "item": "12",
+      "left": 78.713,
+      "top": 47.133,
+      "width": 2.97,
+      "height": 1.533,
+      "confidence": 96.9
+    },
+    {
+      "item": "3",
+      "left": 56.140388455053525,
+      "top": 12.087636801615584,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 57.53946538649457,
+      "top": 23.627748924478816,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 55.79061922219327,
+      "top": 37.64074221652703,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 76.54359370523545,
+      "top": 25.276336370602138,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 78.29243986953675,
+      "top": 29.7275224751351,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 78.52561935811026,
+      "top": 34.343567324280386,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 78.64220910239702,
+      "top": 38.15363711932889,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 78.75879884668377,
+      "top": 42.852111340780354,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 78.87538859097053,
+      "top": 51.34233668831545,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 56.02379871076677,
+      "top": 54.80437032517441,
+      "width": 2.97,
+      "height": 1.533,
+      "source": "manual"
+    }
+  ]
+}

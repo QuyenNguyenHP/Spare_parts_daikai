@@ -1,0 +1,23 @@
+{
+  "id": "de18-chapter2-item16-intake-valve",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "16",
+  "title": "Intake Valve",
+  "imageFilename": "DE18_C2_16.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [
+    "1",
+    "3",
+    "4",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "901"
+  ],
+  "ocrProfile": "de18"
+}

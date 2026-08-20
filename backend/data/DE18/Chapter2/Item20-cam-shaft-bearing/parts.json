@@ -1,0 +1,57 @@
+{
+  "901": {
+    "partNumber": "06502-007",
+    "name": "ASSY. CAM SHAFT BEARING",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "06502-001",
+    "name": "BEARING",
+    "quantity": 6
+  },
+  "2": {
+    "partNumber": "06502-002",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06502-003",
+    "name": "MOUNT",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06502-006",
+    "name": "MOUNT",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06562-003",
+    "name": "THRUST METAL",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "00043-004",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "00043-006",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200010032ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "502": {
+    "partNumber": "X200012035ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "Z335506010ZZ",
+    "name": "STRAIGHT PIN",
+    "quantity": 1
+  }
+}

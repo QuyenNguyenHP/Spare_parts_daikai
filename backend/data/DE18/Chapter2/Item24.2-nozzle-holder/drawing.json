@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item24-2-nozzle-holder",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "24.2",
+  "title": "Nozzle Holder",
+  "imageFilename": "DE18_C2_24.2.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

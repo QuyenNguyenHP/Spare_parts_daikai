@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item24-1-fuel-oil-injection-device",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "24.1",
+  "title": "Fuel Oil Injection Device",
+  "imageFilename": "DE18_C2_24.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

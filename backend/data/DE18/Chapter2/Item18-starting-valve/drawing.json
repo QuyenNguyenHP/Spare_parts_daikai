@@ -1,0 +1,25 @@
+{
+  "id": "de18-chapter2-item18-starting-valve",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "18",
+  "title": "Starting Valve",
+  "imageFilename": "DE18_C2_18.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "11",
+    "501",
+    "502",
+    "503",
+    "504",
+    "901"
+  ],
+  "ocrProfile": "de18"
+}

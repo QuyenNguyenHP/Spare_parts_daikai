@@ -1,0 +1,149 @@
+{
+  "drawingId": "de18-chapter2-item24-1-fuel-oil-injection-device",
+  "hotspots": [
+    {
+      "item": "6",
+      "left": 94.531,
+      "top": 9.55,
+      "width": 1.886,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "5",
+      "left": 87.907,
+      "top": 9.567,
+      "width": 1.839,
+      "height": 1.467,
+      "confidence": 96.9
+    },
+    {
+      "item": "504",
+      "left": 17.775,
+      "top": 9.683,
+      "width": 4.903,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "505",
+      "left": 70.651,
+      "top": 9.583,
+      "width": 4.668,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "503",
+      "left": 17.162,
+      "top": 25.283,
+      "width": 4.62,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "506",
+      "left": 17.162,
+      "top": 32.717,
+      "width": 4.809,
+      "height": 1.5,
+      "confidence": 96.4
+    },
+    {
+      "item": "502",
+      "left": 92.244,
+      "top": 45.683,
+      "width": 4.668,
+      "height": 1.5,
+      "confidence": 96.2
+    },
+    {
+      "item": "3",
+      "left": 81.919,
+      "top": 9.567,
+      "width": 1.839,
+      "height": 1.467,
+      "confidence": 95.7
+    },
+    {
+      "item": "13",
+      "left": 28.312,
+      "top": 62.433,
+      "width": 2.687,
+      "height": 1.467,
+      "confidence": 94.6
+    },
+    {
+      "item": "12",
+      "left": 28.312,
+      "top": 72.917,
+      "width": 2.687,
+      "height": 1.5,
+      "confidence": 94.4
+    },
+    {
+      "item": "14",
+      "left": 92.834,
+      "top": 23.933,
+      "width": 3.017,
+      "height": 1.467,
+      "confidence": 93.0
+    },
+    {
+      "item": "501",
+      "left": 27.888,
+      "top": 58.183,
+      "width": 4.008,
+      "height": 1.5,
+      "confidence": 88.3
+    },
+    {
+      "item": "8",
+      "left": 32.34265734265735,
+      "top": 9.476110159780607,
+      "width": 2.075,
+      "height": 1.934,
+      "source": "manual"
+    },
+    {
+      "item": "A",
+      "left": 40.15151515151515,
+      "top": 9.476110159780607,
+      "width": 1.862,
+      "height": 1.484,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 63.11188811188811,
+      "top": 9.640912075602879,
+      "width": 2.687,
+      "height": 1.467,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 91.55011655011654,
+      "top": 36.503624354633125,
+      "width": 1.839,
+      "height": 1.467,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 91.2004662004662,
+      "top": 41.85968661885695,
+      "width": 1.839,
+      "height": 1.467,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 54.13752913752914,
+      "top": 58.17507628526182,
+      "width": 1.839,
+      "height": 1.467,
+      "source": "manual"
+    }
+  ]
+}

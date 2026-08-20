@@ -1,0 +1,93 @@
+{
+  "drawingId": "de18-chapter2-item18-starting-valve",
+  "hotspots": [
+    {
+      "item": "504",
+      "left": 38.307,
+      "top": 59.267,
+      "width": 5.045,
+      "height": 1.533,
+      "confidence": 96.5
+    },
+    {
+      "item": "3",
+      "left": 67.727,
+      "top": 58.717,
+      "width": 1.839,
+      "height": 1.5,
+      "confidence": 94.4
+    },
+    {
+      "item": "901",
+      "left": 51.768,
+      "top": 22.433,
+      "width": 4.149,
+      "height": 1.533,
+      "confidence": 93.5
+    },
+    {
+      "item": "501",
+      "left": 76.473,
+      "top": 28.267,
+      "width": 4.055,
+      "height": 1.533,
+      "confidence": 87.5
+    },
+    {
+      "item": "4",
+      "left": 23.495260054762454,
+      "top": 29.040611458507847,
+      "width": 1.839,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 35.29674096653638,
+      "top": 28.949025503096383,
+      "width": 1.839,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 42.266208884929824,
+      "top": 29.040611458507847,
+      "width": 1.839,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 48.56205507641453,
+      "top": 28.710893969283184,
+      "width": 1.839,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 64.3016705551263,
+      "top": 28.79332334158935,
+      "width": 4.102,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 13.351952301814867,
+      "top": 59.29219109487075,
+      "width": 4.149,
+      "height": 1.533,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 21.163465169027376,
+      "top": 59.78676732870775,
+      "width": 4.149,
+      "height": 1.533,
+      "source": "manual"
+    }
+  ]
+}

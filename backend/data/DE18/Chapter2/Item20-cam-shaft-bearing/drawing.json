@@ -1,0 +1,24 @@
+{
+  "id": "de18-chapter2-item20-cam-shaft-bearing",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "20",
+  "title": "Cam Shaft Bearing",
+  "imageFilename": "DE18_C2_20.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [
+    "1",
+    "2",
+    "3",
+    "6",
+    "11",
+    "12",
+    "13",
+    "501",
+    "502",
+    "503",
+    "901"
+  ],
+  "ocrProfile": "de18"
+}

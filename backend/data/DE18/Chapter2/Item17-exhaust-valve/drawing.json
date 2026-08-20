@@ -1,0 +1,23 @@
+{
+  "id": "de18-chapter2-item17-exhaust-valve",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "17",
+  "title": "Exhaust Valve",
+  "imageFilename": "DE18_C2_17.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [
+    "1",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "901"
+  ],
+  "ocrProfile": "de18"
+}
