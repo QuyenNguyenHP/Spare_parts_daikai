@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item26-1-governor-driving-device-rhd",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "26.1",
+  "title": "Governor Driving Device(RHD)",
+  "imageFilename": "DE18_C2_26.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

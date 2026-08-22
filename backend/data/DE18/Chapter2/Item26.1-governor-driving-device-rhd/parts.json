@@ -1,0 +1,133 @@
+{
+  "1": {
+    "partNumber": "06500-001",
+    "name": "GEAR CASE",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06500-002",
+    "name": "COPLING",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06500-003",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "4": {
+    "partNumber": "06500-004",
+    "name": "GEAR",
+    "quantity": 1,
+    "note": "Use for engine 900min-1 only"
+  },
+  "7": {
+    "partNumber": "06500-007",
+    "name": "GEAR",
+    "quantity": 1,
+    "note": "Use for engine 720min-1 only"
+  },
+  "21": {
+    "partNumber": "00013-002",
+    "name": "MOUNT",
+    "quantity": 1
+  },
+  "22": {
+    "partNumber": "00013-003",
+    "name": "CASE",
+    "quantity": 1
+  },
+  "25": {
+    "partNumber": "00013-010",
+    "name": "DISTANCE",
+    "quantity": 1
+  },
+  "26": {
+    "partNumber": "00013-012",
+    "name": "COPLING",
+    "quantity": 1
+  },
+  "28": {
+    "partNumber": "06496-003",
+    "name": "DISTANCE",
+    "quantity": 1,
+    "note": "Use for engine 720min-1 only"
+  },
+  "29": {
+    "partNumber": "06496-004",
+    "name": "CASE",
+    "quantity": 1,
+    "note": "Use for engine 720min-1 only"
+  },
+  "30": {
+    "partNumber": "06496-006",
+    "name": "GEAR",
+    "quantity": 1,
+    "note": "Use for engine 720min-1 only"
+  },
+  "31": {
+    "partNumber": "06496-006",
+    "name": "GEAR",
+    "quantity": 1,
+    "note": "Use for engine 900min-1 only"
+  },
+  "502": {
+    "partNumber": "X200012045ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "X200012050ZZ",
+    "name": "BOLT",
+    "quantity": 3
+  },
+  "504": {
+    "partNumber": "X200012120ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "X200012140ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "506": {
+    "partNumber": "X210010063ZZ",
+    "name": "STUD",
+    "quantity": 4
+  },
+  "508": {
+    "partNumber": "X220010000ZZ",
+    "name": "NUT",
+    "quantity": 4
+  },
+  "509": {
+    "partNumber": "X222322000ZZ",
+    "name": "NUT",
+    "quantity": 1
+  },
+  "511": {
+    "partNumber": "Z305022032ZZ",
+    "name": "SPECIAL FLAT WASHER",
+    "quantity": 1
+  },
+  "513": {
+    "partNumber": "Z321010200ZZ",
+    "name": "WIRE",
+    "quantity": 1
+  },
+  "515": {
+    "partNumber": "Z330006032ZZ",
+    "name": "TAPER PIN",
+    "quantity": 1
+  },
+  "516": {
+    "partNumber": "Z335006025ZZ",
+    "name": "STRAIGHT PIN",
+    "quantity": 2
+  },
+  "518": {
+    "partNumber": "Z451162050ZZ",
+    "name": "BEARING",
+    "quantity": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item29-2-exhaust-manifold-cover-met",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "29.2",
+  "title": "Exhaust Manifold Cover(MET)",
+  "imageFilename": "DE18_C2_29.2.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

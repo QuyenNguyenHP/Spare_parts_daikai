@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item27-2-governor-link-ug",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "27.2",
+  "title": "Governor Link(UG)",
+  "imageFilename": "DE18_C2_27.2.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

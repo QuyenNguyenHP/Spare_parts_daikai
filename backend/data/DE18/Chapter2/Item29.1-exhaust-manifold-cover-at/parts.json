@@ -1,0 +1,192 @@
+{
+  "1": {
+    "partNumber": "06609-001",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06609-002",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06609-003",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06609-004",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06609-005",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06609-006",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "7": {
+    "partNumber": "06609-007",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06609-008",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06609-009",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "10": {
+    "partNumber": "06609-010",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06609-011",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06609-012",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06609-013",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06609-014",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06609-015",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "06609-016",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "17": {
+    "partNumber": "06609-017",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "18": {
+    "partNumber": "06609-018",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "19": {
+    "partNumber": "06609-019",
+    "name": "BRACKET",
+    "quantity": 4
+  },
+  "20": {
+    "partNumber": "06609-020",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "06609-021",
+    "name": "BRACKET",
+    "quantity": 4
+  },
+  "22": {
+    "partNumber": "06609-022",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "23": {
+    "partNumber": "06609-023",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "24": {
+    "partNumber": "06609-024",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "25": {
+    "partNumber": "06609-025",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "26": {
+    "partNumber": "06609-026",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "27": {
+    "partNumber": "06609-027",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200012020ZZ",
+    "name": "BOLT",
+    "quantity": 53
+  },
+  "502": {
+    "partNumber": "Z300012000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 47
+  },
+  "503": {
+    "partNumber": "X200010014ZZ",
+    "name": "BOLT",
+    "quantity": 12
+  },
+  "504": {
+    "partNumber": "Z300010000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 12
+  },
+  "505": {
+    "partNumber": "X200012040ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "506": {
+    "partNumber": "Z212008015ZZ",
+    "name": "BOLT",
+    "quantity": 28
+  },
+  "507": {
+    "partNumber": "Z300008000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 33
+  },
+  "508": {
+    "partNumber": "Z212008020ZZ",
+    "name": "BOLT",
+    "quantity": 5
+  },
+  "509": {
+    "partNumber": "X200012045ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "510": {
+    "partNumber": "X200012025ZZ",
+    "name": "BOLT",
+    "quantity": 10
+  },
+  "511": {
+    "partNumber": "X200012016ZZ",
+    "name": "BOLT",
+    "quantity": 15
+  }
+}

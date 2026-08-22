@@ -1,0 +1,213 @@
+{
+  "drawingId": "de18-chapter2-item26-1-governor-driving-device-rhd",
+  "hotspots": [
+    {
+      "item": "518",
+      "left": 46.935,
+      "top": 40.083,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "509",
+      "left": 12.848,
+      "top": 33.75,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "28",
+      "left": 46.912,
+      "top": 31.15,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "28",
+      "left": 46.912,
+      "top": 40.083,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 52.5
+    },
+    {
+      "item": "515",
+      "left": 12.447,
+      "top": 30.55,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "504",
+      "left": 50.754,
+      "top": 45.35,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "26",
+      "left": 13.154,
+      "top": 27.417,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "502",
+      "left": 52.287,
+      "top": 32.55,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "503",
+      "left": 53.347,
+      "top": 73.05,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "29",
+      "left": 46.865,
+      "top": 35.483,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "505",
+      "left": 52.027,
+      "top": 41.783,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "22",
+      "left": 46.841,
+      "top": 34.05,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.2
+    },
+    {
+      "item": "25",
+      "left": 46.841,
+      "top": 29.683,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.0
+    },
+    {
+      "item": "513",
+      "left": 50.283,
+      "top": 68.15,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.9
+    },
+    {
+      "item": "508",
+      "left": 22.654,
+      "top": 20.15,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.8
+    },
+    {
+      "item": "506",
+      "left": 25.507,
+      "top": 16.617,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.6
+    },
+    {
+      "item": "7",
+      "left": 33.11889932983683,
+      "top": 73.53577360336814,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 46.935,
+      "top": 23.117,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 81.2
+    },
+    {
+      "item": "51",
+      "left": 47.36,
+      "top": 26.617,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 73.8
+    },
+    {
+      "item": "2",
+      "left": 29.324646707459205,
+      "top": 66.49016982322419,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 32.93952141608392,
+      "top": 72.142682408683,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 40.03496503496503,
+      "top": 66.82717686593107,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "516",
+      "left": 51.10722610722611,
+      "top": 36.421223396721984,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 46.095571095571096,
+      "top": 37.49243584956675,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "31",
+      "left": 38.28671328671329,
+      "top": 48.369362293836666,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "30",
+      "left": 39.45221445221445,
+      "top": 45.97973451441373,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

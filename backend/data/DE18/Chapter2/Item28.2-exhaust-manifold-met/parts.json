@@ -1,0 +1,62 @@
+{
+  "12": {
+    "partNumber": "06427-012",
+    "name": "BELLOWS",
+    "quantity": 3
+  },
+  "14": {
+    "partNumber": "06427-014",
+    "name": "GASKET",
+    "quantity": 6
+  },
+  "15": {
+    "partNumber": "06427-015",
+    "name": "GASKET",
+    "quantity": 6
+  },
+  "34": {
+    "partNumber": "06427-034",
+    "name": "EXHAUST PIPE",
+    "quantity": 1
+  },
+  "35": {
+    "partNumber": "06427-035",
+    "name": "EXHAUST PIPE",
+    "quantity": 1
+  },
+  "36": {
+    "partNumber": "06427-036",
+    "name": "EXHAUST PIPE",
+    "quantity": 1
+  },
+  "37": {
+    "partNumber": "06427-037",
+    "name": "BRACKET",
+    "quantity": 2
+  },
+  "501": {
+    "partNumber": "X205012030ZZ",
+    "name": "HT BOLT",
+    "quantity": 24
+  },
+  "502": {
+    "partNumber": "X205012045ZZ",
+    "name": "HT BOLT",
+    "quantity": 28
+  },
+  "503": {
+    "partNumber": "X220012000DZ",
+    "name": "NUT",
+    "quantity": 28
+  },
+  "504": {
+    "partNumber": "X200010025DZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "505": {
+    "partNumber": "Z300010000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 4
+  }
+}

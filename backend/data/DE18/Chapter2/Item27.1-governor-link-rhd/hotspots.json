@@ -1,0 +1,509 @@
+{
+  "drawingId": "de18-chapter2-item27-1-governor-link-rhd",
+  "hotspots": [
+    {
+      "item": "27",
+      "left": 7.614,
+      "top": 44.8,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "27",
+      "left": 91.254,
+      "top": 46.433,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "8",
+      "left": 55.988,
+      "top": 29.533,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "520",
+      "left": 92.904,
+      "top": 50.133,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "29",
+      "left": 91.278,
+      "top": 52.3,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "16",
+      "left": 50.566,
+      "top": 50.567,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "26",
+      "left": 65.394,
+      "top": 29.767,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "18",
+      "left": 74.022,
+      "top": 29.8,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "503",
+      "left": 42.268,
+      "top": 65.233,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "13",
+      "left": 55.304,
+      "top": 39.95,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "525",
+      "left": 35.879,
+      "top": 21.833,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "516",
+      "left": 54.738,
+      "top": 26.433,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "506",
+      "left": 7.449,
+      "top": 47.0,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "25",
+      "left": 84.441,
+      "top": 29.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "526",
+      "left": 65.677,
+      "top": 26.433,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "524",
+      "left": 42.315,
+      "top": 67.667,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "524",
+      "left": 26.662,
+      "top": 72.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "510",
+      "left": 41.655,
+      "top": 23.667,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "518",
+      "left": 41.726,
+      "top": 39.767,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "514",
+      "left": 42.056,
+      "top": 61.817,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "28",
+      "left": 41.985,
+      "top": 44.4,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "24",
+      "left": 42.197,
+      "top": 30.967,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "529",
+      "left": 7.355,
+      "top": 32.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "519",
+      "left": 90.594,
+      "top": 39.733,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "504",
+      "left": 7.591,
+      "top": 34.633,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "6",
+      "left": 8.015,
+      "top": 41.233,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.3
+    },
+    {
+      "item": "515",
+      "left": 41.773,
+      "top": 25.15,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.2
+    },
+    {
+      "item": "512",
+      "left": 35.62,
+      "top": 20.367,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.2
+    },
+    {
+      "item": "30",
+      "left": 42.126,
+      "top": 36.833,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.1
+    },
+    {
+      "item": "12",
+      "left": 41.231,
+      "top": 58.867,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.1
+    },
+    {
+      "item": "513",
+      "left": 6.671,
+      "top": 43.35,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.0
+    },
+    {
+      "item": "3",
+      "left": 92.244,
+      "top": 48.683,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.0
+    },
+    {
+      "item": "32",
+      "left": 50.754,
+      "top": 54.533,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.4
+    },
+    {
+      "item": "9",
+      "left": 55.846,
+      "top": 23.733,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.1
+    },
+    {
+      "item": "527",
+      "left": 6.954,
+      "top": 44.8,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 92.5
+    },
+    {
+      "item": "14",
+      "left": 55.163,
+      "top": 65.383,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 91.3
+    },
+    {
+      "item": "5",
+      "left": 55.469,
+      "top": 62.833,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 90.8
+    },
+    {
+      "item": "501",
+      "left": 41.631,
+      "top": 33.9,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 86.6
+    },
+    {
+      "item": "1",
+      "left": 40.901,
+      "top": 57.417,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 37.3
+    },
+    {
+      "item": "31",
+      "left": 54.95,
+      "top": 69.65,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 73.5
+    },
+    {
+      "item": "54",
+      "left": 42.197,
+      "top": 30.967,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 57.2
+    },
+    {
+      "item": "10",
+      "left": 41.325,
+      "top": 55.933,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 50.3
+    },
+    {
+      "item": "15",
+      "left": 50.519,
+      "top": 57.95,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 48.3
+    },
+    {
+      "item": "7",
+      "left": 55.769230769230774,
+      "top": 32.630779332809745,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "531",
+      "left": 54.72027972027972,
+      "top": 36.25642148089972,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "509",
+      "left": 41.763640005827504,
+      "top": 38.48607552562798,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "521",
+      "left": 42.0550152972028,
+      "top": 63.676627740797485,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 7.634032634032634,
+      "top": 48.78136708339235,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 7.983682983682984,
+      "top": 54.2198303055273,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 50.641025641025635,
+      "top": 52.40700923148231,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 51.0862835081585,
+      "top": 56.00142914161377,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 50.75757575757576,
+      "top": 59.493491611839985,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "519",
+      "left": 74.18414918414918,
+      "top": 26.615509405296837,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 79.42890442890443,
+      "top": 26.285905573652297,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 84.44055944055944,
+      "top": 26.5331084473857,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "530",
+      "left": 89.21911421911422,
+      "top": 26.78031132111911,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 36.77156177156177,
+      "top": 26.862712279030244,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "517",
+      "left": 42.01904865967366,
+      "top": 26.786105138472234,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "52",
+      "left": 89.6853146853147,
+      "top": 41.94208757676808,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 54.72027972027972,
+      "top": 48.78136708339235,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "523",
+      "left": 54.6037296037296,
+      "top": 44.24931439827988,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 54.61146925990676,
+      "top": 47.09279120369774,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "511",
+      "left": 89.33566433566433,
+      "top": 54.54943413717185,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item30-1-turbocharger-fitting-at",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "30.1",
+  "title": "Turbocharger Fitting(AT)",
+  "imageFilename": "DE18_C2_30.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

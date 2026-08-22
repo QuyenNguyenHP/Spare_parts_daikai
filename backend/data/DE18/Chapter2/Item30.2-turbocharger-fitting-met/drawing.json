@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item30-2-turbocharger-fitting-met",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "30.2",
+  "title": "Turbocharger Fitting(MET)",
+  "imageFilename": "DE18_C2_30.2.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item29-1-exhaust-manifold-cover-at",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "29.1",
+  "title": "Exhaust Manifold Cover(AT)",
+  "imageFilename": "DE18_C2_29.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

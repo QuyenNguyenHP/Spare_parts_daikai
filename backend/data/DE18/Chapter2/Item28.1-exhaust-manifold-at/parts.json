@@ -1,0 +1,90 @@
+{
+  "1": {
+    "partNumber": "06427-001",
+    "name": "EXHAUST PIPE",
+    "quantity": 2,
+    "note": "Use for φ80 only"
+  },
+  "2": {
+    "partNumber": "06427-002",
+    "name": "EXHAUST PIPE",
+    "quantity": 2,
+    "note": "Use for φ80 only"
+  },
+  "3": {
+    "partNumber": "06427-003",
+    "name": "EXHAUST PIPE",
+    "quantity": 2,
+    "note": "Use for φ68 only"
+  },
+  "4": {
+    "partNumber": "06427-004",
+    "name": "EXHAUST PIPE",
+    "quantity": 2,
+    "note": "Use for φ68 only"
+  },
+  "7": {
+    "partNumber": "06427-007",
+    "name": "EXHAUST PIPE",
+    "quantity": 1,
+    "note": "Use for φ80 only"
+  },
+  "8": {
+    "partNumber": "06427-008",
+    "name": "EXHAUST PIPE",
+    "quantity": 2,
+    "note": "Use for φ68 only"
+  },
+  "12": {
+    "partNumber": "06427-012",
+    "name": "BELLOWS",
+    "quantity": 4,
+    "note": "Use for φ80 only"
+  },
+  "13": {
+    "partNumber": "06427-013",
+    "name": "BELLOWS",
+    "quantity": 4,
+    "note": "Use for φ68 only"
+  },
+  "14": {
+    "partNumber": "06427-014",
+    "name": "GASKET",
+    "quantity": 6
+  },
+  "15": {
+    "partNumber": "06427-015",
+    "name": "GASKET",
+    "quantity": 9
+  },
+  "16": {
+    "partNumber": "06427-016",
+    "name": "BRACKET",
+    "quantity": 2
+  },
+  "501": {
+    "partNumber": "X205012030ZZ",
+    "name": "HT BOLT",
+    "quantity": 24
+  },
+  "502": {
+    "partNumber": "X205012045ZZ",
+    "name": "HT BOLT",
+    "quantity": 28
+  },
+  "503": {
+    "partNumber": "X220012000DZ",
+    "name": "NUT",
+    "quantity": 28
+  },
+  "504": {
+    "partNumber": "X200010025DZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "505": {
+    "partNumber": "Z300010000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 4
+  }
+}

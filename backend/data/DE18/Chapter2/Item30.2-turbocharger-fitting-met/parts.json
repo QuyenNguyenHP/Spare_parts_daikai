@@ -1,0 +1,112 @@
+{
+  "901": {
+    "partNumber": "06548-020",
+    "name": "ASSY. MOUNT",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06548-012",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "06548-021",
+    "name": "MOUNT",
+    "quantity": 1
+  },
+  "23": {
+    "partNumber": "06548-023",
+    "name": "EXHAUST PIPE",
+    "quantity": 1
+  },
+  "26": {
+    "partNumber": "06548-026",
+    "name": "DUCT",
+    "quantity": 1
+  },
+  "28": {
+    "partNumber": "06548-028",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "29": {
+    "partNumber": "06548-029",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "30": {
+    "partNumber": "06548-030",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "31": {
+    "partNumber": "06548-031",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "51": {
+    "partNumber": "00010-005",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "X200012025ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "503": {
+    "partNumber": "X200016035ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "505": {
+    "partNumber": "X205012050ZZ",
+    "name": "HT-BOLT",
+    "quantity": 8
+  },
+  "508": {
+    "partNumber": "X220012000DZ",
+    "name": "NUT",
+    "quantity": 10
+  },
+  "510": {
+    "partNumber": "Z300012000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 4
+  },
+  "512": {
+    "partNumber": "Z560105857ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "515": {
+    "partNumber": "X200012030ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "516": {
+    "partNumber": "X205010030ZZ",
+    "name": "HT-BOLT",
+    "quantity": 12
+  },
+  "517": {
+    "partNumber": "X205010040ZZ",
+    "name": "HT-BOLT",
+    "quantity": 12
+  },
+  "518": {
+    "partNumber": "X205016065ZZ",
+    "name": "HT-BOLT",
+    "quantity": 2
+  },
+  "519": {
+    "partNumber": "X220010000DZ",
+    "name": "NUT",
+    "quantity": 12
+  },
+  "520": {
+    "partNumber": "Z560206531DZ",
+    "name": "O-RING",
+    "quantity": 1
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "drawingId": "de18-chapter2-item30-2-turbocharger-fitting-met",
+  "hotspots": [
+    {
+      "item": "23",
+      "left": 17.775,
+      "top": 43.05,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "503",
+      "left": 38.873,
+      "top": 87.933,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "30",
+      "left": 37.412,
+      "top": 6.1,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "502",
+      "left": 72.301,
+      "top": 43.067,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "12",
+      "left": 57.992,
+      "top": 87.8,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 97.0
+    },
+    {
+      "item": "28",
+      "left": 63.366,
+      "top": 42.95,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "505",
+      "left": 15.653,
+      "top": 9.4,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.9
+    },
+    {
+      "item": "520",
+      "left": 76.332,
+      "top": 70.933,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "510",
+      "left": 24.092,
+      "top": 75.967,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.4
+    },
+    {
+      "item": "510",
+      "left": 24.281,
+      "top": 83.733,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "26",
+      "left": 14.545,
+      "top": 66.117,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "518",
+      "left": 76.332,
+      "top": 63.65,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "508",
+      "left": 15.653,
+      "top": 12.433,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "508",
+      "left": 24.281,
+      "top": 82.167,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "512",
+      "left": 42.951,
+      "top": 43.05,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.7
+    },
+    {
+      "item": "515",
+      "left": 24.092,
+      "top": 74.417,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "515",
+      "left": 24.281,
+      "top": 85.317,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "517",
+      "left": 52.617,
+      "top": 41.317,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.4
+    },
+    {
+      "item": "519",
+      "left": 52.617,
+      "top": 42.983,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.2
+    },
+    {
+      "item": "31",
+      "left": 57.25023674242424,
+      "top": 51.8170054976889,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 31.872,
+      "top": 43.033,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 92.3
+    },
+    {
+      "item": "51",
+      "left": 26.473,
+      "top": 43.017,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 85.4
+    },
+    {
+      "item": "516",
+      "left": 70.1048951048951,
+      "top": 25.461895994540935,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "29",
+      "left": 69.52214452214453,
+      "top": 29.25234005845318,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 27.214452214452216,
+      "top": 49.27577283085916,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

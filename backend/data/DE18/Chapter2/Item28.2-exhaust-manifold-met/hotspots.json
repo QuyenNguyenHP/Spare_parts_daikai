@@ -1,0 +1,101 @@
+{
+  "drawingId": "de18-chapter2-item28-2-exhaust-manifold-met",
+  "hotspots": [
+    {
+      "item": "502",
+      "left": 51.862,
+      "top": 70.967,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "504",
+      "left": 88.355,
+      "top": 46.133,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.8
+    },
+    {
+      "item": "505",
+      "left": 88.213,
+      "top": 47.7,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.6
+    },
+    {
+      "item": "14",
+      "left": 12.683,
+      "top": 18.35,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 96.5
+    },
+    {
+      "item": "35",
+      "left": 76.898,
+      "top": 47.75,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.1
+    },
+    {
+      "item": "503",
+      "left": 39.769,
+      "top": 71.1,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 95.1
+    },
+    {
+      "item": "34",
+      "left": 12.4,
+      "top": 55.45,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 93.6
+    },
+    {
+      "item": "37",
+      "left": 71.759,
+      "top": 71.017,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 93.4
+    },
+    {
+      "item": "36",
+      "left": 63.744,
+      "top": 71.067,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 89.3
+    },
+    {
+      "item": "501",
+      "left": 14.781,
+      "top": 70.967,
+      "width": 3.2,
+      "height": 1.5,
+      "confidence": 68.7
+    },
+    {
+      "item": "15",
+      "left": 38.63636363636363,
+      "top": 57.4334676640616,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 42.13286713286713,
+      "top": 53.0662168947714,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

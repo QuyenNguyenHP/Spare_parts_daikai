@@ -1,0 +1,130 @@
+{
+  "901": {
+    "partNumber": "06548-001",
+    "name": "ASSY. MOUNT",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06548-002",
+    "name": "MOUNT",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06548-004",
+    "name": "EXHAUST PIPE",
+    "quantity": 1
+  },
+  "7": {
+    "partNumber": "06548-007",
+    "name": "DUCT",
+    "quantity": 1,
+    "note": "Use when number of instrumentation screws (exhaust gas outlet pipe) is 0 only"
+  },
+  "9": {
+    "partNumber": "06548-009",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "10": {
+    "partNumber": "06548-010",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06548-011",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06548-012",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "17": {
+    "partNumber": "06548-017",
+    "name": "DUCT",
+    "quantity": 1,
+    "note": "Use when number of instrumentation screws (exhaust gas outlet pipe) is 1 only"
+  },
+  "19": {
+    "partNumber": "06548-019",
+    "name": "DUCT",
+    "quantity": 1,
+    "note": "Use when number of instrumentation screws (exhaust gas outlet pipe) is 2 only"
+  },
+  "21": {
+    "partNumber": "00024-016",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200012020ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "502": {
+    "partNumber": "X200012025ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "X200016035ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "504": {
+    "partNumber": "X205012030ZZ",
+    "name": "HT-BOLT",
+    "quantity": 8
+  },
+  "505": {
+    "partNumber": "X205012050ZZ",
+    "name": "HT-BOLT",
+    "quantity": 8
+  },
+  "506": {
+    "partNumber": "X205016040ZZ",
+    "name": "HT-BOLT",
+    "quantity": 2
+  },
+  "507": {
+    "partNumber": "X205016050ZZ",
+    "name": "HT-BOLT",
+    "quantity": 4
+  },
+  "508": {
+    "partNumber": "X220012000DZ",
+    "name": "NUT",
+    "quantity": 8
+  },
+  "509": {
+    "partNumber": "X220016000DZ",
+    "name": "NUT",
+    "quantity": 4
+  },
+  "510": {
+    "partNumber": "Z300012000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 2
+  },
+  "511": {
+    "partNumber": "Z560102435DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "512": {
+    "partNumber": "Z560105857ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "513": {
+    "partNumber": "Z560204531DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "514": {
+    "partNumber": "X200016025ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  }
+}
