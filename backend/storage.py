@@ -88,6 +88,10 @@ def load_parts(drawing_id: str) -> dict[str, dict]:
     return read_json(parts_path(drawing_id), {})
 
 
+def load_parts_catalog(model: str) -> dict:
+    return read_json(DATA_DIR / model.upper() / "parts-catalog.json", {"parts": []})
+
+
 def load_drawing(drawing_id: str) -> dict:
     return read_json(drawing_metadata_path(drawing_id))
 

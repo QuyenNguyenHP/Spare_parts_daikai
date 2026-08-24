@@ -1,0 +1,47 @@
+{
+  "901": {
+    "partNumber": "00028-027",
+    "name": "ASSY. MAGNETIC VALVE",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "00028-030",
+    "name": "ASSY. MAGNETIC VALVE",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "00028-005",
+    "name": "MAGNETIC VALVE",
+    "quantity": 4
+  },
+  "26": {
+    "partNumber": "00028-026",
+    "name": "MANIFOLD",
+    "quantity": 1
+  },
+  "29": {
+    "partNumber": "00028-029",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X230301000JZ",
+    "name": "SPECIAL NUT",
+    "quantity": 4
+  },
+  "502": {
+    "partNumber": "X249004025ZZ",
+    "name": "PLUS MACHINE SCREW ASSY",
+    "quantity": 16
+  },
+  "503": {
+    "partNumber": "Z560000415ZZ",
+    "name": "O-RING",
+    "quantity": 8
+  },
+  "504": {
+    "partNumber": "Z571502000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 1
+  }
+}

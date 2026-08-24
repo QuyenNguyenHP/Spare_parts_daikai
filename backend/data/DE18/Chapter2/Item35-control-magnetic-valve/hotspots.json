@@ -1,0 +1,77 @@
+{
+  "drawingId": "de18-chapter2-item35-control-magnetic-valve",
+  "hotspots": [
+    {
+      "item": "29",
+      "left": 51.10722610722611,
+      "top": 39.38765788152288,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 60.54778554778555,
+      "top": 43.67250769290193,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 52.15617715617715,
+      "top": 43.425304819168524,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 13.228438228438227,
+      "top": 64.10794525486358,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 87.35431235431236,
+      "top": 58.33987820108408,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 86.18881118881119,
+      "top": 60.976708854240435,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 87.35431235431236,
+      "top": 64.10794525486358,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 87.47086247086247,
+      "top": 66.6623749501088,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "26",
+      "left": 87.58741258741259,
+      "top": 81.49454737411322,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

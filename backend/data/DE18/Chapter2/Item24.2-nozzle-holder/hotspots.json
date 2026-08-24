@@ -5,7 +5,7 @@
       "item": "25",
       "left": 51.862,
       "top": 17.85,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 97.0
     },
@@ -13,7 +13,7 @@
       "item": "28",
       "left": 51.98,
       "top": 12.717,
-      "width": 3.347,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.8
     },
@@ -21,7 +21,7 @@
       "item": "29",
       "left": 52.074,
       "top": 70.717,
-      "width": 3.253,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.7
     },
@@ -29,7 +29,7 @@
       "item": "26",
       "left": 22.819,
       "top": 13.85,
-      "width": 3.3,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.6
     },
@@ -37,7 +37,7 @@
       "item": "22",
       "left": 51.957,
       "top": 62.15,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.6
     },
@@ -45,7 +45,7 @@
       "item": "27",
       "left": 52.122,
       "top": 66.517,
-      "width": 3.253,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.6
     },
@@ -53,7 +53,7 @@
       "item": "12",
       "left": 62.023,
       "top": 31.883,
-      "width": 2.782,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.5
     },
@@ -61,7 +61,7 @@
       "item": "13",
       "left": 51.579,
       "top": 81.95,
-      "width": 2.735,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 96.3
     },
@@ -69,7 +69,7 @@
       "item": "10",
       "left": 51.65,
       "top": 31.25,
-      "width": 2.97,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 93.3
     },
@@ -77,7 +77,7 @@
       "item": "23",
       "left": 51.98,
       "top": 51.95,
-      "width": 3.159,
+      "width": 3.2,
       "height": 1.5,
       "confidence": 92.0
     },
@@ -85,7 +85,7 @@
       "item": "11",
       "left": 51.68997668997669,
       "top": 28.263528563519554,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     },
@@ -93,7 +93,7 @@
       "item": "2",
       "left": 51.68997668997669,
       "top": 54.54943413717185,
-      "width": 4.243,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     },
@@ -101,7 +101,7 @@
       "item": "4",
       "left": 51.68997668997669,
       "top": 57.76307149570614,
-      "width": 4.243,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     },
@@ -109,7 +109,7 @@
       "item": "21",
       "left": 23.95104895104895,
       "top": 64.68475196024154,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     },
@@ -117,7 +117,7 @@
       "item": "902",
       "left": 64.04428904428904,
       "top": 81.9065521636689,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     },
@@ -125,7 +125,7 @@
       "item": "901",
       "left": 71.27039627039628,
       "top": 85.44979335384774,
-      "width": 3.206,
+      "width": 3.2,
       "height": 1.5,
       "source": "manual"
     }

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item35-control-magnetic-valve",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "35",
+  "title": "Control Magnetic Valve",
+  "imageFilename": "DE18_C2_35.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

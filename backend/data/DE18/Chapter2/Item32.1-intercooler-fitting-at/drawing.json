@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item32-1-intercooler-fitting-at",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "32.1",
+  "title": "Intercooler Fitting(AT)",
+  "imageFilename": "DE18_C2_32.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

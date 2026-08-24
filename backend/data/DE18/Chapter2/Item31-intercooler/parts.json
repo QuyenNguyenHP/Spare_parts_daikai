@@ -1,0 +1,102 @@
+{
+  "901": {
+    "partNumber": "06558-001",
+    "name": "ASSY. INTERCOOLER",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "06558-019",
+    "name": "ASSY. FIN&FIN TUBE",
+    "quantity": 1
+  },
+  "903": {
+    "partNumber": "06558-020",
+    "name": "ASSY. CASING&FIN TUBE",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06558-002",
+    "name": "CASING",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06558-003",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06558-004",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06558-005",
+    "name": "TUBE SHEET",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06558-006",
+    "name": "FIN",
+    "quantity": 1
+  },
+  "7": {
+    "partNumber": "06558-007",
+    "name": "TUBE",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06558-008",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06558-009",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "10": {
+    "partNumber": "06558-010",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06558-011",
+    "name": "COLLAR BOLT",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06558-012",
+    "name": "NUT",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06558-013",
+    "name": "PLUG PACKING",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06558-014",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06558-015",
+    "name": "WRENCH BOLT",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "06558-016",
+    "name": "TUBE SHEET",
+    "quantity": 1
+  },
+  "17": {
+    "partNumber": "06558-017",
+    "name": "WASHER",
+    "quantity": 1
+  },
+  "18": {
+    "partNumber": "06558-018",
+    "name": "TAPER PLUG",
+    "quantity": 1
+  }
+}

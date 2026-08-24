@@ -5,88 +5,88 @@
       "item": "503",
       "left": 90.382,
       "top": 56.183,
-      "width": 4.338,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 97.0
     },
     {
       "item": "12",
       "left": 35.29,
       "top": 47.733,
-      "width": 2.97,
-      "height": 1.533,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 97.0
     },
     {
       "item": "11",
       "left": 88.897,
       "top": 76.9,
-      "width": 2.593,
-      "height": 1.533,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 96.9
     },
     {
       "item": "502",
       "left": 11.881,
       "top": 25.15,
-      "width": 4.338,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 96.7
     },
     {
       "item": "13",
       "left": 10.985,
       "top": 44.817,
-      "width": 2.923,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 96.4
     },
     {
       "item": "501",
       "left": 83.121,
       "top": 56.083,
-      "width": 3.96,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 96.4
     },
     {
       "item": "3",
       "left": 81.495,
       "top": 76.85,
-      "width": 1.744,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 96.3
     },
     {
       "item": "2",
       "left": 59.83,
       "top": 46.967,
-      "width": 1.792,
-      "height": 1.533,
+      "width": 3.2,
+      "height": 1.5,
       "confidence": 90.8
     },
     {
       "item": "6",
       "left": 28.62520880337962,
       "top": 47.50479085508903,
-      "width": 1.768,
-      "height": 1.55,
+      "width": 3.2,
+      "height": 1.5,
       "source": "manual"
     },
     {
       "item": "901",
       "left": 38.068978090606684,
       "top": 53.3572762888268,
-      "width": 4.338,
-      "height": 1.567,
+      "width": 3.2,
+      "height": 1.5,
       "source": "manual"
     },
     {
       "item": "1",
       "left": 75.3776962623679,
       "top": 46.76292650433353,
-      "width": 1.768,
-      "height": 1.55,
+      "width": 3.2,
+      "height": 1.5,
       "source": "manual"
     }
   ]

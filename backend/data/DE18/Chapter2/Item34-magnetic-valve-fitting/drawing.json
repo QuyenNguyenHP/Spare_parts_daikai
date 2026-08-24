@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item34-magnetic-valve-fitting",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "34",
+  "title": "Magnetic Valve&Fitting",
+  "imageFilename": "DE18_C2_34.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

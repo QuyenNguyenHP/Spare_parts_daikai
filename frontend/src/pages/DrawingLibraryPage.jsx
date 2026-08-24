@@ -8,6 +8,7 @@ import Header from "../components/Header";
 import PageBody from "../components/PageBody";
 import PageNavigator from "../components/PageNavigator";
 import PartPanel from "../components/PartPanel";
+import PartsSearch from "../components/PartsSearch";
 import { API_URL, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, ZOOM_STEP } from "../config";
 import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotspots";
 
@@ -23,6 +24,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
   const [savingHotspots, setSavingHotspots] = useState(false);
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const dragState = useRef(null);
+  const pendingSelectedItem = useRef(null);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -62,6 +64,8 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
         if (!response.ok) throw new Error(`API returned ${response.status}`);
         const data = await response.json();
         setDrawing({ ...data, hotspots: normalizeManualHotspotSizes(data.hotspots) });
+        setSelectedItem(pendingSelectedItem.current);
+        pendingSelectedItem.current = null;
         setStatus({ type: "ready", message: "Drawing ready" });
       } catch (error) {
         if (error.name !== "AbortError") {
@@ -190,6 +194,16 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
     setStatus({ type: "success", message: `Item ${selectedItem} added to parts cart` });
   }
 
+  function selectSearchResult(part) {
+    if (part.drawingId === drawingId) {
+      setSelectedItem(part.partNo);
+      return;
+    }
+    pendingSelectedItem.current = part.partNo;
+    setDrawingId(part.drawingId);
+    setStatus({ type: "ready", message: `Showing ${part.partName} on its drawing` });
+  }
+
   return (
     <div className="app-shell">
       <Header
@@ -212,6 +226,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
           />
         )}
       >
+        <PartsSearch engine={engine} onSelectPart={selectSearchResult} />
         <main className="workspace">
           <div className="drawing-card">
           <DrawingToolbar

@@ -1,0 +1,152 @@
+{
+  "1": {
+    "partNumber": "06426-001",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06426-002",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06426-003",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06426-004",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06426-005",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06426-006",
+    "name": "SHAFT",
+    "quantity": 8
+  },
+  "7": {
+    "partNumber": "06426-007",
+    "name": "BOLT",
+    "quantity": 1
+  },
+  "8": {
+    "partNumber": "06426-008",
+    "name": "DISTANCE",
+    "quantity": 2
+  },
+  "9": {
+    "partNumber": "06426-009",
+    "name": "BRACKET",
+    "quantity": 4
+  },
+  "10": {
+    "partNumber": "06426-010",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "06426-011",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06426-012",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06426-013",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06426-014",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06426-015",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "17": {
+    "partNumber": "06426-017",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "19": {
+    "partNumber": "06426-019",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "20": {
+    "partNumber": "06426-020",
+    "name": "HEATBOX",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "00072-002",
+    "name": "KNOB",
+    "quantity": 8
+  },
+  "501": {
+    "partNumber": "X200010035ZZ",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "502": {
+    "partNumber": "X200012025ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "503": {
+    "partNumber": "X200012040ZZ",
+    "name": "BOLT",
+    "quantity": 9
+  },
+  "504": {
+    "partNumber": "Z560101324DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "505": {
+    "partNumber": "Z560102224DZ",
+    "name": "O-RING",
+    "quantity": 19
+  },
+  "506": {
+    "partNumber": "Z565001900EE",
+    "name": "GASKET",
+    "quantity": 9
+  },
+  "507": {
+    "partNumber": "Z413006000ZZ",
+    "name": "E-RING",
+    "quantity": 2
+  },
+  "508": {
+    "partNumber": "Z413009000ZZ",
+    "name": "E-RING",
+    "quantity": 4
+  },
+  "509": {
+    "partNumber": "Z415004024ZZ",
+    "name": "SPRING PIN",
+    "quantity": 6
+  },
+  "510": {
+    "partNumber": "Z571502000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 2
+  },
+  "511": {
+    "partNumber": "Z571506000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item36-start-change-switch-box",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "36",
+  "title": "Start & Change Switch Box",
+  "imageFilename": "DE18_C2_36.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

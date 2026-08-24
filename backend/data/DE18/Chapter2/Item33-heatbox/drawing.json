@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item33-heatbox",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "33",
+  "title": "Heatbox",
+  "imageFilename": "DE18_C2_33.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

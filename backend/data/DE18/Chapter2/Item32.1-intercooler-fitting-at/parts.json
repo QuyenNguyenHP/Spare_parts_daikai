@@ -1,0 +1,97 @@
+{
+  "1": {
+    "partNumber": "06462-001",
+    "name": "DUCT",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06462-002",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06462-004",
+    "name": "BELLOWS",
+    "quantity": 1
+  },
+  "7": {
+    "partNumber": "06462-007",
+    "name": "GASKET",
+    "quantity": 2
+  },
+  "10": {
+    "partNumber": "06462-010",
+    "name": "DUCT",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06462-012",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "06462-015",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "06462-016",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200008012ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "502": {
+    "partNumber": "X200010012ZZ",
+    "name": "BOLT",
+    "quantity": 11
+  },
+  "505": {
+    "partNumber": "X200012030ZZ",
+    "name": "BOLT",
+    "quantity": 20
+  },
+  "506": {
+    "partNumber": "X200012035ZZ",
+    "name": "BOLT",
+    "quantity": 20
+  },
+  "507": {
+    "partNumber": "X200012045ZZ",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "508": {
+    "partNumber": "X205016175ZZ",
+    "name": "HT BOLT",
+    "quantity": 10
+  },
+  "510": {
+    "partNumber": "X220012000ZZ",
+    "name": "NUT",
+    "quantity": 8
+  },
+  "511": {
+    "partNumber": "X570004000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "512": {
+    "partNumber": "Z300010000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 11
+  },
+  "513": {
+    "partNumber": "Z560230057ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "514": {
+    "partNumber": "Z565002100EE",
+    "name": "GASKET",
+    "quantity": 1
+  }
+}

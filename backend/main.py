@@ -3,7 +3,7 @@ import os
 import re
 import secrets
 
-from fastapi import FastAPI, HTTPException, status
+from fastapi import FastAPI, HTTPException, Query, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, ConfigDict, Field
@@ -17,6 +17,7 @@ try:
         list_drawings,
         load_drawing,
         load_hotspots,
+        load_parts_catalog,
         load_parts,
         parts_path,
         write_json,
@@ -30,6 +31,7 @@ except ImportError:  # Direct execution from the backend directory.
         list_drawings,
         load_drawing,
         load_hotspots,
+        load_parts_catalog,
         load_parts,
         parts_path,
         write_json,
@@ -107,6 +109,33 @@ class HotspotUpdate(BaseModel):
 @app.get("/api/health")
 def health() -> dict:
     return {"status": "ok", "drawingCount": len(list_drawings())}
+
+
+@app.get("/api/parts/search")
+def search_parts(
+    q: str = "",
+    engine: str = "DE18",
+    chapter: int | None = Query(default=None, ge=1),
+    item: str | None = None,
+    limit: int = Query(default=100, ge=1, le=500),
+) -> dict:
+    catalog = load_parts_catalog(engine)
+    query = q.strip().lower()
+    searchable_fields = ("partCode", "drawingName", "partNo", "partName", "item")
+    matches = []
+
+    for part in catalog["parts"]:
+        if chapter is not None and part["chapter"] != chapter:
+            continue
+        if item is not None and part["item"] != item:
+            continue
+        if query and not any(query in str(part[field]).lower() for field in searchable_fields):
+            continue
+        matches.append(part)
+        if len(matches) == limit:
+            break
+
+    return {"count": len(matches), "parts": matches}
 
 
 @app.post("/api/login")

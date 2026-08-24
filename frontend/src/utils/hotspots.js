@@ -18,14 +18,16 @@ export function matchingHotspotSize(hotspots, item) {
   const sameLength = ocrHotspots.filter((hotspot) => hotspot.item.length === item.length);
   const references = sameItem.length ? sameItem : (sameLength.length ? sameLength : ocrHotspots);
   return {
-    width: median(references.map((hotspot) => hotspot.width), 2),
+    width: median(references.map((hotspot) => hotspot.width), 3.2),
     height: median(references.map((hotspot) => hotspot.height), 1.5),
   };
 }
 
 export function normalizeManualHotspotSizes(hotspots) {
   return hotspots.map((hotspot) => {
-    if (hotspot.source !== "manual") return hotspot;
+    if (hotspot.source !== "manual" || (
+      Number.isFinite(hotspot.width) && Number.isFinite(hotspot.height)
+    )) return hotspot;
     return { ...hotspot, ...matchingHotspotSize(hotspots, hotspot.item) };
   });
 }

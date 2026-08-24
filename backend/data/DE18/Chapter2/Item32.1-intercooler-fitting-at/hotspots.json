@@ -1,0 +1,165 @@
+{
+  "drawingId": "de18-chapter2-item32-1-intercooler-fitting-at",
+  "hotspots": [
+    {
+      "item": "1",
+      "left": 10.314685314685315,
+      "top": 37.57483680747789,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 16.14219114219114,
+      "top": 37.57483680747789,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "513",
+      "left": 14.51048951048951,
+      "top": 61.38871364379611,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 27.214452214452216,
+      "top": 61.223911727973835,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 32.69230769230769,
+      "top": 36.33882243881085,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "510",
+      "left": 32.57575757575758,
+      "top": 37.90444063912243,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 46.67832167832168,
+      "top": 36.503624354633125,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 46.794871794871796,
+      "top": 39.55245979734514,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 47.494172494172496,
+      "top": 62.45992609664087,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 57.98368298368298,
+      "top": 62.871930886196544,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 68.12354312354313,
+      "top": 61.1415107700627,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "512",
+      "left": 67.8904428904429,
+      "top": 62.62472801246315,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 78.61305361305362,
+      "top": 62.78952992828542,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 71.03729603729604,
+      "top": 28.016325689786143,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "10",
+      "left": 62.06293706293706,
+      "top": 26.36830653156343,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 52.505827505827504,
+      "top": 25.3794950366298,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 43.764568764568764,
+      "top": 22.825065341384594,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 46.095571095571096,
+      "top": 25.049891204985258,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "511",
+      "left": 67.77389277389277,
+      "top": 33.86679370147678,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "514",
+      "left": 67.42424242424242,
+      "top": 35.59721381761063,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

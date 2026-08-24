@@ -1,0 +1,42 @@
+{
+  "901": {
+    "partNumber": "00247-001",
+    "name": "ASSY. SWITCH BOX",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "AGA212Y",
+    "name": "CONTROL BOX",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "ASN310",
+    "name": "SWITCH",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "ABN110-G",
+    "name": "SWITCH",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "NA-0P-B",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "NA-3P-B",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "EBG 06 12",
+    "name": "CONNECTOR",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X245204020ZZ",
+    "name": "PLUS PAN MACHINE SCREW",
+    "quantity": 4
+  }
+}

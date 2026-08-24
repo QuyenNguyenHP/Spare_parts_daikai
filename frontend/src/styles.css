@@ -91,6 +91,18 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -.03em; }
 .logout-button, .toolbar-button { cursor: pointer; }
 
 .workspace { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 18px; align-items: start; padding: 18px; }
+.parts-search { width: 50%; box-sizing: border-box; padding: 18px 18px 0; }
+.parts-search label { display: block; margin-bottom: 7px; color: var(--muted); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.parts-search input { width: 100%; min-height: 44px; padding: 10px 13px; border: 1px solid #3b4c67; border-radius: 9px; outline: none; color: var(--text); background: var(--surface-input); font: inherit; }
+.parts-search input:focus { border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(77, 208, 225, .15); }
+.parts-search-status { margin: 8px 0 0; color: var(--muted); font-size: .84rem; }
+.parts-search-status.error { color: #fca5a5; }
+.parts-search-results { max-height: 272px; margin: 10px 0 0; padding: 0; overflow-y: auto; border: 1px solid var(--line); border-radius: 9px; list-style: none; background: rgba(15, 23, 42, .56); }
+.parts-search-results li + li { border-top: 1px solid var(--line); }
+.parts-search-results button { display: block; width: 100%; padding: 11px 13px; overflow: hidden; border: 0; color: var(--muted); background: transparent; font: inherit; text-align: left; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; }
+.parts-search-results button:hover { background: rgba(77, 208, 225, .12); }
+.parts-search-results span { font-size: .84rem; }
+.parts-search-results strong { color: var(--cyan); }
 .engine-selection-page { width: min(1320px, calc(100% - 32px)); flex: 1; margin: 0 auto; padding: 64px 0 72px; }
 .engine-selection-heading { max-width: 650px; margin-bottom: 30px; }
 .engine-selection-heading h2 { color: var(--text); font-size: clamp(2rem, 4vw, 3.4rem); }
@@ -326,6 +338,7 @@ h2 { font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -.03em; }
 @keyframes login-reveal { from { opacity: 0; transform: translateY(18px) scale(.985); } to { opacity: 1; transform: none; } }
 
 @media (max-width: 1100px) {
+  .parts-search { width: 100%; }
   .page-layout { grid-template-columns: 1fr; }
   .page-navigator { position: static; height: auto; }
   .navigator-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }

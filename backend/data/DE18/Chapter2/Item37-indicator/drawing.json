@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter2-item37-indicator",
+  "model": "DE18",
+  "chapter": 2,
+  "item": "37",
+  "title": "Indicator",
+  "imageFilename": "DE18_C2_37.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}
