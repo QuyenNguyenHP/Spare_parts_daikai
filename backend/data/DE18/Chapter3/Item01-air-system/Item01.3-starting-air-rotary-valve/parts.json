@@ -1,0 +1,10 @@
+{
+  "2": { "partNumber": "06431-002", "name": "Cover", "quantity": 1 },
+  "3": { "partNumber": "06431-003", "name": "Rotary Valve", "quantity": 1 },
+  "4": { "partNumber": "06431-004", "name": "Coupling", "quantity": 1 },
+  "5": { "partNumber": "06431-005", "name": "Seat", "quantity": 1 },
+  "6": { "partNumber": "E161300080", "name": "Bush", "quantity": 1 },
+  "501": { "partNumber": "X205012095ZZ", "name": "HT Bolt", "quantity": 2 },
+  "502": { "partNumber": "Z560205531ZZ", "name": "O-Ring", "quantity": 1 },
+  "503": { "partNumber": "Z560207531ZZ", "name": "O-Ring", "quantity": 1 }
+}

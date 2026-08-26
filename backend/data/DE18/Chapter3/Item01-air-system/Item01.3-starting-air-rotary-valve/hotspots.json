@@ -1,0 +1,69 @@
+{
+  "drawingId": "de18-chapter3-item01-3-starting-air-rotary-valve",
+  "hotspots": [
+    {
+      "item": "5",
+      "left": 64.15920534025926,
+      "top": 18.278111560330526,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 75.1240516711093,
+      "top": 18.607992526134367,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 82.70612626159068,
+      "top": 18.44305204323245,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 84.04757022759894,
+      "top": 61.327577597732066,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 71.62463262934864,
+      "top": 66.5232028091426,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 20.99970382521131,
+      "top": 56.2144226277725,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 21.69958763356344,
+      "top": 47.555047275421614,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 21.466293030779397,
+      "top": 51.01879741636197,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item01-1-starting-air-piping-system",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "1.1",
+  "title": "Starting Air Piping System",
+  "imageFilename": "3.1 (1).png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

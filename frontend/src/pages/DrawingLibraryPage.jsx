@@ -14,6 +14,7 @@ import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotsp
 
 export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCart, onOpenCart, onBackToEngines, onLogout, onHome }) {
   const [drawings, setDrawings] = useState([]);
+  const [chapters, setChapters] = useState([]);
   const [drawingId, setDrawingId] = useState("");
   const [drawing, setDrawing] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -30,9 +31,13 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
     const controller = new AbortController();
     async function loadDrawings() {
       try {
-        const response = await fetch(`${API_URL}/drawings`, { signal: controller.signal });
-        if (!response.ok) throw new Error(`API returned ${response.status}`);
-        const data = await response.json();
+        const [drawingsResponse, chaptersResponse] = await Promise.all([
+          fetch(`${API_URL}/drawings`, { signal: controller.signal }),
+          fetch(`${API_URL}/chapters?model=${encodeURIComponent(engine?.model ?? "DE18")}`, { signal: controller.signal }),
+        ]);
+        if (!drawingsResponse.ok || !chaptersResponse.ok) throw new Error("API request failed");
+        const data = await drawingsResponse.json();
+        setChapters(await chaptersResponse.json());
         const engineDrawings = engine ? data.filter((item) => item.model === engine.model) : data;
         setDrawings(engineDrawings);
         if (engineDrawings.length) setDrawingId(engineDrawings[0].id);
@@ -231,6 +236,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
           <div className="drawing-card">
           <DrawingToolbar
             drawings={drawings}
+            chapters={chapters}
             drawingId={drawingId}
             onDrawingChange={setDrawingId}
             zoom={zoom}
@@ -254,6 +260,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
           )}
           <DrawingViewport
             drawing={drawing}
+            loading={status.type === "loading"}
             zoom={zoom}
             hotspotsVisible={hotspotsVisible}
             editing={editing}

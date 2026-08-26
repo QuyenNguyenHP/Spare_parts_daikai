@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item01-2-starting-air-valve-25a",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "1.2",
+  "title": "Starting Air Valve 25A",
+  "imageFilename": "3.1 (2).png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

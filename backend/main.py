@@ -19,6 +19,7 @@ try:
         load_hotspots,
         load_parts_catalog,
         load_parts,
+        read_json,
         parts_path,
         write_json,
     )
@@ -33,6 +34,7 @@ except ImportError:  # Direct execution from the backend directory.
         load_hotspots,
         load_parts_catalog,
         load_parts,
+        read_json,
         parts_path,
         write_json,
     )
@@ -163,6 +165,12 @@ def login(credentials: LoginCredentials) -> dict:
 @app.get("/api/drawings")
 def get_drawings() -> list[dict]:
     return list_drawings()
+
+
+@app.get("/api/chapters")
+def get_chapters(model: str = "DE18") -> list[dict]:
+    model_directory = DATA_DIR / model.upper()
+    return [read_json(path) for path in sorted(model_directory.glob("Chapter*/chapter.json"))]
 
 
 @app.get("/api/engines")

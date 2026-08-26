@@ -6,6 +6,7 @@ import DrawingDropdown from "./DrawingDropdown";
 
 export default function DrawingToolbar({
   drawings,
+  chapters: availableChapters = [],
   drawingId,
   onDrawingChange,
   zoom,
@@ -19,7 +20,9 @@ export default function DrawingToolbar({
   editing,
   onToggleEditing,
 }) {
-  const chapters = [...new Set(drawings.map((drawing) => drawing.chapter))].sort((a, b) => Number(a) - Number(b));
+  const chapters = availableChapters.length
+    ? availableChapters.map((chapter) => chapter.chapter)
+    : [...new Set(drawings.map((drawing) => drawing.chapter))].sort((a, b) => Number(a) - Number(b));
   const selectedDrawing = drawings.find((drawing) => drawing.id === drawingId);
   const selectedChapter = selectedDrawing?.chapter ?? chapters[0] ?? "";
   const chapterDrawings = drawings.filter((drawing) => drawing.chapter === selectedChapter);

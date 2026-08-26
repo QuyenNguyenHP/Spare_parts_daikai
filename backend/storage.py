@@ -56,17 +56,19 @@ def slugify(value: str) -> str:
 def item_directory_path(model: str, chapter: int, item_code: str, title: str) -> Path:
     normalized_model = model.upper()
     folder_item_code = item_code.zfill(2) if "." not in item_code else item_code
-    return (
-        DATA_DIR
-        / normalized_model
-        / f"Chapter{chapter}"
-        / f"Item{folder_item_code}-{slugify(title)}"
-    )
+    chapter_directory = DATA_DIR / normalized_model / f"Chapter{chapter}"
+    item_directory = chapter_directory / f"Item{folder_item_code}-{slugify(title)}"
+    if "." not in item_code:
+        return item_directory
+
+    parent_code = item_code.split(".", 1)[0].zfill(2)
+    parent_directories = list(chapter_directory.glob(f"Item{parent_code}-*"))
+    return (parent_directories[0] / item_directory.name) if parent_directories else item_directory
 
 
 def drawing_metadata_path(drawing_id: str) -> Path:
     validate_drawing_id(drawing_id)
-    for metadata_path in DATA_DIR.glob("*/Chapter*/Item*/drawing.json"):
+    for metadata_path in DATA_DIR.glob("*/Chapter*/Item*/**/drawing.json"):
         if read_json(metadata_path).get("id") == drawing_id:
             return metadata_path
     raise FileNotFoundError(f"Drawing metadata not found: {drawing_id}")
@@ -115,7 +117,7 @@ def drawing_image_path(drawing_id: str) -> Path:
 
 def list_drawings() -> list[dict]:
     drawings = []
-    for metadata_path in sorted(DATA_DIR.glob("*/Chapter*/Item*/drawing.json")):
+    for metadata_path in sorted(DATA_DIR.glob("*/Chapter*/Item*/**/drawing.json")):
         metadata = read_json(metadata_path)
         hotspots = read_json(metadata_path.parent / "hotspots.json", {"hotspots": []})
         parts = read_json(metadata_path.parent / "parts.json", {})

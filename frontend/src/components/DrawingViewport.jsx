@@ -2,6 +2,7 @@ import { assetUrl, DEFAULT_ZOOM } from "../config";
 
 export default function DrawingViewport({
   drawing,
+  loading = false,
   zoom,
   hotspotsVisible,
   editing,
@@ -14,7 +15,16 @@ export default function DrawingViewport({
   onHotspotPointerUp,
 }) {
   if (!drawing) {
-    return <div className="drawing-loading">Select or register a drawing to begin.</div>;
+    return (
+      <div className="drawing-loading" role={loading ? "status" : undefined} aria-live={loading ? "polite" : undefined}>
+        {loading ? (
+          <>
+            <span className="loading-spinner" aria-hidden="true" />
+            <span>Loading drawing...</span>
+          </>
+        ) : "Select or register a drawing to begin."}
+      </div>
+    );
   }
 
   return (

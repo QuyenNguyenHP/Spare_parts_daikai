@@ -1,0 +1,53 @@
+{
+  "drawingId": "de18-chapter3-item01-4-tachometer-driving-device",
+  "hotspots": [
+    {
+      "item": "1",
+      "left": 29.428904428904428,
+      "top": 28.345929521430683,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 35.13986013986014,
+      "top": 28.09872664769728,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 41.78321678321678,
+      "top": 28.181127605608413,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 49.24242424242424,
+      "top": 28.345929521430683,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 52.505827505827504,
+      "top": 59.905496401395666,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 40.73426573426573,
+      "top": 59.82309544348453,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}
