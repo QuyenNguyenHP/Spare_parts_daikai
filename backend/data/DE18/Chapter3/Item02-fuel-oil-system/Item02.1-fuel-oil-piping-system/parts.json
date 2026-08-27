@@ -1,0 +1,264 @@
+{
+  "A": {
+    "partNumber": "Ref.3-2.6",
+    "name": "OIL RELIEF VALVE ASS'Y",
+    "quantity": 1
+  },
+  "B": {
+    "partNumber": "Ref.3-2.5",
+    "name": "F.O. FILTER",
+    "quantity": 1
+  },
+  "D": {
+    "partNumber": "Ref.2-23",
+    "name": "HEATBOX FRONT",
+    "quantity": 1
+  },
+  "E": {
+    "partNumber": "Ref.2-23",
+    "name": "F.O. INJECTION PUMP",
+    "quantity": 6
+  },
+  "F": {
+    "partNumber": "Ref.2-24.2",
+    "name": "NOZZLE HOLDER",
+    "quantity": 6
+  },
+  "G": {
+    "partNumber": "Ref.3-2.7",
+    "name": "SEAL POT",
+    "quantity": 1
+  },
+  "H": {
+    "partNumber": "Y14222200ZZ",
+    "name": "DAMPER",
+    "quantity": 1
+  },
+  "I": {
+    "partNumber": "Ref.3-2.9",
+    "name": "OIL RELIEF VALVE ASS'Y",
+    "quantity": 1
+  },
+  "J": {
+    "partNumber": "Ref.3-2.3",
+    "name": "F.O. FEED PUMP",
+    "quantity": 1,
+    "note": "Variant 1 only - WITH F.O. FEED PUMP"
+  },
+  "K": {
+    "partNumber": "Ref.3-2.8",
+    "name": "F.O. BLOCK",
+    "quantity": 1,
+    "note": "Variant 2 only - WITHOUT F.O. FEED PUMP"
+  },
+  "902": {
+    "partNumber": "00073-027",
+    "name": "ASSY. PULUS ABSORBER(60)",
+    "quantity": 2
+  },
+  "1": {
+    "partNumber": "06424-001",
+    "name": "F.O.PIPE",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06424-005",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06424-006",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "7": {
+    "partNumber": "06424-007",
+    "name": "F.O.PIPING FILTER INLET",
+    "quantity": 1
+  },
+  "9": {
+    "partNumber": "06424-009",
+    "name": "FLANGE",
+    "quantity": 2
+  },
+  "10": {
+    "partNumber": "06424-010",
+    "name": "F.O.PIPING HEATBOX INLET",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "06424-012",
+    "name": "F.O.PIPING FILTER OUTLET",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06424-014",
+    "name": "F.O.PIPING F.O. OUTLET",
+    "quantity": 1
+  },
+  "18": {
+    "partNumber": "06424-018",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "19": {
+    "partNumber": "06424-019",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "20": {
+    "partNumber": "06424-020",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "22": {
+    "partNumber": "06424-022",
+    "name": "F.O.PIPING SEAL POT INLET",
+    "quantity": 1
+  },
+  "24": {
+    "partNumber": "06424-024",
+    "name": "F.O.PIPING F.O. FEED PUMP INLET",
+    "quantity": 1,
+    "note": "Variant 1 only - WITH F.O. FEED PUMP"
+  },
+  "26": {
+    "partNumber": "06424-026",
+    "name": "F.O.PIPING F.O. FEED PUMP OUTLET",
+    "quantity": 1,
+    "note": "Variant 1 only - WITH F.O. FEED PUMP"
+  },
+  "28": {
+    "partNumber": "06424-028",
+    "name": "F.O.PIPING RELIEF VALVE OUTLET",
+    "quantity": 1,
+    "note": "Variant 1 only - WITH F.O. FEED PUMP"
+  },
+  "30": {
+    "partNumber": "06424-030",
+    "name": "BRACKET",
+    "quantity": 1,
+    "note": "Variant 1 only - WITH F.O. FEED PUMP"
+  },
+  "41": {
+    "partNumber": "00073-009",
+    "name": "FLANGE",
+    "quantity": 2
+  },
+  "42": {
+    "partNumber": "00073-017",
+    "name": "PULUS ABSORBER(60)",
+    "quantity": 1
+  },
+  "43": {
+    "partNumber": "00073-041",
+    "name": "BRACKET",
+    "quantity": 2
+  },
+  "44": {
+    "partNumber": "00073-042",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "45": {
+    "partNumber": "00040-024",
+    "name": "UNION SCREW",
+    "quantity": 1
+  },
+  "51": {
+    "partNumber": "E208650210",
+    "name": "FLANGE",
+    "quantity": 2
+  },
+  "52": {
+    "partNumber": "00370-001",
+    "name": "BONJO",
+    "quantity": 1
+  },
+  "53": {
+    "partNumber": "00525-006",
+    "name": "UNION VALVE",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X570001000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "502": {
+    "partNumber": "X570002000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 2
+  },
+  "503": {
+    "partNumber": "X570006000ZZ",
+    "name": "HEX. PLUG",
+    "quantity": 1
+  },
+  "504": {
+    "partNumber": "X572306000DZ",
+    "name": "SPECIAL PLUG",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "Z260302000ZZ",
+    "name": "U-BOLT",
+    "quantity": 3
+  },
+  "507": {
+    "partNumber": "Z541104275AZ",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "508": {
+    "partNumber": "Z541203044AZ",
+    "name": "GASKET",
+    "quantity": 4,
+    "note": "Variant 1: quantity 4 - WITH F.O. FEED PUMP; Variant 2: quantity 2 - WITHOUT F.O. FEED PUMP"
+  },
+  "509": {
+    "partNumber": "Z541204054AZ",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "511": {
+    "partNumber": "Z560101824DZ",
+    "name": "O-RING",
+    "quantity": 14
+  },
+  "512": {
+    "partNumber": "Z560102124DZ",
+    "name": "O-RING",
+    "quantity": 4
+  },
+  "513": {
+    "partNumber": "Z560102335DZ",
+    "name": "O-RING",
+    "quantity": 2
+  },
+  "514": {
+    "partNumber": "Z560203031DZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "515": {
+    "partNumber": "Z565001000EE",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "516": {
+    "partNumber": "Z565001300EE",
+    "name": "GASKET",
+    "quantity": 4
+  },
+  "517": {
+    "partNumber": "Z565002700EE",
+    "name": "GASKET",
+    "quantity": 3
+  },
+  "518": {
+    "partNumber": "Z565003400EE",
+    "name": "GASKET",
+    "quantity": 2
+  }
+}

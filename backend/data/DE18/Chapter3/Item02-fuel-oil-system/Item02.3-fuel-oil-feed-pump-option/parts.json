@@ -1,0 +1,116 @@
+{
+  "2": {
+    "partNumber": "C034400020",
+    "name": "OIL PUMP, 206HWT031",
+    "quantity": 1,
+    "note": "Variant 1 only - NORMAL ROTATION"
+  },
+  "9": {
+    "partNumber": "C034400090",
+    "name": "OIL PUMP, 206HWTR031",
+    "quantity": 1,
+    "note": "Variant 2 only - REVERSE ROTATION"
+  },
+  "200": {
+    "partNumber": "C034402000",
+    "name": "SEALKIT, HWTWB",
+    "quantity": 1,
+    "note": "1 Set"
+  },
+  "200-1": {
+    "partNumber": "",
+    "name": "BALL BEARING",
+    "quantity": 1,
+    "note": "Cannot be purchased separately"
+  },
+  "200-2": {
+    "partNumber": "",
+    "name": "BALL BEARING",
+    "quantity": 1,
+    "note": "Cannot be purchased separately"
+  },
+  "200-3": {
+    "partNumber": "",
+    "name": "OIL SEAL",
+    "quantity": 1,
+    "note": "Cannot be purchased separately"
+  },
+  "200-4": {
+    "partNumber": "",
+    "name": "OIL SEAL",
+    "quantity": 1,
+    "note": "Cannot be purchased separately"
+  },
+  "200-5": {
+    "partNumber": "",
+    "name": "O-RING",
+    "quantity": 1,
+    "note": "Cannot be purchased separately"
+  },
+  "200-6": {
+    "partNumber": "",
+    "name": "O-RING",
+    "quantity": 2,
+    "note": "Cannot be purchased separately"
+  },
+  "200-7": {
+    "partNumber": "",
+    "name": "TOP COVER GASKET",
+    "quantity": 2,
+    "note": "Cannot be purchased separately"
+  },
+  "200-8": {
+    "partNumber": "",
+    "name": "OIL SEAL",
+    "quantity": 2,
+    "note": "Cannot be purchased separately"
+  },
+  "1": {
+    "partNumber": "TBD-1",
+    "name": "PART 1",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "11": {
+    "partNumber": "TBD-11",
+    "name": "PART 11",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "3": {
+    "partNumber": "TBD-3",
+    "name": "PART 3",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "6": {
+    "partNumber": "TBD-6",
+    "name": "PART 6",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "7": {
+    "partNumber": "TBD-7",
+    "name": "PART 7",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "8": {
+    "partNumber": "TBD-8",
+    "name": "PART 8",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "5": {
+    "partNumber": "TBD-5",
+    "name": "PART 5",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "4": {
+    "partNumber": "TBD-4",
+    "name": "PART 4",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  }
+}

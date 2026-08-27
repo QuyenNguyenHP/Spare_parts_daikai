@@ -1,0 +1,67 @@
+{
+  "901": {
+    "partNumber": "06424-004",
+    "name": "ASSY. BLOCK",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06424-003",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00408-017",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "C033110050",
+    "name": "CHECK VALVE",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "C033140120",
+    "name": "STOPPER",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "C033170190",
+    "name": "GASKET CHECK VALVE BODY",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "C033170200",
+    "name": "PLUG",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200005038ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  },
+  "502": {
+    "partNumber": "X222308000ZZ",
+    "name": "NUT",
+    "quantity": 1
+  },
+  "503": {
+    "partNumber": "Z352020500ZZ",
+    "name": "RIVET",
+    "quantity": 2
+  },
+  "504": {
+    "partNumber": "Z445004000ZZ",
+    "name": "BALL",
+    "quantity": 1
+  },
+  "505": {
+    "partNumber": "Z560100719ZZ",
+    "name": "O-RING",
+    "quantity": 1
+  },
+  "506": {
+    "partNumber": "Z571302000ZZ",
+    "name": "TAPER PLUG",
+    "quantity": 2
+  }
+}

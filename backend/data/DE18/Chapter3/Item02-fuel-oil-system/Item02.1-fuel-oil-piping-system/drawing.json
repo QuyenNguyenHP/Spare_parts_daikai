@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-1-fuel-oil-piping-system",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.1",
+  "title": "Fuel Oil Piping System",
+  "imageFilename": "2.1.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

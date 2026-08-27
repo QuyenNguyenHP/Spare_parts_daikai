@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-5-fuel-oil-filter-fitting",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.5",
+  "title": "Fuel Oil Filter & Fitting",
+  "imageFilename": "2.5.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

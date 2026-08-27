@@ -129,8 +129,8 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
     if (!editing || event.target.closest(".hotspot")) return;
     const item = window.prompt("Enter the missing item label (example: 501 or A)")?.trim().toUpperCase();
     if (!item) return;
-    if (!/^[A-Z0-9]+(?:\.[A-Z0-9]+)?$/.test(item)) {
-      setStatus({ type: "error", message: "Item label must use letters, digits, or one decimal point" });
+    if (!/^[A-Z0-9]+(?:[.-][A-Z0-9]+)?$/.test(item)) {
+      setStatus({ type: "error", message: "Item label must use letters, digits, one decimal point, or one hyphen" });
       return;
     }
 

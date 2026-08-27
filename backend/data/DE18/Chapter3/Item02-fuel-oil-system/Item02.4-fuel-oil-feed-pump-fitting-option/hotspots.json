@@ -1,0 +1,237 @@
+{
+  "drawingId": "de18-chapter3-item02-4-fuel-oil-feed-pump-fitting-option",
+  "hotspots": [
+    {
+      "item": "15",
+      "left": 58.44988344988346,
+      "top": 20.105833730317116,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "514",
+      "left": 69.63869463869464,
+      "top": 24.47308449960731,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "513",
+      "left": 69.17249417249417,
+      "top": 26.862712279030244,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "515",
+      "left": 69.52214452214453,
+      "top": 28.510731437252957,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 72.9020979020979,
+      "top": 31.477165922053846,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 29.312354312354312,
+      "top": 29.499542932186586,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "20",
+      "left": 35.60606060606061,
+      "top": 29.417141974275452,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 42.71561771561772,
+      "top": 29.417141974275452,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "512",
+      "left": 83.62470862470862,
+      "top": 30.81795825876476,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "510",
+      "left": 87.82051282051282,
+      "top": 33.86679370147678,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 91.8997668997669,
+      "top": 36.58602531254426,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 9.265734265734265,
+      "top": 53.231018810593675,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 9.032634032634032,
+      "top": 57.59826957988386,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 8.916083916083917,
+      "top": 59.82309544348453,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 9.14918414918415,
+      "top": 63.69594046530791,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "511",
+      "left": 13.578088578088579,
+      "top": 67.07437973966447,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 20.687645687645688,
+      "top": 65.26155866561949,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "19",
+      "left": 20.804195804195803,
+      "top": 66.74477590801993,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 26.63170163170163,
+      "top": 67.15678069757561,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "516",
+      "left": 37.121212121212125,
+      "top": 67.32158261339788,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 43.764568764568764,
+      "top": 71.11202667731013,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 43.764568764568764,
+      "top": 73.17205062508852,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "509",
+      "left": 60.78088578088578,
+      "top": 63.86074238113017,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 68.7062937062937,
+      "top": 63.77834142321904,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 81.06060606060606,
+      "top": 64.02554429695245,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 84.67365967365967,
+      "top": 60.647105022595895,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 88.75291375291376,
+      "top": 57.4334676640616,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 89.80186480186481,
+      "top": 53.0662168947714,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 89.6853146853147,
+      "top": 70.61762092984331,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

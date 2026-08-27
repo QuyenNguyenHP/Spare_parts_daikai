@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-8-fuel-oil-block",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.8",
+  "title": "Fuel Oil Block",
+  "imageFilename": "2.8.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

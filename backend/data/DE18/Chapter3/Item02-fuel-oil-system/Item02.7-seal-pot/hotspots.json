@@ -1,0 +1,37 @@
+{
+  "drawingId": "de18-chapter3-item02-7-seal-pot",
+  "hotspots": [
+    {
+      "item": "3",
+      "left": 14.627039627039625,
+      "top": 23.072268215118,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 14.160839160839162,
+      "top": 38.0692425549447,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 15.792540792540793,
+      "top": 71.44163050895467,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 75.93240093240094,
+      "top": 71.35922955104354,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

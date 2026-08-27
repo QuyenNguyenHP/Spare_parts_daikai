@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-7-seal-pot",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.7",
+  "title": "Seal Pot",
+  "imageFilename": "2.7.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

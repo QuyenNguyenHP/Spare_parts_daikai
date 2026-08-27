@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-3-fuel-oil-feed-pump-option",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.3",
+  "title": "Fuel Oil Feed Pump (Option)",
+  "imageFilename": "2.3.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

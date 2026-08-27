@@ -1,0 +1,101 @@
+{
+  "drawingId": "de18-chapter3-item02-3-fuel-oil-feed-pump-option",
+  "hotspots": [
+    {
+      "item": "2",
+      "left": 41.31701631701632,
+      "top": 15.820983918938058,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 47.60993791550172,
+      "top": 15.68119377013219,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 45.02867417080059,
+      "top": 15.951558498314617,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 42.9891606198005,
+      "top": 15.906498283263218,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-5",
+      "left": 50.05827505827506,
+      "top": 29.08753814263091,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-4",
+      "left": 50.05827505827506,
+      "top": 36.421223396721984,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-8",
+      "left": 58.44988344988346,
+      "top": 52.24220731566005,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-3",
+      "left": 17.657342657342657,
+      "top": 47.54535271472531,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-2",
+      "left": 17.773892773892776,
+      "top": 73.50165445673305,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-6",
+      "left": 48.07692307692308,
+      "top": 75.2320745728669,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-7",
+      "left": 58.44988344988346,
+      "top": 70.70002188775445,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "200-1",
+      "left": 55.3030303030303,
+      "top": 73.5840554146442,
+      "width": 5,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

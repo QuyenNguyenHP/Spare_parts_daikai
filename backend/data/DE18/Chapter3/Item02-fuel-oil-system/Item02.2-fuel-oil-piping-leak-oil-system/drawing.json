@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-2-fuel-oil-piping-leak-oil-system",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.2",
+  "title": "Fuel Oil Piping-Leak Oil System",
+  "imageFilename": "2.2.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

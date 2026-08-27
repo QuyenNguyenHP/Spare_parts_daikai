@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item02-6-fuel-oil-relief-valve",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "2.6",
+  "title": "Fuel Oil Relief Valve",
+  "imageFilename": "2.6.png",
+  "width": 2121,
+  "height": 3000,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

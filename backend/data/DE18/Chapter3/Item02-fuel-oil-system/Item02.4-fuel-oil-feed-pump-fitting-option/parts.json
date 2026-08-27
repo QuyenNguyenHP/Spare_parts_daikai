@@ -1,0 +1,152 @@
+{
+  "901": {
+    "partNumber": "06452-004",
+    "name": "ASSY. F.O. FEED PUMP FITTING",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "06452-001",
+    "name": "GEAR",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "A596800010",
+    "name": "DRIVING SHAFT",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "A596800020",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "A596800030",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "E211350020",
+    "name": "DISTANCE",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "E203150130",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "E211350220",
+    "name": "UNION SCREW",
+    "quantity": 2
+  },
+  "17": {
+    "partNumber": "E211350270",
+    "name": "CASTLE NUT WITH SEAT",
+    "quantity": 1
+  },
+  "18": {
+    "partNumber": "E211350291",
+    "name": "SHIM",
+    "quantity": 4
+  },
+  "19": {
+    "partNumber": "E211350292",
+    "name": "SHIM",
+    "quantity": 4
+  },
+  "20": {
+    "partNumber": "A596800120",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "21": {
+    "partNumber": "A596800130",
+    "name": "SUNK KEY",
+    "quantity": 1
+  },
+  "22": {
+    "partNumber": "A596800060",
+    "name": "ROLLER CHAIN COUPLING",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200008045ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "502": {
+    "partNumber": "X220008000ZZ",
+    "name": "NUT",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "X220012000ZZ",
+    "name": "NUT",
+    "quantity": 6
+  },
+  "504": {
+    "partNumber": "Z300020000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 1
+  },
+  "505": {
+    "partNumber": "Z315006000ZZ",
+    "name": "TOOTHED LOCK WASHER",
+    "quantity": 4
+  },
+  "506": {
+    "partNumber": "Z315008000ZZ",
+    "name": "TOOTHED LOCK WASHER",
+    "quantity": 4
+  },
+  "507": {
+    "partNumber": "Z315012000ZZ",
+    "name": "TOOTHED LOCK WASHER",
+    "quantity": 6
+  },
+  "508": {
+    "partNumber": "Z320004040ZZ",
+    "name": "SPLIT PIN",
+    "quantity": 1
+  },
+  "509": {
+    "partNumber": "Z310006000ZZ",
+    "name": "SPRING WASHER",
+    "quantity": 4
+  },
+  "510": {
+    "partNumber": "Z400007018ZZ",
+    "name": "KEY",
+    "quantity": 1
+  },
+  "511": {
+    "partNumber": "Z415004030ZZ",
+    "name": "SPRING PIN",
+    "quantity": 2
+  },
+  "512": {
+    "partNumber": "Z451163060ZZ",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "513": {
+    "partNumber": "Z451162060ZZ",
+    "name": "BEARING",
+    "quantity": 1
+  },
+  "514": {
+    "partNumber": "Z461406212SC",
+    "name": "OIL SEAL",
+    "quantity": 1
+  },
+  "515": {
+    "partNumber": "Z412006200ZZ",
+    "name": "SNAP RING",
+    "quantity": 1
+  },
+  "516": {
+    "partNumber": "Z212006010ZZ",
+    "name": "HEX. SOCKET BOLT",
+    "quantity": 4
+  }
+}

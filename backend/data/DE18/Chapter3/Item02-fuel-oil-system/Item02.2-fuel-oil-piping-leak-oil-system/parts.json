@@ -1,0 +1,127 @@
+{
+  "A": {
+    "partNumber": "Ref.2-23",
+    "name": "F.O. INJECTION PUMP",
+    "quantity": 6
+  },
+  "B": {
+    "partNumber": "Ref.2-24.2",
+    "name": "NOZZLE HOLDER",
+    "quantity": 6
+  },
+  "C": {
+    "partNumber": "Ref.3-6.3",
+    "name": "LIMIT SWITCH",
+    "quantity": 1
+  },
+  "D": {
+    "partNumber": "",
+    "name": "LEAK OIL TANK(BUILT IN COMMOM BED)",
+    "quantity": 1
+  },
+  "E": {
+    "partNumber": "Ref.3-2.5",
+    "name": "F.O. FILTER",
+    "quantity": 1
+  },
+  "1": {
+    "partNumber": "06581-001",
+    "name": "LEAK PIPING F.O. INJECTION PUMP",
+    "quantity": 6
+  },
+  "2": {
+    "partNumber": "06581-002",
+    "name": "LEAK PIPING F.O. HIGH PRESS. BLOCK1",
+    "quantity": 5
+  },
+  "3": {
+    "partNumber": "06581-003",
+    "name": "LEAK PIPING F.O. HIGH PRESS. BLOCK2",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06581-004",
+    "name": "LEAK PIPING F.O. HIGH PRESS. BLOCK3",
+    "quantity": 1
+  },
+  "5": {
+    "partNumber": "06581-005",
+    "name": "LEAK PIPING HEATBOX OUTLET1",
+    "quantity": 1
+  },
+  "6": {
+    "partNumber": "06581-006",
+    "name": "LEAK PIPING HEATBOX OUTLET2",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "06581-013",
+    "name": "LEAK PIPING F.O. FILTER SAUCER",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "06581-014",
+    "name": "LEAK PIPING F.O. FILTER BLOW OF",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "06581-016",
+    "name": "LEAK PIPING GATHERING",
+    "quantity": 1
+  },
+  "17": {
+    "partNumber": "06581-017",
+    "name": "LEAK PIPING LEAKAGE TANK",
+    "quantity": 1
+  },
+  "18": {
+    "partNumber": "06581-018",
+    "name": "LEAK PIPING HEATBOX OUTLET3",
+    "quantity": 1
+  },
+  "25": {
+    "partNumber": "06581-025",
+    "name": "LEAK PIPING HEATBOX OUTLET4",
+    "quantity": 1
+  },
+  "27": {
+    "partNumber": "06581-027",
+    "name": "LEAK PIPING HEATBOX OUTLET5",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "Z501302800AZ",
+    "name": "JIS GASKET",
+    "quantity": 2
+  },
+  "502": {
+    "partNumber": "Z565001000EE",
+    "name": "GASKET",
+    "quantity": 28
+  },
+  "503": {
+    "partNumber": "Z565001300EE",
+    "name": "GASKET",
+    "quantity": 13
+  },
+  "504": {
+    "partNumber": "Z565001700EE",
+    "name": "GASKET",
+    "quantity": 10
+  },
+  "505": {
+    "partNumber": "Z580303000ZZ",
+    "name": "DRAIN COCK",
+    "quantity": 2
+  },
+  "506": {
+    "partNumber": "Z580403000ZZ",
+    "name": "DRAIN COCK",
+    "quantity": 1
+  },
+  "507": {
+    "partNumber": "Z585112001ZZ",
+    "name": "PLUNGER",
+    "quantity": 4
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "1": {
+    "partNumber": "06468-001",
+    "name": "BRACKET",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06468-002",
+    "name": "SAUCER",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "C060805010",
+    "name": "FILTER",
+    "quantity": 1
+  },
+  "12": {
+    "partNumber": "E214350110",
+    "name": "GASKET",
+    "quantity": 1
+  },
+  "13": {
+    "partNumber": "E214350180",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "14": {
+    "partNumber": "E214350200",
+    "name": "WING BOLT",
+    "quantity": 2
+  },
+  "15": {
+    "partNumber": "E214350210",
+    "name": "WING NUT",
+    "quantity": 2
+  },
+  "16": {
+    "partNumber": "E214350230",
+    "name": "FLUSHING FILTER",
+    "quantity": 2
+  },
+  "17": {
+    "partNumber": "00164-011",
+    "name": "NAME PLATE",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X200008014ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "502": {
+    "partNumber": "X200012075ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "X200016030ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "504": {
+    "partNumber": "X220016000ZZ",
+    "name": "NUT",
+    "quantity": 2
+  },
+  "505": {
+    "partNumber": "Z300008000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 6
+  },
+  "506": {
+    "partNumber": "Z310008000ZZ",
+    "name": "SPRING WASHER",
+    "quantity": 4
+  }
+}

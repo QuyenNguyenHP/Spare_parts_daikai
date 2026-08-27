@@ -1,0 +1,109 @@
+{
+  "drawingId": "de18-chapter3-item02-8-fuel-oil-block",
+  "hotspots": [
+    {
+      "item": "3",
+      "left": 11.13053613053613,
+      "top": 15.079375297737837,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 26.282051282051285,
+      "top": 14.914573381915563,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 32.226107226107224,
+      "top": 14.502568592359886,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 11.946386946386946,
+      "top": 47.0509469672585,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 12.529137529137529,
+      "top": 49.028569957125754,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 11.48018648018648,
+      "top": 51.33579677863756,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 32.69230769230769,
+      "top": 46.47414026188054,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 33.50815850815851,
+      "top": 48.94616899921462,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 42.599067599067595,
+      "top": 46.47414026188054,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 41.55011655011655,
+      "top": 48.451763251747806,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 42.01631701631702,
+      "top": 51.00619294699301,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 46.794871794871796,
+      "top": 64.43754908650813,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 47.37762237762238,
+      "top": 82.73056174278027,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

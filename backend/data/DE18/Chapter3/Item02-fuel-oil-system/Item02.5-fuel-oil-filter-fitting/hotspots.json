@@ -1,0 +1,149 @@
+{
+  "drawingId": "de18-chapter3-item02-5-fuel-oil-filter-fitting",
+  "hotspots": [
+    {
+      "item": "13",
+      "left": 31.993006993006993,
+      "top": 25.709098868274342,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 40.38461538461539,
+      "top": 26.450707489474567,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 40.61771561771562,
+      "top": 28.345929521430683,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 19.289044289044288,
+      "top": 25.956301742007753,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 13.228438228438227,
+      "top": 26.038702699918886,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 11.363636363636363,
+      "top": 28.181127605608413,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 12.762237762237763,
+      "top": 31.065161132498165,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 11.48018648018648,
+      "top": 33.78439274356565,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 12.296037296037296,
+      "top": 45.40292780903578,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 12.062937062937063,
+      "top": 56.609458084950234,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 11.946386946386946,
+      "top": 59.08148682228431,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 22.31934731934732,
+      "top": 60.23510023304021,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 51.80652680652681,
+      "top": 45.485328766946914,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 52.85547785547785,
+      "top": 55.3734437162832,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 53.55477855477856,
+      "top": 57.76307149570614,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 53.32167832167832,
+      "top": 60.07029831721794,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 61.48018648018648,
+      "top": 61.71831747544066,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 66.95804195804196,
+      "top": 61.63591651752952,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

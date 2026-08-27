@@ -1,0 +1,117 @@
+{
+  "drawingId": "de18-chapter3-item02-9-fuel-oil-relief-valve",
+  "hotspots": [
+    {
+      "item": "902",
+      "left": 49.70862470862471,
+      "top": 9.888114949336286,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 11.946386946386946,
+      "top": 28.345929521430683,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 49.82517482517482,
+      "top": 28.263528563519554,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 72.43589743589743,
+      "top": 28.09872664769728,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 79.66200466200466,
+      "top": 28.181127605608413,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 86.42191142191142,
+      "top": 28.09872664769728,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 10.314685314685315,
+      "top": 62.0479213070852,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 24.3006993006993,
+      "top": 61.80071843335179,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 49.47552447552447,
+      "top": 61.80071843335179,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 55.3030303030303,
+      "top": 62.13032226499633,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 60.78088578088578,
+      "top": 61.80071843335179,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 67.77389277389277,
+      "top": 62.295124180818604,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 80.12820512820514,
+      "top": 61.63591651752952,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 88.86946386946387,
+      "top": 61.71831747544066,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}
