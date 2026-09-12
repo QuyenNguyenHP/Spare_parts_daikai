@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item06-3-level-switch-box",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "6.3",
+  "title": "Level Switch Box",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

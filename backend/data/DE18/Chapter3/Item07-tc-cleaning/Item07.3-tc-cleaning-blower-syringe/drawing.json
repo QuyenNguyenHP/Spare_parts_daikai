@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item07-3-tc-cleaning-blower-syringe",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "7.3",
+  "title": "T/C Cleaning Blower Syringe",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

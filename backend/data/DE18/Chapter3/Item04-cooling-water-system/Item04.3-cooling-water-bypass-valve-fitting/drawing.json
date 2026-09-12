@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item04-3-cooling-water-bypass-valve-fitting",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "4.3",
+  "title": "Cooling Water Bypass Valve & Fitting",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

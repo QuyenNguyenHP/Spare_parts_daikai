@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item04-1-cooling-water-piping",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "4.1",
+  "title": "Cooling Water Piping",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

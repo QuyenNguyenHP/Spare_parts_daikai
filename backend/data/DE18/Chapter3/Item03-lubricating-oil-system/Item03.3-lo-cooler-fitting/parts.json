@@ -1,0 +1,52 @@
+{
+  "1": {
+    "partNumber": "06467-001",
+    "name": "BLOCK",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "00239-012",
+    "name": "PLUG",
+    "quantity": 6
+  },
+  "12": {
+    "partNumber": "00239-025",
+    "name": "GASKET",
+    "quantity": 6
+  },
+  "501": {
+    "partNumber": "X200016045ZZ",
+    "name": "BOLT",
+    "quantity": 10
+  },
+  "502": {
+    "partNumber": "X200016080ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "503": {
+    "partNumber": "X200016120ZZ",
+    "name": "BOLT",
+    "quantity": 2
+  },
+  "504": {
+    "partNumber": "X200016220ZZ",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "505": {
+    "partNumber": "X210016070ZZ",
+    "name": "STUD",
+    "quantity": 2
+  },
+  "506": {
+    "partNumber": "Z560107557ZZ",
+    "name": "O-RING",
+    "quantity": 4
+  },
+  "507": {
+    "partNumber": "X220016000ZZ",
+    "name": "NUT",
+    "quantity": 2
+  }
+}

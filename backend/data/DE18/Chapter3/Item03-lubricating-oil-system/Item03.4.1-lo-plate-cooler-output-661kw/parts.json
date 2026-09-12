@@ -1,0 +1,97 @@
+{
+  "901": {
+    "partNumber": "06538-001",
+    "name": "ASSY. L.O. PLATE HEAT EXCHANGER",
+    "quantity": 1
+  },
+  "902": {
+    "partNumber": "06538-007",
+    "name": "ASSY. PLATE PACK",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "06538-002",
+    "name": "FRONT FRAME",
+    "quantity": 1
+  },
+  "3": {
+    "partNumber": "06538-003",
+    "name": "REAR FRAME",
+    "quantity": 1
+  },
+  "4": {
+    "partNumber": "06538-004",
+    "name": "SPACER",
+    "quantity": 8
+  },
+  "5": {
+    "partNumber": "06538-005",
+    "name": "CARRY BAR",
+    "quantity": 2
+  },
+  "6": {
+    "partNumber": "06538-006",
+    "name": "TOP HAT SPACER",
+    "quantity": 2
+  },
+  "8": {
+    "partNumber": "06538-008",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "9": {
+    "partNumber": "06538-009",
+    "name": "FLAT WASHER",
+    "quantity": 8
+  },
+  "10": {
+    "partNumber": "06538-010",
+    "name": "BOLT",
+    "quantity": 4
+  },
+  "11": {
+    "partNumber": "06538-011",
+    "name": "FLAT WASHER",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "06538-012",
+    "name": "COVER",
+    "quantity": 1
+  },
+  "19": {
+    "partNumber": "06538-019",
+    "name": "BOLT",
+    "quantity": 8
+  },
+  "24": {
+    "partNumber": "06538-024",
+    "name": "END PLATE 2",
+    "quantity": 1
+  },
+  "25": {
+    "partNumber": "06538-025",
+    "name": "CHANNEL PLATE-B",
+    "quantity": 32
+  },
+  "26": {
+    "partNumber": "06538-026",
+    "name": "CHANNEL PLATE-A",
+    "quantity": 32
+  },
+  "27": {
+    "partNumber": "06538-027",
+    "name": "END PLATE 1",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "Z300010000ZZ",
+    "name": "FLAT WASHER",
+    "quantity": 6
+  },
+  "502": {
+    "partNumber": "X200010010ZZ",
+    "name": "BOLT",
+    "quantity": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item06-1-fuel-control-cylinder",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "6.1",
+  "title": "Fuel Control Cylinder",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item03-4-2-lo-plate-cooler-output-660kw",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "3.4.2",
+  "title": "L.O. Plate Cooler (Output <= 660Kw)",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

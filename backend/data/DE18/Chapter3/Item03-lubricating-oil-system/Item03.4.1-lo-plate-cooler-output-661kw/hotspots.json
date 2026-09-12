@@ -1,0 +1,157 @@
+{
+  "drawingId": "de18-chapter3-item03-4-1-lo-plate-cooler-output-661kw",
+  "hotspots": [
+    {
+      "item": "902",
+      "left": 34.67365967365967,
+      "top": 17.963408824627585,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 40.38461538461539,
+      "top": 21.836253846450965,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 51.10722610722611,
+      "top": 21.67145193062869,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 60.89743589743589,
+      "top": 19.69382894076144,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 60.78088578088578,
+      "top": 21.259447141073014,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 71.25491695804196,
+      "top": 29.19279249121271,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 71.03729603729604,
+      "top": 30.73555730085362,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 71.85314685314685,
+      "top": 34.44360040685473,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "19",
+      "left": 28.962703962703962,
+      "top": 44.33171535619101,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "24",
+      "left": 15.792540792540793,
+      "top": 21.67145193062869,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "25",
+      "left": 19.055944055944053,
+      "top": 21.67145193062869,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "26",
+      "left": 23.056891025641026,
+      "top": 21.571669520658176,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "27",
+      "left": 26.66174970862471,
+      "top": 21.486693532812318,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 79.77855477855478,
+      "top": 50.34698528370393,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 24.883449883449885,
+      "top": 49.93498049414825,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 54.95337995337996,
+      "top": 76.1384851098894,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 91.55011655011654,
+      "top": 57.26866574823932,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "10",
+      "left": 92.01631701631702,
+      "top": 62.871930886196544,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 92.44245337995338,
+      "top": 64.60750106219984,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

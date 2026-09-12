@@ -1,0 +1,85 @@
+{
+  "drawingId": "de18-chapter3-item03-3-lo-cooler-fitting",
+  "hotspots": [
+    {
+      "item": "504",
+      "left": 22.92759324009324,
+      "top": 12.322805752616874,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 40.850815850815856,
+      "top": 10.79452548635878,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 40.886782488344984,
+      "top": 12.590930744569906,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 62.64841928904429,
+      "top": 10.37415184951525,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 62.41258741258741,
+      "top": 12.360143686670359,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 74.65034965034964,
+      "top": 12.360143686670359,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 88.86946386946387,
+      "top": 27.274717068585925,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 41.2004662004662,
+      "top": 44.908522061568966,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 73.6013986013986,
+      "top": 44.908522061568966,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 11.82983682983683,
+      "top": 82.1537550374023,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

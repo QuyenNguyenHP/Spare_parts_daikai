@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item03-1-lubricating-oil-piping",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "3.1",
+  "title": "Lubricating Oil Piping",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

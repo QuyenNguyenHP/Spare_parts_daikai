@@ -1,0 +1,61 @@
+{
+  "drawingId": "de18-chapter3-item03-2-1-tc-lubricating-oil-piping-system-at",
+  "hotspots": [
+    {
+      "item": "A",
+      "left": 68.93939393939394,
+      "top": 27.10991515276365,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 69.05594405594405,
+      "top": 29.829146763831126,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 69.17249417249417,
+      "top": 32.79558124863202,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 68.7062937062937,
+      "top": 35.84441669134404,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "B",
+      "left": 73.95104895104895,
+      "top": 42.18929045050149,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 31.41025641025641,
+      "top": 62.37752513872974,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 58.44988344988346,
+      "top": 67.8159883608647,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
+}

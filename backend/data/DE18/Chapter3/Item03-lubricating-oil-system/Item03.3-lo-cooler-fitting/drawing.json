@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item03-3-lo-cooler-fitting",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "3.3",
+  "title": "L.O. Cooler Fitting",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

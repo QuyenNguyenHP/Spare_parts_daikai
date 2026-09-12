@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item07-1-tc-cleaning-piping-at",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "7.1",
+  "title": "T/C Cleaning Piping (AT)",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

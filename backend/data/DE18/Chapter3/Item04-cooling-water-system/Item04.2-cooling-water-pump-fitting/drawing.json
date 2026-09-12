@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item04-2-cooling-water-pump-fitting",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "4.2",
+  "title": "Cooling Water Pump & Fitting",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}

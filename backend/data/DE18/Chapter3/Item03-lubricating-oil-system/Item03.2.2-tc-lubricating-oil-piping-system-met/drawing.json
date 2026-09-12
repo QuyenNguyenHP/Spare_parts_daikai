@@ -1,0 +1,12 @@
+{
+  "id": "de18-chapter3-item03-2-2-tc-lubricating-oil-piping-system-met",
+  "model": "DE18",
+  "chapter": 3,
+  "item": "3.2.2",
+  "title": "T/C Lubricating Oil Piping System (MET)",
+  "imageFilename": "TODO.png",
+  "width": 0,
+  "height": 0,
+  "expectedItems": [],
+  "ocrProfile": "de18"
+}
