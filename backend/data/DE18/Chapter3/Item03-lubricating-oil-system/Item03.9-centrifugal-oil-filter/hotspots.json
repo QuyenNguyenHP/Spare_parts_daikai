@@ -1,4 +1,133 @@
 {
   "drawingId": "de18-chapter3-item03-9-centrifugal-oil-filter",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 46.561771561771565,
+      "top": 18.045809782538722,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 24.184149184149184,
+      "top": 25.544296952452072,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 19.755244755244757,
+      "top": 32.38357645907634,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 19.988344988344988,
+      "top": 44.578918229924426,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 19.405594405594407,
+      "top": 48.698966125481206,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 19.63869463869464,
+      "top": 63.20153471784109,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 19.871794871794872,
+      "top": 67.40398357130901,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 66.84149184149184,
+      "top": 27.6867218581416,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 67.07459207459208,
+      "top": 31.229963048320435,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 67.07459207459208,
+      "top": 35.102808070143816,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 66.84149184149184,
+      "top": 38.151643512855834,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 67.3076923076923,
+      "top": 41.44768182930127,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 66.95804195804196,
+      "top": 44.908522061568966,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "10",
+      "left": 67.30496066433567,
+      "top": 52.33780530198664,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 67.19114219114219,
+      "top": 58.50468011690636,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 19.522144522144522,
+      "top": 75.97368319406714,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

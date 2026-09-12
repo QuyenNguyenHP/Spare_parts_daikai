@@ -1,4 +1,181 @@
 {
   "drawingId": "de18-chapter3-item04-3-cooling-water-bypass-valve-fitting",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "504",
+      "left": 80.0815619802702,
+      "top": 18.533631418663195,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 80.31485658305425,
+      "top": 22.31908039502174,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 78.91508896634998,
+      "top": 26.01439963384794,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 87.0804000637915,
+      "top": 32.68400021124157,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 24.674093819059987,
+      "top": 45.12190399070537,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "510",
+      "left": 26.42380333994031,
+      "top": 49.08761244212861,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 25.957214134372226,
+      "top": 52.51254246835777,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "509",
+      "left": 25.8405668329802,
+      "top": 55.937472494586935,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 27.24033444968446,
+      "top": 62.877462284577604,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 33.77258332763766,
+      "top": 78.74029609027056,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 34.93905634155788,
+      "top": 82.16522611649972,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 33.53928872485362,
+      "top": 85.50002640519654,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "511",
+      "left": 70.63313056751646,
+      "top": 78.65016635273821,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 71.09971977308454,
+      "top": 82.25535585403208,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 78.79844166495796,
+      "top": 71.25952787508581,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "510",
+      "left": 79.97402774929944,
+      "top": 68.31024345591213,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 78.79844166495796,
+      "top": 60.984737796398335,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 78.68179436356596,
+      "top": 54.04474800640766,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 79.84826737748617,
+      "top": 50.25929903004911,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 79.84826737748617,
+      "top": 43.58969845265548,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 80.0815619802702,
+      "top": 46.9244987413523,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 74.96126945070968,
+      "top": 92.39134261622686,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

@@ -1,1 +1,44 @@
-{}
+{
+  "901": {
+    "partNumber": "05928-002",
+    "name": "ASSY. C.W. PUMP",
+    "quantity": 1,
+    "note": "Option: (1) HT C.W. Pump only."
+  },
+  "902": {
+    "partNumber": "05928-014",
+    "name": "ASSY. C.W. PUMP",
+    "quantity": 1,
+    "note": "Option: (2) LT C.W. Pump only."
+  },
+  "2": { "partNumber": "06552-002", "name": "GEAR", "quantity": 1 },
+  "11": { "partNumber": "00016-007", "name": "NUT", "quantity": 1 },
+  "12": { "partNumber": "00016-008", "name": "O-RING", "quantity": 1 },
+  "13": { "partNumber": "00016-009", "name": "CLAW WASHER", "quantity": 1 },
+  "14": { "partNumber": "00016-010", "name": "MECHANICAL SEAL", "quantity": 1 },
+  "15": { "partNumber": "05928-005", "name": "CASE", "quantity": 1 },
+  "16": { "partNumber": "05928-006", "name": "BODY", "quantity": 1 },
+  "17": { "partNumber": "05928-007", "name": "SHAFT", "quantity": 1 },
+  "18": { "partNumber": "05928-009", "name": "IMPELLER", "quantity": 1 },
+  "19": { "partNumber": "05928-011", "name": "MOUTH RING", "quantity": 2 },
+  "20": { "partNumber": "05928-012", "name": "DISTANCE", "quantity": 1 },
+  "21": { "partNumber": "05928-013", "name": "SET SCREW", "quantity": 2 },
+  "22": { "partNumber": "C038500570", "name": "BEARING", "quantity": 2 },
+  "23": { "partNumber": "C038800550", "name": "NUT", "quantity": 1 },
+  "24": { "partNumber": "C038800690", "name": "COLOR", "quantity": 1 },
+  "501": { "partNumber": "X200010025ZZ", "name": "BOLT", "quantity": 8 },
+  "502": { "partNumber": "X570001000JZ", "name": "HEX. PLUG", "quantity": 2 },
+  "503": { "partNumber": "X570003000JZ", "name": "HEX. PLUG", "quantity": 2 },
+  "504": { "partNumber": "Z319128054ZZ", "name": "CLAW WASHER", "quantity": 1 },
+  "505": { "partNumber": "Z400007025DZ", "name": "KEY", "quantity": 1 },
+  "506": { "partNumber": "Z400010028ZZ", "name": "KEY", "quantity": 1 },
+  "507": { "partNumber": "Z412007200ZZ", "name": "SNAP RING", "quantity": 1 },
+  "508": { "partNumber": "Z461456209TC", "name": "OIL SEAL", "quantity": 1 },
+  "509": { "partNumber": "Z560110057ZZ", "name": "O-RING", "quantity": 2 },
+  "510": { "partNumber": "Z560114057ZZ", "name": "O-RING", "quantity": 1 },
+  "511": { "partNumber": "Z560203520ZZ", "name": "O-RING", "quantity": 1 },
+  "512": { "partNumber": "Z560217557ZZ", "name": "O-RING", "quantity": 1 },
+  "513": { "partNumber": "Z565001000EE", "name": "GASKET", "quantity": 2 },
+  "514": { "partNumber": "Z565001700EE", "name": "GASKET", "quantity": 2 },
+  "515": { "partNumber": "X220012000ZZ", "name": "NUT", "quantity": 1 }
+}

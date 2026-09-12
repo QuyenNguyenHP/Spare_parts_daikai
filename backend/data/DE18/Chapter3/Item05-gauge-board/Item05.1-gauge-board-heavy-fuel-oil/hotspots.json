@@ -1,4 +1,245 @@
 {
   "drawingId": "de18-chapter3-item05-1-gauge-board-heavy-fuel-oil",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "16",
+      "left": 30.623106190053086,
+      "top": 14.838312179836993,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 10.793064953409427,
+      "top": 14.928441917369339,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 10.793064953409427,
+      "top": 17.63233404333973,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 10.326475747841341,
+      "top": 24.121675145668668,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 10.326475747841341,
+      "top": 26.374918583977326,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 10.559770350625385,
+      "top": 28.447902547221293,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "511",
+      "left": 67.95024263549998,
+      "top": 11.052863203478443,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 91.39635021529628,
+      "top": 14.567922967239952,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 68.30018453967604,
+      "top": 13.39623637931945,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 68.06688993689198,
+      "top": 15.739609555160456,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 69.58330485498827,
+      "top": 21.417783019698277,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 67.95024263549998,
+      "top": 25.02297252099213,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 68.06688993689198,
+      "top": 31.51231362332107,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 68.183537238284,
+      "top": 33.58529758656504,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "512",
+      "left": 63.40099788121113,
+      "top": 52.51254246835777,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "19",
+      "left": 30.38981158726904,
+      "top": 62.06629464678649,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "510",
+      "left": 29.676144259904767,
+      "top": 66.59170524759273,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "20",
+      "left": 28.523454764996696,
+      "top": 70.53848997482704,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "23",
+      "left": 28.75674936778074,
+      "top": 74.3239389511856,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "508",
+      "left": 29.230173376164764,
+      "top": 78.9475768831306,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 29.689927778916914,
+      "top": 83.11158836058937,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 29.57328047752489,
+      "top": 87.16742654954494,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "21",
+      "left": 67.13371152575581,
+      "top": 69.23160878060803,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 67.13371152575581,
+      "top": 71.75524143151371,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 67.01706422436379,
+      "top": 74.45913355748411,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "512",
+      "left": 67.95024263549998,
+      "top": 76.44198778319573,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 67.25035882714783,
+      "top": 80.13730702202193,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 67.95616613127378,
+      "top": 83.01001637122187,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "509",
+      "left": 67.56999977217323,
+      "top": 85.65757741123453,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 67.13371152575581,
+      "top": 88.15885366240076,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

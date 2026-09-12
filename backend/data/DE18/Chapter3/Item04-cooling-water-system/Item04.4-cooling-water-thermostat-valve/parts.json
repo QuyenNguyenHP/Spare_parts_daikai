@@ -1,1 +1,10 @@
-{}
+{
+  "901": { "partNumber": "M152700480", "name": "THERMOSTAT ASSY", "quantity": 2 },
+  "1": { "partNumber": "06556-001", "name": "CASE", "quantity": 1 },
+  "2": { "partNumber": "06556-002", "name": "COVER", "quantity": 1 },
+  "3": { "partNumber": "06556-003", "name": "ORIFICE", "quantity": 1 },
+  "501": { "partNumber": "X200010065ZZ", "name": "BOLT", "quantity": 8 },
+  "502": { "partNumber": "X220012000ZZ", "name": "NUT", "quantity": 8 },
+  "503": { "partNumber": "Z560105057ZZ", "name": "O-RING", "quantity": 1 },
+  "504": { "partNumber": "Z560108057ZZ", "name": "O-RING", "quantity": 1 }
+}

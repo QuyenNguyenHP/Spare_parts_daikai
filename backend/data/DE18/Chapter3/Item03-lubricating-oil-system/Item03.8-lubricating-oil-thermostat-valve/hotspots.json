@@ -1,4 +1,149 @@
 {
   "drawingId": "de18-chapter3-item03-8-lubricating-oil-thermostat-valve",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 51.22377622377622,
+      "top": 12.524945602492629,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "19",
+      "left": 16.84149184149184,
+      "top": 21.34184809898415,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "23",
+      "left": 28.030303030303028,
+      "top": 21.50665001480642,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 36.18881118881119,
+      "top": 21.50665001480642,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "20",
+      "left": 49.754607371794876,
+      "top": 21.690120897655436,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "602",
+      "left": 61.71374198717948,
+      "top": 21.41748960331664,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "25",
+      "left": 70.45454545454545,
+      "top": 21.259447141073014,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "605",
+      "left": 81.49630317599068,
+      "top": 21.545919221310946,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 84.0909090909091,
+      "top": 25.626697910363205,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "601",
+      "left": 85.02331002331003,
+      "top": 30.81795825876476,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "604",
+      "left": 85.4685678904429,
+      "top": 38.66439634860755,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 83.74125874125873,
+      "top": 44.74372014574669,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 79.88645469114219,
+      "top": 56.977365486873786,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "603",
+      "left": 74.79740311771562,
+      "top": 57.14763934130735,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 66.6083916083916,
+      "top": 57.103863832417055,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 60.43123543123543,
+      "top": 57.103863832417055,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "606",
+      "left": 49.47552447552447,
+      "top": 56.85666095868365,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "600",
+      "left": 69.80532488344988,
+      "top": 70.84872986648469,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

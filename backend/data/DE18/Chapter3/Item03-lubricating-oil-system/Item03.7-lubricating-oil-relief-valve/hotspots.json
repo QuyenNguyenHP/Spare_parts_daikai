@@ -1,4 +1,125 @@
 {
   "drawingId": "de18-chapter3-item03-7-lubricating-oil-relief-valve",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 39.68531468531469,
+      "top": 29.08753814263091,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 62.17948717948718,
+      "top": 28.181127605608413,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 29.778554778554778,
+      "top": 34.608402322677,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 27.33100233100233,
+      "top": 40.376469376456505,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 32.80885780885781,
+      "top": 40.706073208101046,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "9",
+      "left": 36.53846153846153,
+      "top": 40.623672250189905,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "8",
+      "left": 40.61771561771562,
+      "top": 40.623672250189905,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 46.095571095571096,
+      "top": 40.623672250189905,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 51.10722610722611,
+      "top": 40.54127129227877,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 56.35198135198135,
+      "top": 40.623672250189905,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 62.76223776223776,
+      "top": 43.09570098752398,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 62.68620702214452,
+      "top": 44.948435025557174,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 61.48018648018648,
+      "top": 46.55654121979168,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 61.36363636363637,
+      "top": 48.28696133592553,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 62.85010562354313,
+      "top": 50.854266180844355,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

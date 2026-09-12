@@ -1,1 +1,59 @@
-{}
+{
+  "1": {
+    "partNumber": "00069-001",
+    "name": "TACHOMETER",
+    "quantity": 1
+  },
+  "2": {
+    "partNumber": "00069-002",
+    "name": "FLEX.CABLE",
+    "quantity": 1
+  },
+  "11": {
+    "partNumber": "05875-003",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 2
+  },
+  "12": {
+    "partNumber": "05875-008",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 1,
+    "note": "Option: Turbocharger (2) MET only."
+  },
+  "13": {
+    "partNumber": "05875-018",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 1,
+    "note": "Option: Turbocharger (1) AT only."
+  },
+  "14": {
+    "partNumber": "05875-020",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 1
+  },
+  "15": {
+    "partNumber": "05875-024",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 1
+  },
+  "16": {
+    "partNumber": "05875-026",
+    "name": "60G PRESS. GAUGE",
+    "quantity": 1
+  },
+  "501": {
+    "partNumber": "X220004000ZZ",
+    "name": "NUT",
+    "quantity": 4
+  },
+  "502": {
+    "partNumber": "X245204014ZZ",
+    "name": "PLUS PAN MACHINE SCREW",
+    "quantity": 4
+  },
+  "503": {
+    "partNumber": "X245204008ZZ",
+    "name": "PLUS PAN MACHINE SCREW",
+    "quantity": 18
+  }
+}

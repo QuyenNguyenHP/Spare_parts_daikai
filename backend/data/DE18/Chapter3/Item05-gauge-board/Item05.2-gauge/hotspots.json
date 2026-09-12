@@ -1,4 +1,101 @@
 {
   "drawingId": "de18-chapter3-item05-2-gauge",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "1",
+      "left": 61.184699154762725,
+      "top": 20.516485644374814,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 86.73045815961544,
+      "top": 24.66245357086275,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 86.84710546100744,
+      "top": 30.430756772932916,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 86.49716355683138,
+      "top": 55.75721301952225,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 86.38051625543936,
+      "top": 57.55980777016917,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 81.1313876927984,
+      "top": 78.65016635273821,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 42.75442553482332,
+      "top": 18.08298273100146,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 43.01995762422254,
+      "top": 20.13176193074797,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 15.69225161187433,
+      "top": 29.619589135141794,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 13.942542090994008,
+      "top": 44.040347140317216,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 12.659421775681773,
+      "top": 57.10915908250743,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 88.24687307771171,
+      "top": 44.4008660904466,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

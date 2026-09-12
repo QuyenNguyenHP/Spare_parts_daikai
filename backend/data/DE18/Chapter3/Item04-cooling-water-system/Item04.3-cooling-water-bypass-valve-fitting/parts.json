@@ -1,1 +1,23 @@
-{}
+{
+  "901": { "partNumber": "06510-001", "name": "ASSY. C.W. BYPASS VALVE", "quantity": 1 },
+  "2": { "partNumber": "06510-002", "name": "SHAFT", "quantity": 1 },
+  "3": { "partNumber": "06510-003", "name": "PISTON", "quantity": 1 },
+  "4": { "partNumber": "06510-004", "name": "COVER", "quantity": 1 },
+  "5": { "partNumber": "06510-005", "name": "BODY", "quantity": 1 },
+  "6": { "partNumber": "06510-006", "name": "SPRING", "quantity": 1 },
+  "7": { "partNumber": "06510-007", "name": "VALVE", "quantity": 1 },
+  "8": { "partNumber": "06510-008", "name": "BUSH", "quantity": 1 },
+  "9": { "partNumber": "06510-009", "name": "ADJUSTING BOLT", "quantity": 1 },
+  "11": { "partNumber": "06495-006", "name": "CAP NUT", "quantity": 1 },
+  "501": { "partNumber": "X200010035ZZ", "name": "BOLT", "quantity": 4 },
+  "502": { "partNumber": "X200012030ZZ", "name": "BOLT", "quantity": 4 },
+  "503": { "partNumber": "X220312000ZZ", "name": "BOLT", "quantity": 1 },
+  "504": { "partNumber": "X227010000DZU", "name": "U-NUT", "quantity": 2 },
+  "505": { "partNumber": "Z300010000ZZ", "name": "FLAT WASHER", "quantity": 1 },
+  "506": { "partNumber": "Z560100919ZZ", "name": "O-RING", "quantity": 1 },
+  "507": { "partNumber": "Z560101424ZZ", "name": "O-RING", "quantity": 1 },
+  "508": { "partNumber": "Z560102024ZZ", "name": "O-RING", "quantity": 1 },
+  "509": { "partNumber": "Z560104935ZZ", "name": "O-RING", "quantity": 1 },
+  "510": { "partNumber": "Z560107057ZZ", "name": "O-RING", "quantity": 2 },
+  "511": { "partNumber": "Z665012000ZZ", "name": "GASKET", "quantity": 2 }
+}

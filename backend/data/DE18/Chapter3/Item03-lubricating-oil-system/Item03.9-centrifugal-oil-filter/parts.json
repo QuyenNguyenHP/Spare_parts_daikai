@@ -1,1 +1,18 @@
-{}
+{
+  "901": { "partNumber": "00515-001", "name": "BYPASS FILTER FM200", "quantity": 1 },
+  "902": { "partNumber": "00515-025", "name": "SEALS KIT FM200", "quantity": 1 },
+  "1": { "partNumber": "00515-003", "name": "NUT: COVER", "quantity": 1 },
+  "2": { "partNumber": "00515-004", "name": "SLEEVE: BEARING TUBE ASSY.", "quantity": 1 },
+  "3": { "partNumber": "00515-005", "name": "SLEEVE: STAND TUBE", "quantity": 1 },
+  "4": { "partNumber": "00515-006", "name": "O-RING: BODY", "quantity": 1 },
+  "5": { "partNumber": "00515-007", "name": "O-RING: ROTOR", "quantity": 1 },
+  "6": { "partNumber": "00515-008", "name": "O-RING: COVER", "quantity": 1 },
+  "7": { "partNumber": "00515-009", "name": "BODY: FILTER", "quantity": 1 },
+  "8": { "partNumber": "00515-010", "name": "COVER ASSY.", "quantity": 1 },
+  "9": { "partNumber": "00515-011", "name": "ROTOR ASSY.", "quantity": 1 },
+  "10": { "partNumber": "00515-012", "name": "CRAMP RING: COVER", "quantity": 1 },
+  "11": { "partNumber": "00515-013", "name": "GASKET: FLANGE", "quantity": 1 },
+  "12": { "partNumber": "00515-024", "name": "WASHER: CUT OFF VALVE", "quantity": 1 },
+  "13": { "partNumber": "00515-026", "name": "PAPER: INSERT: FM200", "quantity": 1 },
+  "501": { "partNumber": "X200012035ZZ", "name": "BOLT", "quantity": 4 }
+}

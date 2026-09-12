@@ -1,1 +1,20 @@
-{}
+{
+  "901": { "partNumber": "AE27079001A", "name": "L.O. THERMOSTAT ASSY.", "quantity": 1 },
+  "2": { "partNumber": "AE27079002A", "name": "BODY", "quantity": 1 },
+  "3": { "partNumber": "AE27079003A", "name": "COVER", "quantity": 1 },
+  "4": { "partNumber": "AE27079004A", "name": "ADJUSTING BOLT", "quantity": 1 },
+  "16": { "partNumber": "AE01079006A", "name": "GUIDE", "quantity": 1 },
+  "17": { "partNumber": "AE01079007A", "name": "CAP NUT", "quantity": 1 },
+  "18": { "partNumber": "AE01079008A", "name": "LOCK NUT", "quantity": 1 },
+  "19": { "partNumber": "AE01079009A", "name": "SPRING", "quantity": 1 },
+  "20": { "partNumber": "AE01079010A", "name": "SPRING", "quantity": 1 },
+  "23": { "partNumber": "AE01079013A", "name": "THERMOSTAT ASSY.", "quantity": 1 },
+  "25": { "partNumber": "S104100150Z", "name": "VALVE", "quantity": 1 },
+  "600": { "partNumber": "X200012030ZZ", "name": "BOLT", "quantity": 4 },
+  "601": { "partNumber": "Z212008025ZZ", "name": "HEX. SOCKET BOLT", "quantity": 4 },
+  "602": { "partNumber": "Z300114000ZZ", "name": "FLAT WASHER", "quantity": 1 },
+  "603": { "partNumber": "Z560101124ZZ", "name": "O-RING", "quantity": 1 },
+  "604": { "partNumber": "Z560106557ZZ", "name": "O-RING", "quantity": 1 },
+  "605": { "partNumber": "Z560110557ZZ", "name": "O-RING", "quantity": 1 },
+  "606": { "partNumber": "Z665020000ZZ", "name": "GASKET", "quantity": 1 }
+}
