@@ -1,4 +1,109 @@
 {
   "drawingId": "de18-chapter3-item08-1-2-oil-press-jack-cylinder-head",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "16",
+      "left": 58.4592249713827,
+      "top": 11.891333491760696,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 35.607635091178956,
+      "top": 11.621075912402498,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 31.64358378542933,
+      "top": 19.278373994218096,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 33.04266071687037,
+      "top": 24.593439721595985,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 31.693282441075,
+      "top": 27.22829716501163,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 32.109942762576345,
+      "top": 30.268848888118132,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 32.2265325068631,
+      "top": 35.40374289592389,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 33.15925046115712,
+      "top": 37.92614696993373,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 33.04266071687037,
+      "top": 40.98906620265998,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 25.11455810537111,
+      "top": 47.11490466811246,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 37.82284023262728,
+      "top": 54.38183063358005,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 37.473070999767025,
+      "top": 59.87706808053007,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 24.181840151077083,
+      "top": 69.42616921785304,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

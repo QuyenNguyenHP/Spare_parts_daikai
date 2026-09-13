@@ -1,1 +1,11 @@
-{}
+{
+  "501": { "partNumber": "X220012000ZZ", "name": "NUT", "quantity": 2 },
+  "2": {
+    "partNumber": "TBD-2",
+    "name": "PART 2",
+    "quantity": 1,
+    "note": "Manually added hotspot. Add the exact parts-PDF mapping."
+  },
+  "1": { "partNumber": "00186-001", "name": "KNOB", "quantity": 1 },
+  "4": { "partNumber": "00186-004", "name": "LIMIT SWITCH", "quantity": 1 }
+}

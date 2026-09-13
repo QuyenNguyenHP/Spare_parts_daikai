@@ -1,4 +1,93 @@
 {
   "drawingId": "de18-chapter3-item06-3-level-switch-box",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 85.57173125555327,
+      "top": 11.95979368739768,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 79.49832547331009,
+      "top": 19.795447744116043,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 78.79844166495796,
+      "top": 29.619589135141794,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "11",
+      "left": 78.91508896634998,
+      "top": 32.77412994877392,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 78.4484997607819,
+      "top": 36.37931945006777,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 78.4484997607819,
+      "top": 42.41801186473498,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 87.54698926935957,
+      "top": 53.1434506310842,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 17.6752557355387,
+      "top": 41.78710370200855,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 18.141844941106783,
+      "top": 47.73566637914342,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 78.79844166495796,
+      "top": 66.48265178587145,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 78.09855785660584,
+      "top": 73.9634200010562,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

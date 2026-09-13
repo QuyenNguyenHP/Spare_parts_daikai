@@ -1,1 +1,15 @@
-{}
+{
+  "1": { "partNumber": "06430-001", "name": "BRACKET", "quantity": 1 },
+  "11": { "partNumber": "00067-002", "name": "LEVER", "quantity": 1 },
+  "12": { "partNumber": "00067-003", "name": "RETAINER", "quantity": 1 },
+  "501": { "partNumber": "X200008014ZZ", "name": "BOLT", "quantity": 2 },
+  "502": { "partNumber": "X200008025ZZ", "name": "BOLT", "quantity": 2 },
+  "503": { "partNumber": "X200008040ZZ", "name": "BOLT", "quantity": 4 },
+  "504": { "partNumber": "X200010032ZZ", "name": "BOLT", "quantity": 1 },
+  "505": { "partNumber": "X200012020ZZ", "name": "BOLT", "quantity": 4 },
+  "506": { "partNumber": "X220008000ZZ", "name": "NUT", "quantity": 2 },
+  "507": { "partNumber": "X222312000ZZ", "name": "NUT", "quantity": 1 },
+  "508": { "partNumber": "X570002000ZZ", "name": "HEX. PLUG", "quantity": 2 },
+  "509": { "partNumber": "Z415005035ZZ", "name": "SPRING PIN", "quantity": 1 },
+  "510": { "partNumber": "Z565001300EE", "name": "GASKET", "quantity": 2 }
+}

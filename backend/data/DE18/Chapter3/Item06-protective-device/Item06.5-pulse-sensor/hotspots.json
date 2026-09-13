@@ -1,4 +1,13 @@
 {
   "drawingId": "de18-chapter3-item06-5-pulse-sensor",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 68.183537238284,
+      "top": 57.37954829510448,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

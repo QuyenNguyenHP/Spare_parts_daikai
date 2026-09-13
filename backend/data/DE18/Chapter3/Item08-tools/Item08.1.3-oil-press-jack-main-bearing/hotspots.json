@@ -1,4 +1,101 @@
 {
   "drawingId": "de18-chapter3-item08-1-3-oil-press-jack-main-bearing",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "3",
+      "left": 21.033917055334726,
+      "top": 25.334145947120522,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 16.60350677243808,
+      "top": 36.234534981234496,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 16.981918200168593,
+      "top": 41.972037630090874,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 16.137147795291064,
+      "top": 39.02719560365169,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 15.504813525435052,
+      "top": 48.55408868508625,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "506",
+      "left": 15.203220108542888,
+      "top": 51.647667021460386,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "17",
+      "left": 15.49317874565546,
+      "top": 54.78385799292619,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 42.136660771237175,
+      "top": 59.92711507401898,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 41.78689153837691,
+      "top": 62.35943328824275,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 42.95278898124445,
+      "top": 67.67449901562064,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 21.850045265342004,
+      "top": 72.62922130385427,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "18",
+      "left": 79.4453789429984,
+      "top": 26.595346953174598,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

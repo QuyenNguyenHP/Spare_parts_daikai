@@ -1,4 +1,101 @@
 {
   "drawingId": "de18-chapter3-item08-1-1-oil-press-jack-crankpin-side-bolt",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "11",
+      "left": 48.54909670700863,
+      "top": 20.52956481117874,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "7",
+      "left": 48.78227619558214,
+      "top": 35.03338823673535,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "16",
+      "left": 81.07763536301296,
+      "top": 53.20070512639348,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "13",
+      "left": 76.29745584725605,
+      "top": 55.90328091997545,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 80.26150715300568,
+      "top": 59.68688703099022,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "902",
+      "left": 89.93845592880625,
+      "top": 64.55152345943777,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 78.36965638047765,
+      "top": 69.51781988920274,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "15",
+      "left": 77.69653277869709,
+      "top": 72.29890740103943,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "12",
+      "left": 55.661071108500614,
+      "top": 74.10062459676075,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "14",
+      "left": 59.97439352198233,
+      "top": 74.26805101463708,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 64.17212244143366,
+      "top": 74.3508638598338,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 69.53525067862432,
+      "top": 73.90043456090346,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

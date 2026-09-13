@@ -1,1 +1,14 @@
-{}
+{
+  "901": { "partNumber": "06456-008", "name": "ASSY. HYDRAULIC JACK", "quantity": 1 },
+  "1": { "partNumber": "06456-001", "name": "HYDRAULIC JACK", "quantity": 1 },
+  "2": { "partNumber": "06456-002", "name": "HYDRAULIC JACK", "quantity": 1 },
+  "3": { "partNumber": "06456-003", "name": "STAND", "quantity": 1 },
+  "6": { "partNumber": "06456-006", "name": "BACK UP RING", "quantity": 1 },
+  "16": { "partNumber": "00063-006", "name": "SOCKET COUPLING", "quantity": 1 },
+  "17": { "partNumber": "00412-009", "name": "BACK UP RING", "quantity": 1 },
+  "18": { "partNumber": "00412-010", "name": "HANDLE", "quantity": 1 },
+  "501": { "partNumber": "X250110018ZZ", "name": "HEX. SET SCREW", "quantity": 1 },
+  "502": { "partNumber": "Z445002000ZZ", "name": "BALL", "quantity": 1 },
+  "504": { "partNumber": "Z560206031ZZ", "name": "O-RING", "quantity": 1 },
+  "506": { "partNumber": "Z560210031ZZ", "name": "O-RING", "quantity": 1 }
+}

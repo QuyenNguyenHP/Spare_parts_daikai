@@ -1,4 +1,69 @@
 {
   "drawingId": "de18-chapter3-item07-3-tc-cleaning-blower-syringe",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "1",
+      "left": 25.697506826804883,
+      "top": 16.0853295199332,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 41.320532561229896,
+      "top": 16.265501239505333,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 45.40117361126628,
+      "top": 26.535289255116844,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 56.010840341360876,
+      "top": 16.175415379719265,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 67.25871921782401,
+      "top": 16.16032775769455,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "5",
+      "left": 73.26612249580045,
+      "top": 16.175415379719265,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "6",
+      "left": 57.176737784228415,
+      "top": 56.29365389544916,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 56.68113174598408,
+      "top": 60.60385870332006,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

@@ -1,4 +1,261 @@
 {
   "drawingId": "de18-chapter3-item06-7-arrangement-of-thermometer",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "21",
+      "left": 23.365711941069804,
+      "top": 5.365112205391362,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 23.482301685356557,
+      "top": 7.076743541326613,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "24",
+      "left": 33.15925046115712,
+      "top": 5.004768766247098,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 34.1900421371162,
+      "top": 7.255353714012805,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 43.302558214104714,
+      "top": 5.455198065177427,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 44.002096679825236,
+      "top": 7.347001120684811,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "27",
+      "left": 69.30207119005082,
+      "top": 6.0857990836798885,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 70.3513788886316,
+      "top": 8.157773858759404,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "22",
+      "left": 14.97125035242353,
+      "top": 30.559124783761494,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 15.670788818144052,
+      "top": 32.72118541862707,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "3",
+      "left": 73.49930198437396,
+      "top": 27.946634849965584,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 75.95133004390475,
+      "top": 27.84333632409884,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 78.42279921558101,
+      "top": 27.906677944260917,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "26",
+      "left": 81.19422510729972,
+      "top": 27.766463130393454,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 74.54860968295473,
+      "top": 29.388008606542638,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 78.97901996585138,
+      "top": 29.83843790547297,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 83.9923789701818,
+      "top": 29.568180326114774,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 88.30619950879169,
+      "top": 29.65826618590084,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 68.25276349147003,
+      "top": 35.15350363285086,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 73.3827122400872,
+      "top": 35.333675352422986,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 77.66829620000266,
+      "top": 35.40131947412819,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 66.76281430450275,
+      "top": 33.446721889709266,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 69.76843016719783,
+      "top": 33.441872296915605,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "25",
+      "left": 73.03294300722695,
+      "top": 33.35178643712954,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "29",
+      "left": 66.50391732716872,
+      "top": 40.19831178087054,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 66.97027630431575,
+      "top": 41.72977139723367,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "28",
+      "left": 10.657429813813636,
+      "top": 71.91854564561001,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 11.123788790960651,
+      "top": 73.8103487011174,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "30",
+      "left": 59.85830190282376,
+      "top": 72.27888908475427,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 60.666645128684934,
+      "top": 74.1988439714448,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "23",
+      "left": 81.42740459587323,
+      "top": 65.97287889972966,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 81.31081485158647,
+      "top": 68.13493953459525,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

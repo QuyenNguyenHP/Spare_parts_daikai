@@ -1,4 +1,141 @@
 {
   "drawingId": "de18-chapter3-item07-2-tc-cleaning-piping-met",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "35",
+      "left": 45.05140437840602,
+      "top": 37.976194822548344,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "37",
+      "left": 12.639455466688451,
+      "top": 46.174008063080336,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "502",
+      "left": 30.244008728860106,
+      "top": 45.19620204305317,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 30.24450685398828,
+      "top": 46.71452322179673,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "503",
+      "left": 42.210646584918166,
+      "top": 45.12738676118351,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 42.02007102695042,
+      "top": 46.62443736201067,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "504",
+      "left": 41.673240732346414,
+      "top": 51.09753240402233,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "501",
+      "left": 52.74632750133177,
+      "top": 46.174008063080336,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "505",
+      "left": 53.23050512592105,
+      "top": 48.23347396785875,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "507",
+      "left": 82.476712294454,
+      "top": 28.967608843941754,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "32",
+      "left": 77.69653277869709,
+      "top": 40.58868475634425,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "33",
+      "left": 91.68730209310756,
+      "top": 36.17447762682702,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "36",
+      "left": 89.93845592880625,
+      "top": 40.318427176986056,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "34",
+      "left": 78.04630201155736,
+      "top": 47.79555353922952,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "4",
+      "left": 78.62925073299112,
+      "top": 69.77650332702959,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "901",
+      "left": 78.97901996585138,
+      "top": 75.63208421312387,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "903",
+      "left": 27.213173502532683,
+      "top": 67.88470027152222,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

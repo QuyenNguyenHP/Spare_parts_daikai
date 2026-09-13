@@ -1,4 +1,29 @@
 {
   "drawingId": "de18-chapter3-item06-8-turning-safety-switch",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "501",
+      "left": 78.04630201155736,
+      "top": 24.763601595724968,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "1",
+      "left": 83.64260973732154,
+      "top": 30.88944006117745,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    },
+    {
+      "item": "2",
+      "left": 81.07763536301296,
+      "top": 48.72644029881849,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

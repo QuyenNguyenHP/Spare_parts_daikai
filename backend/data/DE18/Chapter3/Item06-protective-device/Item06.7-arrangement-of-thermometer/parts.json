@@ -1,1 +1,24 @@
-{}
+{
+  "1": { "partNumber": "06564-001", "name": "BRACKET", "quantity": 1, "note": "Option (2) only." },
+  "2": { "partNumber": "06564-002", "name": "NAME PLATE", "quantity": 1, "note": "Option (2) only." },
+  "3": { "partNumber": "06564-003", "name": "BRACKET", "quantity": 1, "note": "Option (2) only." },
+  "4": { "partNumber": "06564-004", "name": "BRACKET", "quantity": 1, "note": "Option (2) only." },
+  "11": { "partNumber": "A506405010", "name": "NAME PLATE", "quantity": 1, "note": "Option (2) only." },
+  "21": { "partNumber": "06606-001", "name": "THERMOMETER", "quantity": 6, "note": "Standard specification (1) only." },
+  "22": { "partNumber": "Y231004000ZB", "name": "THERMOMETER", "quantity": 2, "note": "Standard specification (1) only." },
+  "23": { "partNumber": "Y232403130ZZ", "name": "THERMOMETER", "quantity": 1, "note": "Standard specification (1) only." },
+  "24": { "partNumber": "Y241004000ZB", "name": "THERMOMETER", "quantity": 1, "note": "Standard specification (1) only." },
+  "25": { "partNumber": "06606-002", "name": "THERMOMETER", "quantity": 2, "note": "Option (2) only." },
+  "26": { "partNumber": "06606-003", "name": "THERMOMETER", "quantity": 1, "note": "Option (2) only." },
+  "27": { "partNumber": "Y231004000ZB", "name": "THERMOMETER", "quantity": 1, "note": "Option (2) only." },
+  "28": { "partNumber": "Y231004000ZB", "name": "THERMOMETER", "quantity": 1, "note": "Option (2) only." },
+  "29": { "partNumber": "Y231004000ZB", "name": "THERMOMETER", "quantity": 1, "note": "Option (2) only." },
+  "30": { "partNumber": "Y231004000ZB", "name": "THERMOMETER", "quantity": 1, "note": "Option (2) only." },
+  "501": { "partNumber": "Z565001700EE", "name": "GASKET", "quantity": 1, "note": "Standard specification (1) only." },
+  "502": { "partNumber": "Z565002100ZZ", "name": "GASKET", "quantity": 9, "note": "Standard specification (1) only." },
+  "503": { "partNumber": "Z565002100ZZ", "name": "GASKET", "quantity": 7, "note": "Option (2) only." },
+  "504": { "partNumber": "X200010018ZZ", "name": "BOLT", "quantity": 4, "note": "Standard specification (1) only." },
+  "505": { "partNumber": "X200012020ZZ", "name": "BOLT", "quantity": 4, "note": "Standard specification (1) only." },
+  "506": { "partNumber": "X200012025ZZ", "name": "BOLT", "quantity": 2, "note": "Standard specification (1) only." },
+  "507": { "partNumber": "X245204008ZZ", "name": "PLUS PAN MACHINE SCREW", "quantity": 9, "note": "Option (2) only." }
+}

@@ -1,1 +1,9 @@
-{}
+{
+  "1": { "partNumber": "AE01199064A", "name": "SYRINGE", "quantity": 1, "note": "Quantity applies to options (1) and (2)." },
+  "2": { "partNumber": "AE01199065A", "name": "HOSE NIPPLE", "quantity": 1, "note": "Quantity applies to options (1) and (2)." },
+  "3": { "partNumber": "AE01199066A", "name": "SOCKET", "quantity": 1, "note": "Quantity applies to options (1) and (2)." },
+  "4": { "partNumber": "AE01199067A", "name": "PLUG", "quantity": 1, "note": "Quantity applies to options (1) and (2)." },
+  "5": { "partNumber": "AE01199068A", "name": "VINYL HOSE", "quantity": 1, "note": "Quantity applies to options (1) and (2)." },
+  "6": { "partNumber": "AE01199069A", "name": "JOINT PIECE", "quantity": 1, "note": "Option (1) only." },
+  "501": { "partNumber": "Z584001500ZZ", "name": "HOSE BAND", "quantity": 2, "note": "Quantity applies to options (1) and (2)." }
+}

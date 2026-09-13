@@ -1,1 +1,18 @@
-{}
+{
+  "901": { "partNumber": "06570-002", "name": "ASSY. SOCKET", "quantity": 1 },
+  "902": { "partNumber": "06570-035", "name": "ASSY. T/C CLEANING PIPING", "quantity": 1 },
+  "903": { "partNumber": "06645-003", "name": "ASSY. T/C CLEANING FITTING", "quantity": 1 },
+  "4": { "partNumber": "06570-004", "name": "VALVE", "quantity": 1 },
+  "32": { "partNumber": "06570-032", "name": "BITING UNION", "quantity": 1 },
+  "33": { "partNumber": "06570-033", "name": "BITING UNION", "quantity": 2 },
+  "34": { "partNumber": "06570-034", "name": "BRACKET", "quantity": 3 },
+  "36": { "partNumber": "06570-036", "name": "T/C CLEANING PIPE", "quantity": 1 },
+  "37": { "partNumber": "06570-037", "name": "T/C CLEANING PIPE", "quantity": 1 },
+  "501": { "partNumber": "X200010015ZZ", "name": "BOLT", "quantity": 2 },
+  "502": { "partNumber": "X200010020ZZ", "name": "BOLT", "quantity": 1 },
+  "503": { "partNumber": "X220010000ZZ", "name": "NUT", "quantity": 6 },
+  "504": { "partNumber": "Z260101500ZZ", "name": "U-BOLT", "quantity": 3 },
+  "505": { "partNumber": "Z300012000ZZ", "name": "FLAT WASHER", "quantity": 3 },
+  "506": { "partNumber": "Z300012000ZZ", "name": "FLAT WASHER", "quantity": 6 },
+  "507": { "partNumber": "Z565002100ZZ", "name": "GASKET", "quantity": 2 }
+}

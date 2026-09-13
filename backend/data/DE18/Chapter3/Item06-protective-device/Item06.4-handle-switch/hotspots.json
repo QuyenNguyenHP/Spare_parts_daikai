@@ -1,4 +1,13 @@
 {
   "drawingId": "de18-chapter3-item06-4-handle-switch",
-  "hotspots": []
+  "hotspots": [
+    {
+      "item": "901",
+      "left": 57.335338208826,
+      "top": 17.181685355678,
+      "width": 3.2,
+      "height": 1.5,
+      "source": "manual"
+    }
+  ]
 }

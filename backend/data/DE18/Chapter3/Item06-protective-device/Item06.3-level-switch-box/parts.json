@@ -1,1 +1,13 @@
-{}
+{
+  "901": { "partNumber": "06512-004", "name": "ASSY. LEVEL SWITCH", "quantity": 1 },
+  "1": { "partNumber": "06512-001", "name": "BRACKET", "quantity": 1 },
+  "2": { "partNumber": "06512-002", "name": "COVER", "quantity": 1 },
+  "11": { "partNumber": "00232-008", "name": "CONNECTOR", "quantity": 1 },
+  "12": { "partNumber": "00232-009", "name": "GASKET", "quantity": 1 },
+  "13": { "partNumber": "00232-010", "name": "GASKET", "quantity": 1 },
+  "14": { "partNumber": "00440-006", "name": "LEVEL SWITCH", "quantity": 1 },
+  "501": { "partNumber": "X200006014ZZ", "name": "BOLT", "quantity": 4 },
+  "502": { "partNumber": "X200010020ZZ", "name": "BOLT", "quantity": 2 },
+  "503": { "partNumber": "X245203010ZZ", "name": "PLUS PAN MACHINE SCREW", "quantity": 4 },
+  "504": { "partNumber": "Z565001000EE", "name": "GASKET", "quantity": 1 }
+}
