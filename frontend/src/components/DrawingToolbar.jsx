@@ -3,6 +3,7 @@ import Stack from "@mui/material/Stack";
 import AppButton from "./AppButton";
 import ChapterDropdown from "./ChapterDropdown";
 import DrawingDropdown from "./DrawingDropdown";
+import MainItemDropdown from "./MainItemDropdown";
 
 export default function DrawingToolbar({
   drawings,
@@ -25,7 +26,15 @@ export default function DrawingToolbar({
     : [...new Set(drawings.map((drawing) => drawing.chapter))].sort((a, b) => Number(a) - Number(b));
   const selectedDrawing = drawings.find((drawing) => drawing.id === drawingId);
   const selectedChapter = selectedDrawing?.chapter ?? chapters[0] ?? "";
+  const selectedChapterManifest = availableChapters.find((chapter) => chapter.chapter === selectedChapter);
   const chapterDrawings = drawings.filter((drawing) => drawing.chapter === selectedChapter);
+  const mainItems = (selectedChapterManifest?.items ?? [])
+    .filter((item) => !item.item.includes("."))
+    .filter((item) => chapterDrawings.some((drawing) => drawing.item === item.item || drawing.item.startsWith(`${item.item}.`)));
+  const selectedMainItem = selectedDrawing?.item.split(".")[0] ?? "";
+  const mainItemDrawings = chapterDrawings.filter((drawing) => (
+    drawing.item === selectedMainItem || drawing.item.startsWith(`${selectedMainItem}.`)
+  ));
 
   return (
     <div className="drawing-toolbar">
@@ -43,10 +52,22 @@ export default function DrawingToolbar({
           />
         </div>
         <div className="drawing-picker item-picker">
+          <span id="main-item-picker-label" className="drawing-picker-label">Main item</span>
+          <MainItemDropdown
+            items={mainItems}
+            value={selectedMainItem}
+            onChange={(item) => {
+              const firstDrawing = chapterDrawings.find((drawing) => drawing.item === item || drawing.item.startsWith(`${item}.`));
+              if (firstDrawing) onDrawingChange(firstDrawing.id);
+            }}
+            disabled={!mainItems.length}
+          />
+        </div>
+        <div className="drawing-picker item-picker">
           <span id="drawing-picker-label" className="drawing-picker-label">Item &amp; drawing name</span>
           <DrawingDropdown
             value={drawingId}
-            drawings={chapterDrawings}
+            drawings={mainItemDrawings}
             onChange={onDrawingChange}
             disabled={!chapterDrawings.length}
           />
