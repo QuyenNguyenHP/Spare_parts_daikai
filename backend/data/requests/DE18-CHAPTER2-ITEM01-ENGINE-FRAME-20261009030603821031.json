@@ -1,0 +1,28 @@
+{
+  "requestId": "DE18-CHAPTER2-ITEM01-ENGINE-FRAME-20261009030603821031",
+  "drawingId": "de18-chapter2-item01-engine-frame",
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-09T03:06:03.821031+00:00",
+  "customer": {
+    "name": "Quyen Nguyen Duy",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai Engineering PTE LTD",
+    "phone": "+6585531330",
+    "engineName": "123131",
+    "engineSerialNumber": "12313",
+    "vesselName": "1213",
+    "imoNumber": "1213"
+  },
+  "items": [
+    {
+      "item": "25",
+      "quantity": 2,
+      "partNumber": "00239-025",
+      "name": "GASKET"
+    }
+  ],
+  "emailDelivery": {
+    "status": "failed",
+    "message": "The request was saved, but email delivery failed"
+  }
+}

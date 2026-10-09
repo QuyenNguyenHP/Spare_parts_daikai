@@ -12,7 +12,7 @@ import PartsSearch from "../components/PartsSearch";
 import { API_URL, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, ZOOM_STEP } from "../config";
 import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotspots";
 
-export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCart, onOpenCart, onBackToEngines, onLogout, onHome }) {
+export default function DrawingLibraryPage({ user, engine, cartCount, initialSelection, onAddToCart, onOpenCart, onBackToEngines, onAdmin, onLogout, onHome }) {
   const [drawings, setDrawings] = useState([]);
   const [chapters, setChapters] = useState([]);
   const [drawingId, setDrawingId] = useState("");
@@ -25,7 +25,8 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
   const [savingHotspots, setSavingHotspots] = useState(false);
   const [zoom, setZoom] = useState(DEFAULT_ZOOM);
   const dragState = useRef(null);
-  const pendingSelectedItem = useRef(null);
+  const pendingSelectedItem = useRef(initialSelection?.item ?? null);
+  const canEditHotspots = user.role === "Administrator";
 
   useEffect(() => {
     const controller = new AbortController();
@@ -40,7 +41,8 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
         setChapters(await chaptersResponse.json());
         const engineDrawings = engine ? data.filter((item) => item.model === engine.model) : data;
         setDrawings(engineDrawings);
-        if (engineDrawings.length) setDrawingId(engineDrawings[0].id);
+        const requestedDrawing = engineDrawings.find((item) => item.id === initialSelection?.drawingId);
+        if (engineDrawings.length) setDrawingId(requestedDrawing?.id ?? engineDrawings[0].id);
         else setStatus({ type: "ready", message: "No drawings registered" });
       } catch (error) {
         if (error.name !== "AbortError") {
@@ -86,6 +88,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
   const selectedPart = selectedHotspot?.part;
 
   function toggleEditing() {
+    if (!canEditHotspots) return;
     setEditing((current) => {
       if (!current) setHotspotsVisible(true);
       else setSelectedHotspotIndex(null);
@@ -172,20 +175,23 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
       const hotspots = drawing.hotspots.map(({ part, ...hotspot }) => hotspot);
       const response = await fetch(`${API_URL}/drawings/${drawingId}/hotspots`, {
         method: "PUT",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${user.token}`,
+        },
         body: JSON.stringify({ hotspots }),
       });
-      if (!response.ok) throw new Error(`API returned ${response.status}`);
-      const result = await response.json();
+      const result = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(result.detail ?? `API returned ${response.status}`);
       setStatus({ type: "success", message: `${result.hotspotCount} hotspot positions saved` });
-    } catch {
-      setStatus({ type: "error", message: "Hotspot positions could not be saved" });
+    } catch (error) {
+      setStatus({ type: "error", message: error.message ?? "Hotspot positions could not be saved" });
     } finally {
       setSavingHotspots(false);
     }
   }
 
-  function addToCart() {
+  function addToCart(quantity) {
     if (!selectedPart) return;
     onAddToCart({
       key: `${drawingId}:${selectedItem}`,
@@ -194,7 +200,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
       item: selectedItem,
       partNumber: selectedPart.partNumber,
       name: selectedPart.name,
-      quantity: selectedPart.quantity,
+      quantity,
     });
     setStatus({ type: "success", message: `Item ${selectedItem} added to parts cart` });
   }
@@ -218,6 +224,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
         onOpenCart={onOpenCart}
         onBack={onBackToEngines}
         backLabel="Back to engine selection"
+        onAdmin={onAdmin}
         onLogout={onLogout}
         onHome={onHome}
       />
@@ -247,6 +254,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, onAddToCar
             onZoomReset={() => setZoom(DEFAULT_ZOOM)}
             hotspotsVisible={hotspotsVisible}
             onHotspotsVisibleChange={setHotspotsVisible}
+            canEditHotspots={canEditHotspots}
             editing={editing}
             onToggleEditing={toggleEditing}
           />

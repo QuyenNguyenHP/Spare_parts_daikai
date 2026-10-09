@@ -1,0 +1,65 @@
+{
+  "requestId": "DREAM-02-IMU1234-SSDFCFSDF-20261009",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame",
+    "de18-chapter2-item05-aux-machinery-gear",
+    "de18-chapter2-item21-intake-exhaust-tappet"
+  ],
+  "drawingTitles": [
+    "Engine Frame",
+    "Aux.Machinery Gear",
+    "Intake & Exhaust Tappet"
+  ],
+  "drawingTitle": "Engine Frame, Aux.Machinery Gear, Intake & Exhaust Tappet",
+  "createdAt": "2026-10-09T00:56:53.182508+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "123131",
+    "engineSerialNumber": "ssdfcfsdf",
+    "vesselName": "Dream 02",
+    "imoNumber": "IMU1234"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "524",
+      "quantity": 6,
+      "partNumber": "Z565001700EE",
+      "name": "GASKET"
+    },
+    {
+      "drawingId": "de18-chapter2-item05-aux-machinery-gear",
+      "drawingTitle": "Aux.Machinery Gear",
+      "drawingLabel": "Chapter 2 / Item 5 - Aux.Machinery Gear",
+      "item": "501",
+      "quantity": 1,
+      "partNumber": "Z321016050ZZ",
+      "name": "WIRE"
+    },
+    {
+      "drawingId": "de18-chapter2-item21-intake-exhaust-tappet",
+      "drawingTitle": "Intake & Exhaust Tappet",
+      "drawingLabel": "Chapter 2 / Item 21 - Intake & Exhaust Tappet",
+      "item": "502",
+      "quantity": 2,
+      "partNumber": "Z571501000ZZ",
+      "name": "TAPER PLUG"
+    }
+  ],
+  "pdfFilename": "DREAM-02-IMU1234-SSDFCFSDF-20261009.pdf",
+  "storedPdfFilename": "DREAM-02-IMU1234-SSDFCFSDF-20261009-MULTI-DRAWINGS-005653182508.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "duyquyenbk97@gmail.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DREAM-02-IMU1234-SSDFCFSDF-20261009.pdf"
+  }
+}

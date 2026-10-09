@@ -1,0 +1,28 @@
+{
+  "requestId": "DE18-CHAPTER2-ITEM01-ENGINE-FRAME-20261009020605340002",
+  "drawingId": "de18-chapter2-item01-engine-frame",
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-09T02:06:05.340002+00:00",
+  "customer": {
+    "name": "Quyen Nguyen Duy",
+    "email": "quyen@daikai.com",
+    "company": "Daikai Engineering PTE LTD",
+    "phone": "+6585531330",
+    "engineName": "8DK",
+    "engineSerialNumber": "1231343",
+    "vesselName": "TM01`",
+    "imoNumber": "1231412"
+  },
+  "items": [
+    {
+      "item": "514",
+      "quantity": 6,
+      "partNumber": "X570003000ZZ",
+      "name": "HEX. PLUG"
+    }
+  ],
+  "emailDelivery": {
+    "status": "not_configured",
+    "message": "SMTP email is not configured"
+  }
+}

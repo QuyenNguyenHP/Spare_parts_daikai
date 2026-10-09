@@ -4,14 +4,21 @@ import AppButton from "./AppButton";
 
 export default function PartPanel({ drawing, selectedItem, selectedPart, onAddToCart }) {
   const [added, setAdded] = useState(false);
+  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     setAdded(false);
-  }, [drawing?.id, selectedItem]);
+    setQuantity(Math.max(1, Number.parseInt(selectedPart?.quantity, 10) || 1));
+  }, [drawing?.id, selectedItem, selectedPart?.quantity]);
 
   function handleAddToCart() {
-    onAddToCart();
+    onAddToCart(quantity);
     setAdded(true);
+  }
+
+  function handleQuantityChange(event) {
+    const nextQuantity = Number.parseInt(event.target.value, 10);
+    setQuantity(Number.isNaN(nextQuantity) ? 1 : Math.max(1, nextQuantity));
   }
 
   return (
@@ -34,7 +41,20 @@ export default function PartPanel({ drawing, selectedItem, selectedPart, onAddTo
               </dd>
             </div>
             <div><dt>Number</dt><dd>{selectedItem}</dd></div>
-            <div><dt>Quantity</dt><dd>{selectedPart.quantity}</dd></div>
+            <div>
+              <dt><label htmlFor="selected-part-quantity">Quantity</label></dt>
+              <dd>
+                <input
+                  id="selected-part-quantity"
+                  className="part-quantity"
+                  type="number"
+                  min="1"
+                  step="1"
+                  value={quantity}
+                  onChange={handleQuantityChange}
+                />
+              </dd>
+            </div>
           </dl>
           <p className="part-note">
             {selectedPart.note ?? "This item is ready to add to a parts request."}

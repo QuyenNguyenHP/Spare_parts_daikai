@@ -10,17 +10,19 @@ export default function OrderPage({
   engine,
   cart,
   onBack,
+  onAdmin,
   onLogout,
   onHome,
   onQuantityChange,
   onRemove,
+  onOpenDrawing,
   onProceed,
 }) {
   const totalUnits = cart.reduce((sum, item) => sum + item.quantity, 0);
 
   return (
     <div className="app-shell">
-      <Header user={user} title="Parts Request Order" onBack={onBack} onLogout={onLogout} onHome={onHome} />
+      <Header user={user} title="Parts Request Order" onBack={onBack} onAdmin={onAdmin} onLogout={onLogout} onHome={onHome} />
       <PageBody
         navigator={(
           <PageNavigator
@@ -39,7 +41,12 @@ export default function OrderPage({
           </section>
           <div className="order-layout">
             <section className="cart-card">
-              <CartItems items={cart} onQuantityChange={onQuantityChange} onRemove={onRemove} />
+              <CartItems
+                items={cart}
+                onQuantityChange={onQuantityChange}
+                onRemove={onRemove}
+                onOpenDrawing={onOpenDrawing}
+              />
             </section>
             <aside className="order-summary">
               <p className="eyebrow">Order summary</p>

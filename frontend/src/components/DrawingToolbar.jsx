@@ -18,6 +18,7 @@ export default function DrawingToolbar({
   onZoomReset,
   hotspotsVisible,
   onHotspotsVisibleChange,
+  canEditHotspots,
   editing,
   onToggleEditing,
 }) {
@@ -89,22 +90,24 @@ export default function DrawingToolbar({
           />
           Show hotspots
         </label>
-        <AppButton
-          tone="neutral"
-          className={`toolbar-button ${editing ? "active" : ""}`}
-          onClick={onToggleEditing}
-          sx={{
-            color: "#07111f",
-            background: "linear-gradient(90deg, var(--cyan), var(--blue))",
-            boxShadow: "0 10px 24px rgba(47, 117, 221, .24)",
-            "&:hover": {
-              background: "linear-gradient(90deg, #67e8f9, #3b82f6)",
-              boxShadow: "0 13px 28px rgba(47, 117, 221, .34)",
-            },
-          }}
-        >
-          {editing ? "Finish editing" : "Edit hotspots"}
-        </AppButton>
+        {canEditHotspots && (
+          <AppButton
+            tone="neutral"
+            className={`toolbar-button ${editing ? "active" : ""}`}
+            onClick={onToggleEditing}
+            sx={{
+              color: "#07111f",
+              background: "linear-gradient(90deg, var(--cyan), var(--blue))",
+              boxShadow: "0 10px 24px rgba(47, 117, 221, .24)",
+              "&:hover": {
+                background: "linear-gradient(90deg, #67e8f9, #3b82f6)",
+                boxShadow: "0 13px 28px rgba(47, 117, 221, .34)",
+              },
+            }}
+          >
+            {editing ? "Finish editing" : "Edit hotspots"}
+          </AppButton>
+        )}
       </Stack>
     </div>
   );

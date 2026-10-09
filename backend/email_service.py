@@ -9,7 +9,7 @@ import ssl
 
 
 LOGGER = logging.getLogger(__name__)
-DEFAULT_SALES_EMAIL = "duyquyenbk97@gmail.com"
+DEFAULT_SALES_EMAIL = "quyen@daikai.com"
 
 
 def env_flag(name: str, default: bool) -> bool:
@@ -26,12 +26,12 @@ class EmailSettings:
     username: str
     password: str
     from_email: str
-    sales_email: str
+    sales_emails: tuple[str, ...]
     use_ssl: bool
     start_tls: bool
 
     @classmethod
-    def from_environment(cls) -> "EmailSettings":
+    def from_environment(cls, recipient_emails: list[str] | None = None) -> "EmailSettings":
         username = os.getenv("SMTP_USERNAME", "").strip()
         use_ssl = env_flag("SMTP_USE_SSL", False)
         return cls(
@@ -40,25 +40,38 @@ class EmailSettings:
             username=username,
             password=os.getenv("SMTP_PASSWORD", ""),
             from_email=os.getenv("SMTP_FROM_EMAIL", username).strip(),
-            sales_email=os.getenv("PARTS_REQUEST_SALES_EMAIL", DEFAULT_SALES_EMAIL).strip(),
+            sales_emails=tuple(recipient_emails or [
+                os.getenv("PARTS_REQUEST_SALES_EMAIL", DEFAULT_SALES_EMAIL).strip()
+            ]),
             use_ssl=use_ssl,
             start_tls=env_flag("SMTP_STARTTLS", not use_ssl),
         )
 
     def is_configured(self) -> bool:
         credentials_complete = not self.username or bool(self.password)
-        return bool(self.host and self.from_email and self.sales_email and credentials_complete)
+        return bool(self.host and self.from_email and self.sales_emails and credentials_complete)
 
 
 def item_lines(request_data: dict) -> str:
     return "\n".join(
         f"- Parts code: {item['partNumber']} | Name: {item['name']} | "
-        f"Number: {item['item']} | Quantity: {item['quantity']}"
+        f"Number: {item['item']} | Reference drawing: "
+        f"{item.get('drawingLabel') or item.get('drawingTitle') or request_data.get('drawingTitle', '-')} | "
+        f"Quantity: {item['quantity']}"
         for item in request_data["items"]
     )
 
 
-def build_customer_email(request_data: dict, from_email: str) -> EmailMessage:
+def attach_pdf(message: EmailMessage, pdf_content: bytes, pdf_filename: str) -> None:
+    message.add_attachment(
+        pdf_content,
+        maintype="application",
+        subtype="pdf",
+        filename=pdf_filename,
+    )
+
+
+def build_customer_email(request_data: dict, from_email: str, pdf_content: bytes, pdf_filename: str) -> EmailMessage:
     customer = request_data["customer"]
     message = EmailMessage()
     message["From"] = from_email
@@ -68,7 +81,7 @@ def build_customer_email(request_data: dict, from_email: str) -> EmailMessage:
         f"Dear {customer['name']},\n\n"
         "Thank you for your parts request. Daikai Engineering has received the request below.\n\n"
         f"Request ID: {request_data['requestId']}\n"
-        f"Drawing: {request_data['drawingTitle']}\n"
+        f"Drawings: {request_data['drawingTitle']}\n"
         f"Vessel: {customer['vesselName']}\n"
         f"IMO No.: {customer['imoNumber']}\n"
         f"Engine: {customer['engineName']}\n"
@@ -77,14 +90,15 @@ def build_customer_email(request_data: dict, from_email: str) -> EmailMessage:
         "Our sales team will review your request and contact you.\n\n"
         "Daikai Engineering"
     )
+    attach_pdf(message, pdf_content, pdf_filename)
     return message
 
 
-def build_sales_email(request_data: dict, settings: EmailSettings) -> EmailMessage:
+def build_sales_email(request_data: dict, settings: EmailSettings, pdf_content: bytes, pdf_filename: str) -> EmailMessage:
     customer = request_data["customer"]
     message = EmailMessage()
     message["From"] = settings.from_email
-    message["To"] = settings.sales_email
+    message["To"] = ", ".join(settings.sales_emails)
     message["Reply-To"] = customer["email"]
     message["Subject"] = f"New parts request - {request_data['requestId']}"
     message.set_content(
@@ -99,15 +113,21 @@ def build_sales_email(request_data: dict, settings: EmailSettings) -> EmailMessa
         f"IMO No.: {customer['imoNumber']}\n"
         f"Engine: {customer['engineName']}\n"
         f"Engine S/N: {customer['engineSerialNumber']}\n"
-        f"Drawing: {request_data['drawingTitle']}\n\n"
+        f"Drawings: {request_data['drawingTitle']}\n\n"
         f"Requested parts:\n{item_lines(request_data)}\n"
     )
+    attach_pdf(message, pdf_content, pdf_filename)
     return message
 
 
-def send_request_emails(request_data: dict) -> dict:
+def send_request_emails(
+    request_data: dict,
+    recipient_emails: list[str] | None = None,
+    pdf_content: bytes | None = None,
+    pdf_filename: str | None = None,
+) -> dict:
     try:
-        settings = EmailSettings.from_environment()
+        settings = EmailSettings.from_environment(recipient_emails)
     except ValueError:
         LOGGER.exception("Invalid SMTP configuration")
         return {
@@ -120,9 +140,15 @@ def send_request_emails(request_data: dict) -> dict:
             "message": "SMTP email is not configured",
         }
 
+    if not pdf_content or not pdf_filename:
+        return {
+            "status": "failed",
+            "message": "The request PDF could not be created",
+        }
+
     messages = [
-        build_customer_email(request_data, settings.from_email),
-        build_sales_email(request_data, settings),
+        build_customer_email(request_data, settings.from_email, pdf_content, pdf_filename),
+        build_sales_email(request_data, settings, pdf_content, pdf_filename),
     ]
     try:
         context = ssl.create_default_context()
@@ -151,6 +177,7 @@ def send_request_emails(request_data: dict) -> dict:
 
     return {
         "status": "sent",
-        "message": "Confirmation and sales emails sent",
-        "recipients": [request_data["customer"]["email"], settings.sales_email],
+        "message": "Confirmation and sales emails sent with the request PDF",
+        "recipients": [request_data["customer"]["email"], *settings.sales_emails],
+        "attachment": pdf_filename,
     }

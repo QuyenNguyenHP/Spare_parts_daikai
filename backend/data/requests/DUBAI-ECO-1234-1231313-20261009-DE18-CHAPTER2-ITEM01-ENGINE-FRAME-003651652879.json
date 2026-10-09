@@ -1,0 +1,35 @@
+{
+  "requestId": "DUBAI-ECO-1234-1231313-20261009",
+  "drawingId": "de18-chapter2-item01-engine-frame",
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-09T00:36:51.652879+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "\u00e1dadasda",
+    "engineSerialNumber": "1231313",
+    "vesselName": "Dubai Eco",
+    "imoNumber": "1234"
+  },
+  "items": [
+    {
+      "item": "523",
+      "quantity": 8,
+      "partNumber": "Z565001300EE",
+      "name": "GASKET"
+    }
+  ],
+  "pdfFilename": "DUBAI-ECO-1234-1231313-20261009.pdf",
+  "storedPdfFilename": "DUBAI-ECO-1234-1231313-20261009-DE18-CHAPTER2-ITEM01-ENGINE-FRAME-003651652879.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "duyquyenbk97@gmail.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-ECO-1234-1231313-20261009.pdf"
+  }
+}

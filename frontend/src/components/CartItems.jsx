@@ -1,4 +1,4 @@
-export default function CartItems({ items, onQuantityChange, onRemove, readOnly = false }) {
+export default function CartItems({ items, onQuantityChange, onRemove, onOpenDrawing, readOnly = false }) {
   if (!items.length) {
     return (
       <div className="cart-empty">
@@ -30,7 +30,20 @@ export default function CartItems({ items, onQuantityChange, onRemove, readOnly 
               <td data-label="Parts code"><code>{item.partNumber}</code></td>
               <td data-label="Name of parts">{item.name}</td>
               <td data-label="Number"><strong>{item.item}</strong></td>
-              <td data-label="Reference drawing"><small>{item.drawingLabel}</small></td>
+              <td data-label="Reference drawing">
+                {onOpenDrawing ? (
+                  <button
+                    type="button"
+                    className="cart-reference-button"
+                    onClick={() => onOpenDrawing(item)}
+                    aria-label={`Open ${item.drawingLabel}, item ${item.item}`}
+                  >
+                    {item.drawingLabel}
+                  </button>
+                ) : (
+                  <small>{item.drawingLabel}</small>
+                )}
+              </td>
               <td data-label="Quantity">
                 {readOnly ? (
                   <span className="cart-quantity-value">{item.quantity}</span>

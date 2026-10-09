@@ -1,0 +1,28 @@
+{
+  "requestId": "DE18-CHAPTER2-ITEM07-CRANKSHAFT-20261009022615409948",
+  "drawingId": "de18-chapter2-item07-crankshaft",
+  "drawingTitle": "Crankshaft",
+  "createdAt": "2026-10-09T02:26:15.409948+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai Engineering PTE LTD",
+    "phone": "+6585531330",
+    "engineName": "6DE18",
+    "engineSerialNumber": "DE182356778",
+    "vesselName": "TM01",
+    "imoNumber": "123hm12353"
+  },
+  "items": [
+    {
+      "item": "901",
+      "quantity": 1,
+      "partNumber": "06421-003",
+      "name": "ASSY. CRANK SHAFT"
+    }
+  ],
+  "emailDelivery": {
+    "status": "failed",
+    "message": "The request was saved, but email delivery failed"
+  }
+}

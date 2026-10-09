@@ -40,23 +40,38 @@ python3 backend/app.py
 
 When a parts request is submitted, the backend sends a confirmation email to the
 customer and forwards the full request to the configured sales address. Configure
-SMTP in the same WSL terminal before starting the backend. Example for Gmail SMTP:
+SMTP in the root `.env` file before starting the backend. Example for Gmail SMTP:
 
-```bash
-export SMTP_HOST="smtp.gmail.com"
-export SMTP_PORT="587"
-export SMTP_STARTTLS="true"
-export SMTP_USERNAME="your-sender@gmail.com"
-export SMTP_PASSWORD="your-app-password"
-export SMTP_FROM_EMAIL="your-sender@gmail.com"
-export PARTS_REQUEST_SALES_EMAIL="duyquyenbk97@gmail.com"
-python3 backend/app.py
+```dotenv
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_STARTTLS=true
+SMTP_USE_SSL=false
+SMTP_USERNAME=your-sender@gmail.com
+SMTP_PASSWORD=your-16-character-google-app-password
+SMTP_FROM_EMAIL=your-sender@gmail.com
 ```
 
-`PARTS_REQUEST_SALES_EMAIL` can be changed at any time. Do not commit the SMTP
+Install updated backend dependencies once with
+`.venv/bin/python -m pip install -r backend/requirements.txt`, then restart using
+`.venv/bin/python backend/app.py`. The backend automatically loads `.env` from
+the project root. The `.env` file is ignored by Git; `.env.example` is the safe
+template that can be committed.
+
+Order recipient addresses are managed from **Account > Administration**. The
+default recipient is `quyen@daikai.com`. SMTP credentials remain in environment
+variables and are never stored by the admin page. Do not commit the SMTP
 password; use an app password or credentials supplied by the mail administrator.
 If SMTP is not configured or delivery fails, the request remains safely stored in
 `backend/data/requests/` and the frontend displays an email warning.
+
+The Administration page is available only to users with the `Administrator`
+role. It manages users, roles, active status, password resets, and order recipient
+emails. Settings are persisted in the ignored file
+`backend/data/admin-settings.json`; back up this file in production. The first
+run creates the default `admin` / `admin123` account (or the values supplied via
+`SPARE_PARTS_USERNAME` and `SPARE_PARTS_PASSWORD`). Change the default password
+before deploying the application.
 
 In a second WSL terminal, start the frontend:
 

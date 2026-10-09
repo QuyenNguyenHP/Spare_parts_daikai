@@ -19,17 +19,15 @@ const EMPTY_CUSTOMER = {
   imoNumber: "",
 };
 
-function groupItemsByDrawing(cart, customer) {
-  return Object.values(cart.reduce((groups, item) => {
-    const group = groups[item.drawingId] ?? {
+function buildRequest(cart, customer) {
+  return {
+    customer,
+    items: cart.map((item) => ({
       drawingId: item.drawingId,
-      customer,
-      items: [],
-    };
-    group.items.push({ item: item.item, quantity: item.quantity });
-    groups[item.drawingId] = group;
-    return groups;
-  }, {}));
+      item: item.item,
+      quantity: item.quantity,
+    })),
+  };
 }
 
 export default function RequestDetailsPage({
@@ -37,6 +35,7 @@ export default function RequestDetailsPage({
   engine,
   cart,
   onBack,
+  onAdmin,
   onLogout,
   onHome,
   onOrderComplete,
@@ -48,7 +47,13 @@ export default function RequestDetailsPage({
   const [requestIds, setRequestIds] = useState([]);
   const [emailNotice, setEmailNotice] = useState("");
   const [submittedItems, setSubmittedItems] = useState(null);
+  const [showSuccessModal, setShowSuccessModal] = useState(false);
+  const [submissionProgress, setSubmissionProgress] = useState(0);
+  const [submissionTotal, setSubmissionTotal] = useState(0);
   const displayedItems = submittedItems ?? cart;
+  const submissionPercentage = submissionTotal
+    ? Math.round((submissionProgress / submissionTotal) * 100)
+    : 0;
 
   function updateCustomer(event) {
     const { name, value } = event.target;
@@ -62,28 +67,30 @@ export default function RequestDetailsPage({
     setSubmitting(true);
     setRequestIds([]);
     setEmailNotice("");
+    setShowSuccessModal(false);
+    setSubmissionProgress(0);
     setStatus({ type: "loading", message: "Creating parts request..." });
     try {
-      const requests = await Promise.all(groupItemsByDrawing(cart, customer).map(async (request) => {
-        const response = await fetch(`${API_URL}/requests`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(request),
-        });
-        const result = await response.json().catch(() => ({}));
-        if (!response.ok) throw new Error(result.detail ?? `API returned ${response.status}`);
-        return result;
-      }));
+      setSubmissionTotal(1);
+      const response = await fetch(`${API_URL}/requests`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(buildRequest(cart, customer)),
+      });
+      const request = await response.json().catch(() => ({}));
+      setSubmissionProgress(1);
+      if (!response.ok) throw new Error(request.detail ?? `API returned ${response.status}`);
 
       setSubmittedItems(cart);
-      setRequestIds(requests.map((request) => request.requestId));
-      const emailSent = requests.every((request) => request.emailDelivery?.status === "sent");
+      setRequestIds([request.requestId]);
+      const emailSent = request.emailDelivery?.status === "sent";
       setEmailNotice(emailSent
         ? "A confirmation email was sent to the customer and the request was sent to sales."
         : "The request was saved, but email could not be sent. Check the backend SMTP configuration.");
       setStatus(emailSent
         ? { type: "success", message: "Parts request and email notifications completed" }
         : { type: "warning", message: "Parts request saved; email notification requires attention" });
+      setShowSuccessModal(emailSent);
       onOrderComplete();
     } catch (error) {
       setStatus({ type: "error", message: error.message ?? "Parts request could not be created" });
@@ -94,7 +101,7 @@ export default function RequestDetailsPage({
 
   return (
     <div className="app-shell">
-      <Header user={user} title="Customer Request Details" onBack={onBack} backLabel="Back to order" onLogout={onLogout} onHome={onHome} />
+      <Header user={user} title="Customer Request Details" onBack={onBack} backLabel="Back to order" onAdmin={onAdmin} onLogout={onLogout} onHome={onHome} />
       <PageBody
         navigator={(
           <PageNavigator
@@ -188,6 +195,45 @@ export default function RequestDetailsPage({
         </form>
         </main>
       </PageBody>
+      {submitting && (
+        <div className="request-progress-modal-backdrop" role="presentation">
+          <section className="request-progress-modal" role="status" aria-live="polite" aria-label={`Creating parts request: ${submissionPercentage}% complete`}>
+            <span className="request-progress-spinner" aria-hidden="true" />
+            <p className="eyebrow">Please wait</p>
+            <h2>Creating parts request...</h2>
+            <strong className="request-progress-percentage">{submissionPercentage}%</strong>
+            <div
+              className="request-progress-track"
+              role="progressbar"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-valuenow={submissionPercentage}
+            >
+              <span style={{ width: `${submissionPercentage}%` }} />
+            </div>
+            <p>{submissionProgress} of {submissionTotal || 1} request completed</p>
+            <small>Generating one PDF file and sending the confirmation email.</small>
+          </section>
+        </div>
+      )}
+      {showSuccessModal && (
+        <div className="request-success-modal-backdrop" role="presentation">
+          <section className="request-success-modal" role="dialog" aria-modal="true" aria-labelledby="request-success-title">
+            <span className="request-success-icon" aria-hidden="true">✓</span>
+            <p className="eyebrow">Email delivered</p>
+            <h2 id="request-success-title">Parts request sent successfully</h2>
+            <p>The request PDF was generated and attached to the confirmation emails.</p>
+            <div className="request-success-ids">
+              <strong>Request ID</strong>
+              {requestIds.map((requestId) => <code key={requestId}>{requestId}</code>)}
+            </div>
+            <div className="request-success-actions">
+              <AppButton basic type="button" onClick={() => setShowSuccessModal(false)}>Close</AppButton>
+              <AppButton className="gradient-action-button" type="button" onClick={onContinue}>Continue browsing</AppButton>
+            </div>
+          </section>
+        </div>
+      )}
       <Footer status={status} />
     </div>
   );

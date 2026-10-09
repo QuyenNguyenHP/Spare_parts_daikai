@@ -1,0 +1,35 @@
+{
+  "requestId": "DUBAI-ECO-M1239876-SN1234-20261009",
+  "drawingId": "de18-chapter2-item17-exhaust-valve",
+  "drawingTitle": "Exhaust Valve",
+  "createdAt": "2026-10-09T00:38:28.704196+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "quyen@daikai.com",
+    "company": "Daikai",
+    "phone": "12345678",
+    "engineName": "6DE18",
+    "engineSerialNumber": "SN1234",
+    "vesselName": "Dubai Eco",
+    "imoNumber": "M1239876"
+  },
+  "items": [
+    {
+      "item": "12",
+      "quantity": 1,
+      "partNumber": "",
+      "name": "SLEEVE"
+    }
+  ],
+  "pdfFilename": "DUBAI-ECO-M1239876-SN1234-20261009.pdf",
+  "storedPdfFilename": "DUBAI-ECO-M1239876-SN1234-20261009-DE18-CHAPTER2-ITEM17-EXHAUST-VALVE-003828704196.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "quyen@daikai.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-ECO-M1239876-SN1234-20261009.pdf"
+  }
+}

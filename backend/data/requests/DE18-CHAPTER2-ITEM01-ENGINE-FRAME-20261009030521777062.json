@@ -1,0 +1,28 @@
+{
+  "requestId": "DE18-CHAPTER2-ITEM01-ENGINE-FRAME-20261009030521777062",
+  "drawingId": "de18-chapter2-item01-engine-frame",
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-09T03:05:21.777062+00:00",
+  "customer": {
+    "name": "Quyen Nguyen Duy",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai Engineering PTE LTD",
+    "phone": "+6585531330",
+    "engineName": "1213",
+    "engineSerialNumber": "12131",
+    "vesselName": "1231",
+    "imoNumber": "1213"
+  },
+  "items": [
+    {
+      "item": "515",
+      "quantity": 2,
+      "partNumber": "X570004000ZZ",
+      "name": "HEX. PLUG"
+    }
+  ],
+  "emailDelivery": {
+    "status": "failed",
+    "message": "The request was saved, but email delivery failed"
+  }
+}

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { API_URL } from "../config";
 
-export default function EngineSelectionPage({ user, selectedEngine, cartCount, onOpenCart, onLogout, onSelectEngine, onHome }) {
+export default function EngineSelectionPage({ user, selectedEngine, cartCount, onOpenCart, onAdmin, onLogout, onSelectEngine, onHome }) {
   const [engines, setEngines] = useState([]);
   const [status, setStatus] = useState({ type: "loading", message: "Loading engine types..." });
 
@@ -27,7 +27,7 @@ export default function EngineSelectionPage({ user, selectedEngine, cartCount, o
 
   return (
     <div className="app-shell">
-      <Header user={user} cartCount={cartCount} onOpenCart={onOpenCart} onLogout={onLogout} onHome={onHome} />
+      <Header user={user} cartCount={cartCount} onOpenCart={onOpenCart} onAdmin={onAdmin} onLogout={onLogout} onHome={onHome} />
       <main className="engine-selection-page">
         <div className="engine-selection-heading">
           <p className="eyebrow">Engine catalogue</p>

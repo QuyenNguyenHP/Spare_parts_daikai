@@ -1,0 +1,76 @@
+{
+  "requestId": "DUBAI-ECO-M1234859-1239876-20261009",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame",
+    "de18-chapter2-item07-crankshaft",
+    "de18-chapter3-item05-2-gauge",
+    "de18-chapter3-item06-1-fuel-control-cylinder"
+  ],
+  "drawingTitles": [
+    "Engine Frame",
+    "Crankshaft",
+    "Gauge",
+    "Fuel Control Cylinder"
+  ],
+  "drawingTitle": "Engine Frame, Crankshaft, Gauge, Fuel Control Cylinder",
+  "createdAt": "2026-10-09T00:48:40.561846+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "quyen@daikai.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "6DE18",
+    "engineSerialNumber": "1239876",
+    "vesselName": "Dubai Eco",
+    "imoNumber": "M1234859"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "24",
+      "quantity": 2,
+      "partNumber": "00239-012",
+      "name": "PLUG"
+    },
+    {
+      "drawingId": "de18-chapter2-item07-crankshaft",
+      "drawingTitle": "Crankshaft",
+      "drawingLabel": "Chapter 2 / Item 7 - Crankshaft",
+      "item": "901",
+      "quantity": 1,
+      "partNumber": "06421-003",
+      "name": "ASSY. CRANK SHAFT"
+    },
+    {
+      "drawingId": "de18-chapter3-item05-2-gauge",
+      "drawingTitle": "Gauge",
+      "drawingLabel": "Chapter 3 / Item 5.2 - Gauge",
+      "item": "501",
+      "quantity": 4,
+      "partNumber": "X220004000ZZ",
+      "name": "NUT"
+    },
+    {
+      "drawingId": "de18-chapter3-item06-1-fuel-control-cylinder",
+      "drawingTitle": "Fuel Control Cylinder",
+      "drawingLabel": "Chapter 3 / Item 6.1 - Fuel Control Cylinder",
+      "item": "26",
+      "quantity": 2,
+      "partNumber": "00231-123",
+      "name": "FILTER"
+    }
+  ],
+  "pdfFilename": "DUBAI-ECO-M1234859-1239876-20261009.pdf",
+  "storedPdfFilename": "DUBAI-ECO-M1234859-1239876-20261009-MULTI-DRAWINGS-004840561846.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "quyen@daikai.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-ECO-M1234859-1239876-20261009.pdf"
+  }
+}

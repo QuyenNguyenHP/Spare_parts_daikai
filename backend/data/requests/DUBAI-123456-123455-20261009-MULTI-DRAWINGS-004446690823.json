@@ -1,0 +1,54 @@
+{
+  "requestId": "DUBAI-123456-123455-20261009",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame",
+    "de18-chapter2-item04-gear-case"
+  ],
+  "drawingTitles": [
+    "Engine Frame",
+    "Gear Case"
+  ],
+  "drawingTitle": "Engine Frame, Gear Case",
+  "createdAt": "2026-10-09T00:44:46.690823+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "quyen@daikai.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "6De18",
+    "engineSerialNumber": "123455",
+    "vesselName": "Dubai",
+    "imoNumber": "123456"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "513",
+      "quantity": 8,
+      "partNumber": "X570002000ZZ",
+      "name": "HEX. PLUG"
+    },
+    {
+      "drawingId": "de18-chapter2-item04-gear-case",
+      "drawingTitle": "Gear Case",
+      "drawingLabel": "Chapter 2 / Item 4 - Gear Case",
+      "item": "516",
+      "quantity": 4,
+      "partNumber": "Z500206000ZZ",
+      "name": "JIS FLANGE"
+    }
+  ],
+  "pdfFilename": "DUBAI-123456-123455-20261009.pdf",
+  "storedPdfFilename": "DUBAI-123456-123455-20261009-MULTI-DRAWINGS-004446690823.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "quyen@daikai.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-123456-123455-20261009.pdf"
+  }
+}

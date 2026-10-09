@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import AdminPage from "./pages/AdminPage";
 import DrawingLibraryPage from "./pages/DrawingLibraryPage";
 import EngineSelectionPage from "./pages/EngineSelectionPage";
 import LoginPage from "./pages/LoginPage";
@@ -31,6 +32,7 @@ export default function App() {
   const [cart, setCart] = useState(readCart);
   const [page, setPage] = useState("engines");
   const [selectedEngine, setSelectedEngine] = useState(null);
+  const [drawingSelection, setDrawingSelection] = useState(null);
 
   function updateCart(updater) {
     setCart((current) => {
@@ -59,7 +61,7 @@ export default function App() {
       const existing = current.find((item) => item.key === part.key);
       if (!existing) return [...current, part];
       return current.map((item) => (
-        item.key === part.key ? { ...item, quantity: item.quantity + 1 } : item
+        item.key === part.key ? { ...item, quantity: item.quantity + part.quantity } : item
       ));
     });
   }
@@ -78,6 +80,16 @@ export default function App() {
     updateCart(() => []);
   }
 
+  function openDrawingFromCart(item) {
+    setDrawingSelection({ drawingId: item.drawingId, item: item.item });
+    setPage("library");
+  }
+
+  function openDrawingLibrary() {
+    setDrawingSelection(null);
+    setPage("library");
+  }
+
   function handleEngineSelection(engine) {
     const changingEngine = selectedEngine && selectedEngine.id !== engine.id;
     if (changingEngine && cart.length) {
@@ -88,10 +100,21 @@ export default function App() {
       updateCart(() => []);
     }
     setSelectedEngine(engine);
-    setPage("library");
+    openDrawingLibrary();
   }
 
   if (!user) return <LoginPage onLogin={handleLogin} />;
+  const openAdmin = user.role === "Administrator" ? () => setPage("admin") : undefined;
+  if (page === "admin" && user.role === "Administrator") {
+    return (
+      <AdminPage
+        user={user}
+        onBack={() => setPage("engines")}
+        onLogout={handleLogout}
+        onHome={() => setPage("engines")}
+      />
+    );
+  }
   if (page === "engines") {
     return (
       <EngineSelectionPage
@@ -99,6 +122,7 @@ export default function App() {
         selectedEngine={selectedEngine}
         cartCount={cart.length}
         onOpenCart={() => setPage("order")}
+        onAdmin={openAdmin}
         onLogout={handleLogout}
         onHome={() => setPage("engines")}
         onSelectEngine={handleEngineSelection}
@@ -111,11 +135,13 @@ export default function App() {
         user={user}
         engine={selectedEngine}
         cart={cart}
-        onBack={() => setPage("library")}
+        onBack={openDrawingLibrary}
         onLogout={handleLogout}
+        onAdmin={openAdmin}
         onHome={() => setPage("engines")}
         onQuantityChange={handleQuantityChange}
         onRemove={handleRemoveFromCart}
+        onOpenDrawing={openDrawingFromCart}
         onProceed={() => setPage("request-details")}
       />
     );
@@ -127,10 +153,11 @@ export default function App() {
         engine={selectedEngine}
         cart={cart}
         onBack={() => setPage("order")}
+        onAdmin={openAdmin}
         onLogout={handleLogout}
         onHome={() => setPage("engines")}
         onOrderComplete={handleOrderComplete}
-        onContinue={() => setPage("library")}
+        onContinue={openDrawingLibrary}
       />
     );
   }
@@ -139,10 +166,12 @@ export default function App() {
       user={user}
       engine={selectedEngine}
       cartCount={cart.length}
+      initialSelection={drawingSelection}
       onAddToCart={handleAddToCart}
       onOpenCart={() => setPage("order")}
       onBackToEngines={() => setPage("engines")}
       onLogout={handleLogout}
+      onAdmin={openAdmin}
       onHome={() => setPage("engines")}
     />
   );

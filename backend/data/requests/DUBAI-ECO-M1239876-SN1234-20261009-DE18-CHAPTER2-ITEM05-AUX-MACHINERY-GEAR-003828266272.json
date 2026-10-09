@@ -1,0 +1,35 @@
+{
+  "requestId": "DUBAI-ECO-M1239876-SN1234-20261009",
+  "drawingId": "de18-chapter2-item05-aux-machinery-gear",
+  "drawingTitle": "Aux.Machinery Gear",
+  "createdAt": "2026-10-09T00:38:28.266272+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "quyen@daikai.com",
+    "company": "Daikai",
+    "phone": "12345678",
+    "engineName": "6DE18",
+    "engineSerialNumber": "SN1234",
+    "vesselName": "Dubai Eco",
+    "imoNumber": "M1239876"
+  },
+  "items": [
+    {
+      "item": "3",
+      "quantity": 1,
+      "partNumber": "06546-003",
+      "name": "AUX.MACHINERY GEAR"
+    }
+  ],
+  "pdfFilename": "DUBAI-ECO-M1239876-SN1234-20261009.pdf",
+  "storedPdfFilename": "DUBAI-ECO-M1239876-SN1234-20261009-DE18-CHAPTER2-ITEM05-AUX-MACHINERY-GEAR-003828266272.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "quyen@daikai.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-ECO-M1239876-SN1234-20261009.pdf"
+  }
+}
