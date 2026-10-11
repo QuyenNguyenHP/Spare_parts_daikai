@@ -3,13 +3,11 @@ import { useEffect, useState } from "react";
 import AppButton from "../components/AppButton";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import UserRegistrationForm from "../components/UserRegistrationForm";
 import { API_URL } from "../config";
 
-const EMPTY_USER = { username: "", password: "", role: "User" };
-
-export default function AdminPage({ user, onBack, onLogout, onHome }) {
+export default function AdminPage({ user, onBack, onChangePassword, onLogout, onHome }) {
   const [settings, setSettings] = useState({ users: [], recipients: [], smtp: {} });
-  const [newUser, setNewUser] = useState(EMPTY_USER);
   const [newRecipient, setNewRecipient] = useState("");
   const [status, setStatus] = useState({ type: "loading", message: "Loading administration settings..." });
 
@@ -80,15 +78,15 @@ export default function AdminPage({ user, onBack, onLogout, onHome }) {
     }
   }
 
-  async function createUser(event) {
-    event.preventDefault();
+  async function createUser(newUser) {
     try {
       await apiRequest("/admin/users", { method: "POST", body: JSON.stringify(newUser) });
-      setNewUser(EMPTY_USER);
       await loadSettings();
       setStatus({ type: "success", message: "User created" });
+      return true;
     } catch (error) {
       setStatus({ type: "error", message: error.message });
+      return false;
     }
   }
 
@@ -119,7 +117,7 @@ export default function AdminPage({ user, onBack, onLogout, onHome }) {
 
   return (
     <div className="app-shell">
-      <Header user={user} title="Administration" onBack={onBack} backLabel="Back" onLogout={onLogout} onHome={onHome} />
+      <Header user={user} title="Administration" onBack={onBack} backLabel="Back" onChangePassword={onChangePassword} onLogout={onLogout} onHome={onHome} />
       <main className="admin-page">
         <section className="admin-heading">
           <p className="eyebrow">System administration</p>
@@ -155,12 +153,7 @@ export default function AdminPage({ user, onBack, onLogout, onHome }) {
               </tbody>
             </table>
           </div>
-          <form className="admin-inline-form admin-user-form" onSubmit={createUser}>
-            <input required placeholder="Username" value={newUser.username} onChange={(event) => setNewUser((current) => ({ ...current, username: event.target.value }))} />
-            <input required type="password" minLength="8" placeholder="Password (minimum 8 characters)" value={newUser.password} onChange={(event) => setNewUser((current) => ({ ...current, password: event.target.value }))} />
-            <select value={newUser.role} onChange={(event) => setNewUser((current) => ({ ...current, role: event.target.value }))}><option>User</option><option>Administrator</option></select>
-            <AppButton className="gradient-action-button" type="submit">Add user</AppButton>
-          </form>
+          <UserRegistrationForm onCreate={createUser} />
         </section>
 
         <section className="admin-card">

@@ -1,0 +1,43 @@
+{
+  "requestId": "12313-12313-123131-20261011",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame"
+  ],
+  "drawingTitles": [
+    "Engine Frame"
+  ],
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-11T02:26:22.827484+00:00",
+  "customer": {
+    "name": "qweq",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "112313",
+    "engineSerialNumber": "123131",
+    "vesselName": "12313",
+    "imoNumber": "12313"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "507",
+      "quantity": 3,
+      "partNumber": "X200012040ZZ",
+      "name": "BOLT"
+    }
+  ],
+  "pdfFilename": "12313-12313-123131-20261011.pdf",
+  "storedPdfFilename": "12313-12313-123131-20261011-DE18-CHAPTER2-ITEM01-ENGINE-FRAME-022622827484.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "duyquyenbk97@gmail.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "12313-12313-123131-20261011.pdf"
+  }
+}

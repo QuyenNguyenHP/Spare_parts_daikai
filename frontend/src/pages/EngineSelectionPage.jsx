@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { API_URL } from "../config";
 
-export default function EngineSelectionPage({ user, selectedEngine, cartCount, onOpenCart, onAdmin, onLogout, onSelectEngine, onHome }) {
+export default function EngineSelectionPage({ user, selectedEngine, cartCount, onOpenCart, onAdmin, onChangePassword, onLogout, onSelectEngine, onHome }) {
   const [engines, setEngines] = useState([]);
   const [status, setStatus] = useState({ type: "loading", message: "Loading engine types..." });
 
@@ -27,7 +27,7 @@ export default function EngineSelectionPage({ user, selectedEngine, cartCount, o
 
   return (
     <div className="app-shell">
-      <Header user={user} cartCount={cartCount} onOpenCart={onOpenCart} onAdmin={onAdmin} onLogout={onLogout} onHome={onHome} />
+      <Header user={user} cartCount={cartCount} onOpenCart={onOpenCart} onAdmin={onAdmin} onChangePassword={onChangePassword} onLogout={onLogout} onHome={onHome} />
       <main className="engine-selection-page">
         <div className="engine-selection-heading">
           <p className="eyebrow">Engine catalogue</p>
@@ -37,7 +37,7 @@ export default function EngineSelectionPage({ user, selectedEngine, cartCount, o
 
         <div className="engine-card-grid">
           {engines.map((engine) => {
-            const available = engine.drawingCount > 0;
+            const available = engine.available ?? engine.drawingCount > 0;
             return (
               <button
                 type="button"
@@ -48,7 +48,7 @@ export default function EngineSelectionPage({ user, selectedEngine, cartCount, o
               >
                 <span className="engine-card-image">
                   <img src={`${API_URL}${engine.imageUrl.replace("/api", "")}`} alt={`${engine.name} engine`} />
-                  <small>{selectedEngine?.id === engine.id ? "Current engine" : available ? `${engine.drawingCount} drawings` : "Coming soon"}</small>
+                  <small>{selectedEngine?.id === engine.id ? "Current engine" : available ? "Available" : "Coming soon"}</small>
                 </span>
                 <span className="engine-card-content">
                   <span><small>Engine model</small><strong>{engine.name}</strong></span>

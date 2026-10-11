@@ -33,7 +33,7 @@ export default function LoginCard({
           {submitting ? "Signing in..." : "Sign in"}
         </AppButton>
       </form>
-      <p className="login-footer">Authorized Daikai personnel only</p>
+      <p className="login-footer">Copyright © 2026 Daikai Engineering Pte Ltd.</p>
     </section>
   );
 }

@@ -12,7 +12,7 @@ import PartsSearch from "../components/PartsSearch";
 import { API_URL, DEFAULT_ZOOM, MAX_ZOOM, MIN_ZOOM, ZOOM_STEP } from "../config";
 import { matchingHotspotSize, normalizeManualHotspotSizes } from "../utils/hotspots";
 
-export default function DrawingLibraryPage({ user, engine, cartCount, initialSelection, onAddToCart, onOpenCart, onBackToEngines, onAdmin, onLogout, onHome }) {
+export default function DrawingLibraryPage({ user, engine, cartCount, initialSelection, onAddToCart, onOpenCart, onBackToEngines, onAdmin, onChangePassword, onLogout, onHome }) {
   const [drawings, setDrawings] = useState([]);
   const [chapters, setChapters] = useState([]);
   const [drawingId, setDrawingId] = useState("");
@@ -225,6 +225,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, initialSel
         onBack={onBackToEngines}
         backLabel="Back to engine selection"
         onAdmin={onAdmin}
+        onChangePassword={onChangePassword}
         onLogout={onLogout}
         onHome={onHome}
       />
@@ -246,12 +247,6 @@ export default function DrawingLibraryPage({ user, engine, cartCount, initialSel
             chapters={chapters}
             drawingId={drawingId}
             onDrawingChange={setDrawingId}
-            zoom={zoom}
-            minZoom={MIN_ZOOM}
-            maxZoom={MAX_ZOOM}
-            onZoomOut={() => setZoom((current) => Math.max(MIN_ZOOM, current - ZOOM_STEP))}
-            onZoomIn={() => setZoom((current) => Math.min(MAX_ZOOM, current + ZOOM_STEP))}
-            onZoomReset={() => setZoom(DEFAULT_ZOOM)}
             hotspotsVisible={hotspotsVisible}
             onHotspotsVisibleChange={setHotspotsVisible}
             canEditHotspots={canEditHotspots}
@@ -270,6 +265,11 @@ export default function DrawingLibraryPage({ user, engine, cartCount, initialSel
             drawing={drawing}
             loading={status.type === "loading"}
             zoom={zoom}
+            minZoom={MIN_ZOOM}
+            maxZoom={MAX_ZOOM}
+            onZoomOut={() => setZoom((current) => Math.max(MIN_ZOOM, current - ZOOM_STEP))}
+            onZoomIn={() => setZoom((current) => Math.min(MAX_ZOOM, current + ZOOM_STEP))}
+            onZoomReset={() => setZoom(DEFAULT_ZOOM)}
             hotspotsVisible={hotspotsVisible}
             editing={editing}
             selectedItem={selectedItem}

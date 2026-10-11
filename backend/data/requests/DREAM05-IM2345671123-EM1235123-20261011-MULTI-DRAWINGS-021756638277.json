@@ -1,0 +1,83 @@
+{
+  "requestId": "DREAM05-IM2345671123-EM1235123-20261011",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame",
+    "de18-chapter2-item05-aux-machinery-gear",
+    "de18-chapter3-item01-1-starting-air-piping-system"
+  ],
+  "drawingTitles": [
+    "Engine Frame",
+    "Aux.Machinery Gear",
+    "Starting Air Piping System"
+  ],
+  "drawingTitle": "Engine Frame, Aux.Machinery Gear, Starting Air Piping System",
+  "createdAt": "2026-10-11T02:17:56.638277+00:00",
+  "customer": {
+    "name": "quyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "6DE18",
+    "engineSerialNumber": "EM1235123",
+    "vesselName": "DREAM05",
+    "imoNumber": "IM2345671123"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "513",
+      "quantity": 8,
+      "partNumber": "X570002000ZZ",
+      "name": "HEX. PLUG"
+    },
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "514",
+      "quantity": 6,
+      "partNumber": "X570003000ZZ",
+      "name": "HEX. PLUG"
+    },
+    {
+      "drawingId": "de18-chapter2-item05-aux-machinery-gear",
+      "drawingTitle": "Aux.Machinery Gear",
+      "drawingLabel": "Chapter 2 / Item 5 - Aux.Machinery Gear",
+      "item": "501",
+      "quantity": 1,
+      "partNumber": "Z321016050ZZ",
+      "name": "WIRE"
+    },
+    {
+      "drawingId": "de18-chapter3-item01-1-starting-air-piping-system",
+      "drawingTitle": "Starting Air Piping System",
+      "drawingLabel": "Chapter 3 / Item 1.1 - Starting Air Piping System",
+      "item": "504",
+      "quantity": 2,
+      "partNumber": "Z260302000ZZ",
+      "name": "U-Bolt"
+    },
+    {
+      "drawingId": "de18-chapter3-item01-1-starting-air-piping-system",
+      "drawingTitle": "Starting Air Piping System",
+      "drawingLabel": "Chapter 3 / Item 1.1 - Starting Air Piping System",
+      "item": "506",
+      "quantity": 44,
+      "partNumber": "Z565001000EE",
+      "name": "Gasket"
+    }
+  ],
+  "pdfFilename": "DREAM05-IM2345671123-EM1235123-20261011.pdf",
+  "storedPdfFilename": "DREAM05-IM2345671123-EM1235123-20261011-MULTI-DRAWINGS-021756638277.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "duyquyenbk97@gmail.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DREAM05-IM2345671123-EM1235123-20261011.pdf"
+  }
+}

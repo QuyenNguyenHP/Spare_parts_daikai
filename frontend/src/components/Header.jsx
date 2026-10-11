@@ -11,6 +11,7 @@ export default function Header({
   onHome,
   backLabel = "Back to drawings",
   onAdmin,
+  onChangePassword,
   onLogout,
 }) {
   return (
@@ -51,7 +52,7 @@ export default function Header({
               {cartCount > 0 && <span>{cartCount}</span>}
             </AppButton>
           )}
-          <AccountDropdown user={user} onAdmin={onAdmin} onLogout={onLogout} />
+          <AccountDropdown user={user} onAdmin={onAdmin} onChangePassword={onChangePassword} onLogout={onLogout} />
         </div>
       </div>
     </header>

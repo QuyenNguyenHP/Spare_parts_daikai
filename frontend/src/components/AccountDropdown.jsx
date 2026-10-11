@@ -4,7 +4,7 @@ function MenuIcon({ children }) {
   return <svg viewBox="0 0 24 24" aria-hidden="true">{children}</svg>;
 }
 
-export default function AccountDropdown({ user, onAdmin, onLogout }) {
+export default function AccountDropdown({ user, onAdmin, onChangePassword, onLogout }) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef(null);
   const initial = user.username.slice(0, 1).toUpperCase();
@@ -64,6 +64,10 @@ export default function AccountDropdown({ user, onAdmin, onLogout }) {
           </div>
 
           <div className="account-menu-footer">
+            <button type="button" role="menuitem" onClick={onChangePassword}>
+              <MenuIcon><rect x="5" y="10" width="14" height="10" rx="2" /><path d="M8 10V7a4 4 0 0 1 8 0v3M12 14v2" /></MenuIcon>
+              Change password
+            </button>
             {onAdmin && (
               <button type="button" role="menuitem" onClick={onAdmin}>
                 <MenuIcon><path d="M12 3 4.5 6v5c0 4.8 2.9 8.1 7.5 10 4.6-1.9 7.5-5.2 7.5-10V6L12 3Z" /><path d="M8 12h8M12 8v8" /></MenuIcon>

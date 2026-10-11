@@ -1,9 +1,15 @@
 import { assetUrl, DEFAULT_ZOOM } from "../config";
+import AppButton from "./AppButton";
 
 export default function DrawingViewport({
   drawing,
   loading = false,
   zoom,
+  minZoom,
+  maxZoom,
+  onZoomOut,
+  onZoomIn,
+  onZoomReset,
   hotspotsVisible,
   editing,
   selectedItem,
@@ -32,6 +38,11 @@ export default function DrawingViewport({
       className="drawing-viewport"
       style={{ aspectRatio: `${drawing.width} / ${drawing.height * (DEFAULT_ZOOM / 100)}` }}
     >
+      <div className="zoom-controls viewport-zoom-controls" aria-label="Drawing zoom controls">
+        <AppButton basic size="small" type="button" onClick={onZoomOut} disabled={zoom === minZoom} aria-label="Zoom out" title="Zoom out">-</AppButton>
+        <AppButton basic size="small" type="button" className="zoom-value" onClick={onZoomReset} title="Reset to default zoom">{zoom}%</AppButton>
+        <AppButton basic size="small" type="button" onClick={onZoomIn} disabled={zoom === maxZoom} aria-label="Zoom in" title="Zoom in">+</AppButton>
+      </div>
       <div
         className={`drawing ${hotspotsVisible ? "show-hotspots" : ""} ${editing ? "editing" : ""}`}
         style={{ width: `${zoom}%`, "--zoom-factor": zoom / 100 }}

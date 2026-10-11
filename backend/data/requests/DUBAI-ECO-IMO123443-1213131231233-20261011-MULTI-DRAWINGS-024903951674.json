@@ -1,0 +1,74 @@
+{
+  "requestId": "DUBAI-ECO-IMO123443-1213131231233-20261011",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame",
+    "de18-chapter2-item06-idle-gear",
+    "de18-chapter2-item11-cylinder-liner"
+  ],
+  "drawingTitles": [
+    "Engine Frame",
+    "Idle Gear",
+    "Cylinder Liner"
+  ],
+  "drawingTitle": "Engine Frame, Idle Gear, Cylinder Liner",
+  "createdAt": "2026-10-11T02:49:03.951674+00:00",
+  "customer": {
+    "name": "Quyen",
+    "email": "quyen@daikai.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "1231541234",
+    "engineSerialNumber": "1213131231233",
+    "vesselName": "Dubai Eco",
+    "imoNumber": "IMO123443"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "13",
+      "quantity": 1,
+      "partNumber": "06422-013",
+      "name": "BRACKET"
+    },
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "509",
+      "quantity": 64,
+      "partNumber": "X210012054ZZ",
+      "name": "STUD"
+    },
+    {
+      "drawingId": "de18-chapter2-item06-idle-gear",
+      "drawingTitle": "Idle Gear",
+      "drawingLabel": "Chapter 2 / Item 6 - Idle Gear",
+      "item": "501",
+      "quantity": 1,
+      "partNumber": "Z321016050ZZ",
+      "name": "WIRE"
+    },
+    {
+      "drawingId": "de18-chapter2-item11-cylinder-liner",
+      "drawingTitle": "Cylinder Liner",
+      "drawingLabel": "Chapter 2 / Item 11 - Cylinder Liner",
+      "item": "5",
+      "quantity": 1,
+      "partNumber": "06444-005",
+      "name": "PROTECT RING"
+    }
+  ],
+  "pdfFilename": "DUBAI-ECO-IMO123443-1213131231233-20261011.pdf",
+  "storedPdfFilename": "DUBAI-ECO-IMO123443-1213131231233-20261011-MULTI-DRAWINGS-024903951674.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "quyen@daikai.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "DUBAI-ECO-IMO123443-1213131231233-20261011.pdf"
+  }
+}

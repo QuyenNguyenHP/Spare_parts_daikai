@@ -38,14 +38,26 @@ export default function PartsSearch({ engine, onSelectPart }) {
 
   return (
     <section className="parts-search" aria-label="Parts catalog search">
-      <label htmlFor="parts-search-input">Search parts catalog</label>
-      <input
-        id="parts-search-input"
-        type="search"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="Part name, part code, or drawing number"
-      />
+      <div className="parts-search-controls">
+        <div className="parts-search-field">
+          <label htmlFor="parts-search-input">Search parts catalog</label>
+          <input
+            id="parts-search-input"
+            type="search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Part name, part code, or drawing number"
+          />
+        </div>
+        <a
+          className="reference-manual-download"
+          href={`${API_URL}/reference-manual?model=${encodeURIComponent(engine?.model ?? "DE18")}`}
+          download
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 20h14" /></svg>
+          <span><strong>Reference manual</strong><small>Download {engine?.model ?? "DE18"} Spare Part PDF</small></span>
+        </a>
+      </div>
       {status === "loading" && <p className="parts-search-status">Searching...</p>}
       {status === "error" && <p className="parts-search-status error">Parts search is unavailable.</p>}
       {status === "ready" && !results.length && <p className="parts-search-status">No matching parts found.</p>}

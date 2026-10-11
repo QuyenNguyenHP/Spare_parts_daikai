@@ -64,6 +64,7 @@ def public_user(user: dict) -> dict:
         "username": user["username"],
         "role": user["role"],
         "active": user.get("active", True),
+        "profile": user.get("profile", {}),
     }
 
 

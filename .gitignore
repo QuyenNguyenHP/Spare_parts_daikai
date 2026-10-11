@@ -5,3 +5,4 @@ frontend/node_modules/
 frontend/dist/
 .env
 backend/data/admin-settings.json
+backend/data/saved-orders.json

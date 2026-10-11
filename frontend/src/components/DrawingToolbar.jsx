@@ -10,12 +10,6 @@ export default function DrawingToolbar({
   chapters: availableChapters = [],
   drawingId,
   onDrawingChange,
-  zoom,
-  minZoom,
-  maxZoom,
-  onZoomOut,
-  onZoomIn,
-  onZoomReset,
   hotspotsVisible,
   onHotspotsVisibleChange,
   canEditHotspots,
@@ -75,22 +69,17 @@ export default function DrawingToolbar({
         </div>
       </div>
 
-      <Stack direction="row" spacing={1.5} className="toolbar-actions">
-        <div className="zoom-controls" aria-label="Drawing zoom controls">
-          <AppButton basic size="small" type="button" onClick={onZoomOut} disabled={zoom === minZoom} aria-label="Zoom out" title="Zoom out">-</AppButton>
-          <AppButton basic size="small" type="button" className="zoom-value" onClick={onZoomReset} title="Reset to default zoom">{zoom}%</AppButton>
-          <AppButton basic size="small" type="button" onClick={onZoomIn} disabled={zoom === maxZoom} aria-label="Zoom in" title="Zoom in">+</AppButton>
-        </div>
-        <label className="visibility-toggle">
-          <input
-            type="checkbox"
-            checked={hotspotsVisible}
-            onChange={(event) => onHotspotsVisibleChange(event.target.checked)}
-            disabled={editing}
-          />
-          Show hotspots
-        </label>
-        {canEditHotspots && (
+      {canEditHotspots && (
+        <Stack direction="row" spacing={1.5} className="toolbar-actions">
+          <label className="visibility-toggle">
+            <input
+              type="checkbox"
+              checked={hotspotsVisible}
+              onChange={(event) => onHotspotsVisibleChange(event.target.checked)}
+              disabled={editing}
+            />
+            Show hotspots
+          </label>
           <AppButton
             tone="neutral"
             className={`toolbar-button ${editing ? "active" : ""}`}
@@ -107,8 +96,8 @@ export default function DrawingToolbar({
           >
             {editing ? "Finish editing" : "Edit hotspots"}
           </AppButton>
-        )}
-      </Stack>
+        </Stack>
+      )}
     </div>
   );
 }

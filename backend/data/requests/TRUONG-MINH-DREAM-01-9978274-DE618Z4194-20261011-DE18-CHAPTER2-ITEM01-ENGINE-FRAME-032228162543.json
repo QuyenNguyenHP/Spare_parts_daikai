@@ -1,0 +1,61 @@
+{
+  "requestId": "TRUONG-MINH-DREAM-01-9978274-DE618Z4194-20261011",
+  "drawingIds": [
+    "de18-chapter2-item01-engine-frame"
+  ],
+  "drawingTitles": [
+    "Engine Frame"
+  ],
+  "drawingTitle": "Engine Frame",
+  "createdAt": "2026-10-11T03:22:28.162543+00:00",
+  "customer": {
+    "name": "Duy QUyen",
+    "email": "duyquyenbk97@gmail.com",
+    "company": "Daikai",
+    "phone": "85531330",
+    "engineName": "Daihatsu 6DE-18",
+    "engineSerialNumber": "DE618Z4194",
+    "vesselName": "Truong Minh Dream 01",
+    "imoNumber": "9978274"
+  },
+  "items": [
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "513",
+      "quantity": 8,
+      "partNumber": "X570002000ZZ",
+      "name": "HEX. PLUG"
+    },
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "506",
+      "quantity": 2,
+      "partNumber": "X341010030ZZ",
+      "name": "ASSY. KNOCK BOLT"
+    },
+    {
+      "drawingId": "de18-chapter2-item01-engine-frame",
+      "drawingTitle": "Engine Frame",
+      "drawingLabel": "Chapter 2 / Item 1 - Engine Frame",
+      "item": "509",
+      "quantity": 64,
+      "partNumber": "X210012054ZZ",
+      "name": "STUD"
+    }
+  ],
+  "pdfFilename": "TRUONG-MINH-DREAM-01-9978274-DE618Z4194-20261011.pdf",
+  "storedPdfFilename": "TRUONG-MINH-DREAM-01-9978274-DE618Z4194-20261011-DE18-CHAPTER2-ITEM01-ENGINE-FRAME-032228162543.pdf",
+  "emailDelivery": {
+    "status": "sent",
+    "message": "Confirmation and sales emails sent with the request PDF",
+    "recipients": [
+      "duyquyenbk97@gmail.com",
+      "quyen@daikai.com"
+    ],
+    "attachment": "TRUONG-MINH-DREAM-01-9978274-DE618Z4194-20261011.pdf"
+  }
+}
