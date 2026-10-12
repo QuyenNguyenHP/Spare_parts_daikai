@@ -1,5 +1,33 @@
 # Worklog
 
+## 2026-10-12
+
+### Completed today
+
+#### Optional vessels and engines during user registration
+
+- New-user registration starts with no vessels or engines and labels the section as optional.
+- Administrators can add vessels without engines and remove all vessel or engine entries before submitting.
+- Backend profile validation accepts omitted or empty vessel and engine lists, defaulting them to empty lists.
+- Added entries still require their names and identifiers; duplicate IMO and engine serial-number validation remains in place.
+
+#### Login page title
+
+- Changed the login heading from `Interactive Parts Library` to `Spare Part Portal`.
+
+### Files changed
+
+- `backend/main.py`
+- `frontend/src/components/UserRegistrationForm.jsx`
+- `frontend/src/components/LoginCard.jsx`
+
+### Validation completed
+
+- Five registration checks passed using the project WSL Python environment with settings reads and writes mocked: omitted vessels, empty vessels, omitted engines, empty engines, and complete vessel/engine details.
+- `git diff --check` passed for the code changes.
+- Confirmed the updated login heading in the source.
+- Frontend production build could not run because npm was unavailable in the active Windows and WSL command environments.
+
 ## 2026-10-11
 
 ### Completed today

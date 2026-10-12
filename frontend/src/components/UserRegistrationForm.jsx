@@ -3,7 +3,7 @@ import { useState } from "react";
 import AppButton from "./AppButton";
 
 const EMPTY_ENGINE = { name: "", serialNumber: "" };
-const EMPTY_VESSEL = { name: "", imoNumber: "", engines: [{ ...EMPTY_ENGINE }] };
+const EMPTY_VESSEL = { name: "", imoNumber: "" };
 
 function emptyUser() {
   return {
@@ -15,7 +15,7 @@ function emptyUser() {
       email: "",
       company: "",
       phone: "",
-      vessels: [{ ...EMPTY_VESSEL, engines: [{ ...EMPTY_ENGINE }] }],
+      vessels: [],
     },
   };
 }
@@ -71,7 +71,7 @@ export default function UserRegistrationForm({ onCreate }) {
       ...current,
       profile: {
         ...current.profile,
-        vessels: [...current.profile.vessels, { ...EMPTY_VESSEL, engines: [{ ...EMPTY_ENGINE }] }],
+        vessels: [...current.profile.vessels, { ...EMPTY_VESSEL, engines: [] }],
       },
     }));
   }
@@ -142,7 +142,7 @@ export default function UserRegistrationForm({ onCreate }) {
 
       <div className="admin-registration-section">
         <div className="admin-registration-heading">
-          <div><h3>Vessels and engines</h3><p>Each vessel requires a unique IMO number. Each engine requires a unique S/N.</p></div>
+          <div><h3>Vessels and engines (optional)</h3><p>You can create a user without vessels or engines. If added, each vessel requires a unique IMO number and each engine requires a unique S/N.</p></div>
           <AppButton basic type="button" onClick={addVessel}>Add vessel</AppButton>
         </div>
         <div className="registered-vessels">
@@ -150,7 +150,7 @@ export default function UserRegistrationForm({ onCreate }) {
             <section className="registered-vessel" key={vesselIndex}>
               <div className="registered-vessel-heading">
                 <strong>Vessel {vesselIndex + 1}</strong>
-                {account.profile.vessels.length > 1 && <button type="button" onClick={() => removeVessel(vesselIndex)}>Remove vessel</button>}
+                <button type="button" onClick={() => removeVessel(vesselIndex)}>Remove vessel</button>
               </div>
               <div className="admin-registration-grid vessel-fields">
                 <label>Name of Vessel *<input required value={vessel.name} onChange={(event) => updateVessel(vesselIndex, "name", event.target.value)} /></label>
@@ -161,7 +161,7 @@ export default function UserRegistrationForm({ onCreate }) {
                   <div className="registered-engine" key={engineIndex}>
                     <label>Engine Name *<input required value={engine.name} onChange={(event) => updateEngine(vesselIndex, engineIndex, "name", event.target.value)} /></label>
                     <label>Engine S/N *<input required value={engine.serialNumber} onChange={(event) => updateEngine(vesselIndex, engineIndex, "serialNumber", event.target.value)} /></label>
-                    {vessel.engines.length > 1 && <button type="button" onClick={() => removeEngine(vesselIndex, engineIndex)}>Remove</button>}
+                    <button type="button" onClick={() => removeEngine(vesselIndex, engineIndex)}>Remove</button>
                   </div>
                 ))}
               </div>

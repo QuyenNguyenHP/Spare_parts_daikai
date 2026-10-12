@@ -162,7 +162,7 @@ class UserVessel(BaseModel):
 
     name: str = Field(min_length=1, max_length=160)
     imo_number: str = Field(alias="imoNumber", min_length=1, max_length=20)
-    engines: list[UserEngine] = Field(min_length=1)
+    engines: list[UserEngine] = Field(default_factory=list)
 
 
 class UserProfile(BaseModel):
@@ -172,7 +172,7 @@ class UserProfile(BaseModel):
     email: str = Field(min_length=3, max_length=254, pattern=EMAIL_PATTERN)
     company: str = Field(min_length=1, max_length=160)
     phone: str = Field(min_length=1, max_length=40)
-    vessels: list[UserVessel] = Field(min_length=1)
+    vessels: list[UserVessel] = Field(default_factory=list)
 
 
 class AdminUserCreate(BaseModel):
