@@ -15,11 +15,20 @@
 
 - Changed the login heading from `Interactive Parts Library` to `Spare Part Portal`.
 
+#### Development and deployment documentation
+
+- Created `deploy.md` with Ubuntu/Debian development setup, application settings, and commands for running FastAPI and Vite.
+- Documented the backend system service at `/etc/systemd/system/spare-parts-backend.service`, managed with `sudo systemctl`, including the distinction from user services.
+- Added a single-worker backend configuration listening on `127.0.0.1:8000`, plus port-conflict, missing-unit, and startup-log troubleshooting.
+- Documented building the frontend with `VITE_API_URL=/api`, publishing to `/var/www/spare-parts`, and configuring an Apache2 domain with an API reverse proxy and HTTPS.
+- Included update, backup, service restart, and deployment verification steps. The example domain `parts.example.com` must be replaced with the actual domain.
+
 ### Files changed
 
 - `backend/main.py`
 - `frontend/src/components/UserRegistrationForm.jsx`
 - `frontend/src/components/LoginCard.jsx`
+- `deploy.md`
 
 ### Validation completed
 
@@ -27,6 +36,7 @@
 - `git diff --check` passed for the code changes.
 - Confirmed the updated login heading in the source.
 - Frontend production build could not run because npm was unavailable in the active Windows and WSL command environments.
+- Deployment documentation checks passed for balanced code fences, referenced repository files, and expected configuration settings. Deployment commands were not executed on the server.
 
 ## 2026-10-11
 
