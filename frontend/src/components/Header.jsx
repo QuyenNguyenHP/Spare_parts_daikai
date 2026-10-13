@@ -4,7 +4,7 @@ import { ArrowBackIcon, CartIcon } from "./HeaderIcons";
 
 export default function Header({
   user,
-  title = "Spare Parts Library",
+  title = "Spare Parts Portal",
   cartCount = 0,
   onOpenCart,
   onBack,

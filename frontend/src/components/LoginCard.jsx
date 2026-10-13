@@ -17,7 +17,7 @@ export default function LoginCard({
       </div>
       <div className="login-intro">
         <p className="login-kicker">Daikai Engineering</p>
-        <h1>Spare Part Portal</h1>
+        <h1>Spare Parts Portal</h1>
       </div>
       <form className="login-form" onSubmit={onSubmit}>
         <label>

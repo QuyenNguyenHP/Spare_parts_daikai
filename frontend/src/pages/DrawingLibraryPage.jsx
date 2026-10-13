@@ -219,7 +219,7 @@ export default function DrawingLibraryPage({ user, engine, cartCount, initialSel
     <div className="app-shell">
       <Header
         user={user}
-        title={`${engine?.name ?? "Engine"} Drawing Library`}
+        title={`Model: ${engine?.name ?? "Engine"}`}
         cartCount={cartCount}
         onOpenCart={onOpenCart}
         onBack={onBackToEngines}
